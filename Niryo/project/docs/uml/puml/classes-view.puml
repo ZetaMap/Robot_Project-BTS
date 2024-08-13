@@ -1,0 +1,158 @@
+@startuml
+title Riryo robot: Classes view
+set namespaceSeparator .
+skinparam linetype polyline
+skinparam linetype ortho
+left to right direction
+
+legend top left
+{{
+  !procedure $arrow($type, $text)
+    {{\nleft to right direction\nskinparam backgroundcolor transparent\nlabel " " as A\nlabel " " as B\nA $type B\n}} => $text
+  !endprocedure
+  !procedure $package($label, $content, $text)
+    {{\npackage $label{\n$content " "\n}\nskinparam backgroundcolor transparent\n}} => $text
+  !endprocedure
+
+  map Legend {
+    $arrow("--|>", " Inherits from")
+    $arrow("--*", " Composition")
+    $arrow("--o", " Aggregation")
+    $package("file", "label", "\n  File")
+    $package("folder <<Frame>>", "class", "\n  Folder")
+  }
+  skinparam backgroundcolor transparent 
+}}
+endlegend
+
+package robot <<Frame>> #77AADD {
+  package main #77AADD {
+    class NiryoRobot #77AADD { }
+  }
+  package modbus <<Frame>> #99DDFF {
+    package holding_register #99DDFF {
+      class HoldingRegisterDataBlock #99DDFF { }
+    }
+    package input_register #99DDFF {
+      class InputRegisterDataBlock  #99DDFF { }
+    }
+    package server #99DDFF {
+      class ModbusServer #99DDFF { }
+    }
+  }
+  package trajectory <<Frame>> #44BB99 {
+    package controller #44BB99 {
+      class TrajectoryStep #44BB99 { }
+      class PropertyStep #44BB99 { }
+      class TrajectoryController #44BB99 { }
+    }
+    package executor #44BB99 {
+      class TrajectoryExecutor #44BB99 { }
+    }
+    package learning #44BB99 {
+      class TrajectoryLearning #44BB99 { }
+    }
+    package manager #44BB99 {
+      class TrajectoryManager #44BB99 { }
+    }
+    package parser #44BB99 {
+      class TrajectoryParser #44BB99 { }
+    }
+    package player #44BB99 {
+      class TrajectoryPlayer #44BB99 { }
+    }
+    package step <<Frame>> #burlywood {
+      package executor #burlywood {
+        metaclass StepExecutor #burlywood { }
+        enum StepExecutors #burlywood { }
+        class _executor_funcs_temp <<private>> #burlywood { }
+      }
+      package goal #burlywood {
+        exception GoalFailure #burlywood { }
+        class GoalReport #burlywood { }
+        metaclass GoalResult #burlywood { }
+      }
+      package type #burlywood {
+        metaclass StepType #burlywood { }
+        enum StepTypes #burlywood { }
+        class _step_funcs_temp <<private>> #burlywood { }
+      }
+      package value #burlywood {
+        class StepValue #burlywood { }
+      }
+    }
+    package trajectory #44BB99 {
+      class Trajectory #44BB99 { }
+    }
+  }
+  package util <<Frame>> #BBCC33 {
+    package cli #BBCC33 {
+      class CliParser #BBCC33 { }
+    }
+    package colors #BBCC33 {
+      class Colors #BBCC33 { }
+    }
+    package commands #BBCC33 {
+      metaclass Command #BBCC33 { }
+      class ShellCommands #BBCC33 { }
+    }
+    package errors #BBCC33 {
+      exception ModbusServerError #BBCC33 { }
+      exception StepAliasError #BBCC33 { }
+      exception StepDeserializeError #BBCC33 { }
+      exception TrajectoryLearningError #BBCC33 { }
+      exception TrajectoryManagerError #BBCC33 { }
+      exception TrajectoryPlayError #BBCC33 { }
+      exception TrajectoryNotFoundError #BBCC33 { }
+      exception TrajectoryReadError #BBCC33 { }
+    }
+    package lock #BBCC33 {
+      class LockFile #BBCC33 { }
+    }
+    package logger #BBCC33 {
+      class Logger #BBCC33 { }
+      class ColorCodes #BBCC33 { }
+      class Log #BBCC33 { }
+      enum LogLevel #BBCC33 { }
+    }
+    package shell #BBCC33 {
+      class Shell #BBCC33 { }
+      class ShellManager #BBCC33 { }
+    }
+    package tests #BBCC33 {
+      class Tests #BBCC33 { }
+      class Convert #BBCC33 { }
+    }
+  }
+}
+
+' Classes
+robot.trajectory.controller.PropertyStep --|> robot.trajectory.controller.TrajectoryStep
+robot.trajectory.executor.TrajectoryExecutor --|> robot.trajectory.player.TrajectoryPlayer
+robot.trajectory.step.goal.GoalFailure --|> robot.trajectory.step.goal.GoalResult
+robot.trajectory.trajectory.Trajectory --|> robot.trajectory.controller.TrajectoryController
+
+' Fields
+robot.modbus.holding_register.HoldingRegisterDataBlock --* robot.modbus.server.ModbusServer : holding_register
+robot.modbus.input_register.InputRegisterDataBlock --* robot.modbus.server.ModbusServer : input_register
+robot.trajectory.step.goal.GoalResult --* robot.trajectory.step.goal.GoalReport : result
+robot.trajectory.trajectory.Trajectory --* robot.trajectory.learning.TrajectoryLearning : trajectory
+robot.util.shell.Shell --* robot.util.shell.ShellManager : shell
+robot.util.logger.LogLevel --* robot.util.logger.Log : level
+robot.util.logger.Logger --* robot.modbus.server.ModbusServer : logger
+robot.util.logger.Logger --* robot.trajectory.learning.TrajectoryLearning : logger
+robot.util.logger.Logger --* robot.trajectory.player.TrajectoryPlayer : logger
+robot.util.logger.Logger --* robot.util.shell.Shell : logger
+robot.trajectory.step.executor.StepExecutor --o robot.trajectory.step.type.StepType : executor
+robot.trajectory.step.type.StepType --o robot.trajectory.controller.TrajectoryStep : type
+robot.trajectory.step.value.StepValue --o robot.trajectory.controller.TrajectoryStep : value
+robot.trajectory.trajectory.Trajectory --o robot.trajectory.player.TrajectoryPlayer : trajectory
+
+' Layout modifications
+robot.trajectory.executor -[hidden]- robot.trajectory.manager
+robot.trajectory.manager -[hidden]- robot.trajectory.parser
+robot.util.colors -[hidden]l- robot.util.tests
+robot.util.commands -[hidden]- robot.util.shell
+robot.util.logger.Logger -[hidden]- robot.util.logger.ColorCodes
+robot.util.tests -[hidden]u- robot.util.shell
+@enduml

@@ -1,0 +1,12 @@
+#ifndef MODBUSUTIL_GLOBAL_H
+#define MODBUSUTIL_GLOBAL_H
+
+#include <QtCore/qglobal.h>
+
+#if defined(MODBUSUTIL_LIBRARY)
+#  define MODBUSUTIL_EXPORT Q_DECL_EXPORT
+#else
+#  define MODBUSUTIL_EXPORT Q_DECL_IMPORT
+#endif
+
+#endif // MODBUSUTIL_GLOBAL_H

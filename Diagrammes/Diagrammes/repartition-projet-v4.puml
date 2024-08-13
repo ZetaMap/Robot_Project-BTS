@@ -1,0 +1,66 @@
+@startmindmap
+'top to bottom direction
+skinparam backgroundColor transparent
+
+<style>
+mindmapDiagram {
+  .normal {
+    FontSize 20
+  }
+  .etudiant1 {
+    BackgroundColor green
+    FontSize 20
+  }
+  .etudiant2 {
+    BackgroundColor orange
+    FontSize 20
+  }
+  .etudiant3 {
+    BackgroundColor red
+    FontSize 20
+  }
+  .etudiant4 {
+    BackgroundColor cyan
+    FontSize 20
+  }
+}
+</style>
+
+
+
+
+* Déplacer une pièce<<normal>>
+-- ******* *********<<etudiant1>>
+-- **** *********<<etudiant2>>
+-- ******* ****<<etudiant3>>
+-- ****** ********<<etudiant4>>
+
+** Application Qt<<etudiant1>>
+*** Contrôle du robot Niryo<<etudiant4>>
+****_ Librairie libNiryo<<etudiant4>>
+*** Contrôle du robot Fanuc<<etudiant2>>
+****_ Librairie libFanuc<<etudiant2>>
+*** Contrôle du convoyeur<<etudiant1>>
+****_ Librairie libConvoyeur<<etudiant1>>
+*** Contrôle de l'afficheur<<etudiant1>>
+****_ Librairie libAfficheur<<etudiant1>>
+
+** Tablette Tactile TPD-703<<etudiant4>>
+*** Supervision du robot Niryo<<etudiant4>>
+
+** Contrôleur E/S<<etudiant1>>
+*** Convoyeur<<etudiant1>>
+
+** Afficheur industriel<<etudiant1>>
+*** Montrer l'état de production<<etudiant1>>
+
+** Librairie ModbusUtil<<etudiant2>>
+*** Communication entre les appareils<<etudiant2>>
+
+** Robot Niryo<<etudiant3>>
+*** Fonctionnement interne<<etudiant3>>
+**** Système d'apprentissage<<etudiant3>>
+**** Gestionnaire de trajectoires<<etudiant3>>
+*** Server Modbus/TCP<<etudiant3>>
+
+@endmindmap

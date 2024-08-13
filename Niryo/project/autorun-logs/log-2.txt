@@ -1,0 +1,1295 @@
+[06-07-2024 09:19:36] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-252-1717751975.674)
+[06-07-2024 09:19:36] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-252-1717751975.674)
+[06-07-2024 09:19:36] [TrajectoryPlayer] [D] [production] Playing step number 4: tool (False)
+[06-07-2024 09:19:36] [RosPy] [D] connecting to ('ned2', 40971)
+[06-07-2024 09:19:36] [RosPy] [D] connecting to ned2 40971
+[06-07-2024 09:19:36] [TrajectoryPlayer] [D] [production] Playing step number 5: motor acceleration (200)
+[06-07-2024 09:19:36] [RosPy] [D] Transitioning to ACTIVE (from WAITING_FOR_GOAL_ACK, goal: /niryo_robot_project-253-1717751976.730)
+[06-07-2024 09:19:39] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-253-1717751976.730)
+[06-07-2024 09:19:39] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-253-1717751976.730)
+[06-07-2024 09:19:39] [TrajectoryPlayer] [D] [production] Playing step number 6: movement ([1.72209, -0.70194, 0.41582, -0.05513, -1.29631, -0.14257])
+[06-07-2024 09:19:39] [RosPy] [D] connecting to ('ned2', 40971)
+[06-07-2024 09:19:39] [RosPy] [D] connecting to ned2 40971
+[06-07-2024 09:19:39] [TrajectoryPlayer] [D] [production] Playing step number 7: motor acceleration (20)
+[06-07-2024 09:19:39] [RosPy] [D] Transitioning to ACTIVE (from WAITING_FOR_GOAL_ACK, goal: /niryo_robot_project-254-1717751979.256)
+[06-07-2024 09:19:39] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-254-1717751979.256)
+[06-07-2024 09:19:39] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-254-1717751979.256)
+[06-07-2024 09:19:39] [TrajectoryPlayer] [D] [production] Playing step number 8: movement ([1.72209, -0.74588, 0.39461, -0.05973, -1.29324, -0.14103])
+[06-07-2024 09:19:39] [RosPy] [D] Transitioning to ACTIVE (from WAITING_FOR_GOAL_ACK, goal: /niryo_robot_project-255-1717751979.917)
+[06-07-2024 09:19:40] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-255-1717751979.917)
+[06-07-2024 09:19:40] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-255-1717751979.917)
+[06-07-2024 09:19:40] [TrajectoryPlayer] [D] [production] Playing step number 9: tool (True)
+[06-07-2024 09:19:40] [RosPy] [D] Transitioning to ACTIVE (from WAITING_FOR_GOAL_ACK, goal: /niryo_robot_project-256-1717751980.949)
+[06-07-2024 09:19:42] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-256-1717751980.949)
+[06-07-2024 09:19:42] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-256-1717751980.949)
+[06-07-2024 09:19:42] [TrajectoryPlayer] [D] [production] Playing step number 10: movement ([1.716, -0.57923, 0.39613, -0.0582, -1.44203, 0.03231])
+[06-07-2024 09:19:42] [RosPy] [D] connecting to ('ned2', 40971)
+[06-07-2024 09:19:42] [RosPy] [D] connecting to ned2 40971
+[06-07-2024 09:19:42] [TrajectoryPlayer] [D] [production] Playing step number 11: motor acceleration (150)
+[06-07-2024 09:19:42] [RosPy] [D] Transitioning to ACTIVE (from WAITING_FOR_GOAL_ACK, goal: /niryo_robot_project-257-1717751982.822)
+[06-07-2024 09:19:44] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-257-1717751982.822)
+[06-07-2024 09:19:44] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-257-1717751982.822)
+[06-07-2024 09:19:44] [TrajectoryPlayer] [D] [production] Playing step number 12: movement ([0.53956, -0.50954, 0.3931, -0.04593, -1.44357, 0.03231])
+[06-07-2024 09:19:44] [RosPy] [D] Transitioning to ACTIVE (from WAITING_FOR_GOAL_ACK, goal: /niryo_robot_project-258-1717751984.643)
+[06-07-2024 09:19:45] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-258-1717751984.643)
+[06-07-2024 09:19:45] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-258-1717751984.643)
+[06-07-2024 09:19:45] [TrajectoryPlayer] [D] [production] Playing step number 13: movement ([0.50151, -0.73073, 0.48248, 0.16116, -1.68901, 0.37899])
+[06-07-2024 09:19:45] [RosPy] [D] Transitioning to ACTIVE (from WAITING_FOR_GOAL_ACK, goal: /niryo_robot_project-259-1717751985.864)
+[06-07-2024 09:19:46] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-259-1717751985.864)
+[06-07-2024 09:19:46] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-259-1717751985.864)
+[06-07-2024 09:19:46] [TrajectoryPlayer] [D] [production] Playing step number 14: tool (False)
+[06-07-2024 09:19:46] [RosPy] [D] connecting to ('ned2', 40971)
+[06-07-2024 09:19:46] [RosPy] [D] connecting to ned2 40971
+[06-07-2024 09:19:46] [TrajectoryPlayer] [D] [production] Playing step number 15: motor acceleration (200)
+[06-07-2024 09:19:46] [RosPy] [D] Transitioning to ACTIVE (from WAITING_FOR_GOAL_ACK, goal: /niryo_robot_project-260-1717751986.948)
+[06-07-2024 09:19:49] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-260-1717751986.948)
+[06-07-2024 09:19:49] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-260-1717751986.948)
+[06-07-2024 09:19:49] [TrajectoryPlayer] [D] [production] Playing step number 16: movement ([1.4101, 0.33276, -0.4583, 0.00469, -1.50033, 0.71186])
+[06-07-2024 09:27:24] [RosPy] [D] Transitioning to WAITING_FOR_CANCEL_ACK (from DONE, goal: /niryo_robot_project-260-1717751986.948)
+[06-07-2024 09:27:24] [RosPy] [D] connecting to ('ned2', 60545)
+[06-07-2024 09:27:24] [RosPy] [D] connecting to ned2 60545
+[06-07-2024 09:27:24] [TrajectoryPlayer] [D] [start] Playing step number 0: file name (33-start.trj)
+[06-07-2024 09:27:24] [RosPy] [D] Transitioning to ACTIVE (from WAITING_FOR_GOAL_ACK, goal: /niryo_robot_project-261-1717752444.743)
+[06-07-2024 09:27:24] [RosPy] [D] Transitioning to RECALLING (from WAITING_FOR_CANCEL_ACK, goal: /niryo_robot_project-260-1717751986.948)
+[06-07-2024 09:27:24] [RosPy] [I] Received comm state RECALLING when in simple state DONE with SimpleActionClient in NS /niryo_robot_arm_commander/robot_action
+[06-07-2024 09:27:25] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-261-1717752444.743)
+[06-07-2024 09:27:25] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-261-1717752444.743)
+[06-07-2024 09:27:25] [RosPy] [D] Transitioning to ACTIVE (from WAITING_FOR_GOAL_ACK, goal: /niryo_robot_project-262-1717752445.756)
+[06-07-2024 09:27:27] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-262-1717752445.756)
+[06-07-2024 09:27:27] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-262-1717752445.756)
+[06-07-2024 09:27:27] [TrajectoryPlayer] [D] [start] Playing step number 1: start point ([StepValue(False), StepValue([0.00079, 0.49941, -1.25062, -0.00144, -0.00316, 0.70572])])
+[06-07-2024 09:27:27] [TrajectoryPlayer] [D] [start] Playing step number 2: id (33)
+[06-07-2024 09:27:27] [TrajectoryPlayer] [D] [start] Playing step number 3: label (start)
+[06-07-2024 09:27:27] [RosPy] [D] Transitioning to ACTIVE (from WAITING_FOR_GOAL_ACK, goal: /niryo_robot_project-263-1717752447.708)
+[06-07-2024 09:27:28] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-263-1717752447.708)
+[06-07-2024 09:27:28] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-263-1717752447.708)
+[06-07-2024 09:27:28] [TrajectoryPlayer] [D] [start] Playing step number 4: tool (False)
+[06-07-2024 09:27:28] [RosPy] [D] Transitioning to ACTIVE (from WAITING_FOR_GOAL_ACK, goal: /niryo_robot_project-264-1717752448.729)
+[06-07-2024 09:27:30] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-264-1717752448.729)
+[06-07-2024 09:27:30] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-264-1717752448.729)
+[06-07-2024 09:27:30] [TrajectoryPlayer] [D] [start] Playing step number 5: movement ([1.4101, 0.33276, -0.4583, 0.00469, -1.50033, 0.71186])
+[06-07-2024 09:28:36] [RosPy] [D] Transitioning to WAITING_FOR_CANCEL_ACK (from DONE, goal: /niryo_robot_project-264-1717752448.729)
+[06-07-2024 09:28:36] [RosPy] [D] connecting to ('ned2', 60545)
+[06-07-2024 09:28:36] [RosPy] [D] connecting to ned2 60545
+[06-07-2024 09:28:36] [RosPy] [D] Transitioning to RECALLING (from WAITING_FOR_CANCEL_ACK, goal: /niryo_robot_project-264-1717752448.729)
+[06-07-2024 09:28:36] [RosPy] [I] Received comm state RECALLING when in simple state DONE with SimpleActionClient in NS /niryo_robot_arm_commander/robot_action
+[06-07-2024 09:28:36] [TrajectoryPlayer] [D] [start] Playing step number 0: file name (33-start.trj)
+[06-07-2024 09:28:36] [RosPy] [D] Transitioning to ACTIVE (from WAITING_FOR_GOAL_ACK, goal: /niryo_robot_project-265-1717752516.400)
+[06-07-2024 09:28:37] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-265-1717752516.400)
+[06-07-2024 09:28:37] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-265-1717752516.400)
+[06-07-2024 09:28:37] [RosPy] [D] Transitioning to ACTIVE (from WAITING_FOR_GOAL_ACK, goal: /niryo_robot_project-266-1717752517.412)
+[06-07-2024 09:28:39] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-266-1717752517.412)
+[06-07-2024 09:28:39] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-266-1717752517.412)
+[06-07-2024 09:28:39] [TrajectoryPlayer] [D] [start] Playing step number 1: start point ([StepValue(False), StepValue([0.00079, 0.49941, -1.25062, -0.00144, -0.00316, 0.70572])])
+[06-07-2024 09:28:39] [TrajectoryPlayer] [D] [start] Playing step number 2: id (33)
+[06-07-2024 09:28:39] [TrajectoryPlayer] [D] [start] Playing step number 3: label (start)
+[06-07-2024 09:28:39] [RosPy] [D] Transitioning to ACTIVE (from WAITING_FOR_GOAL_ACK, goal: /niryo_robot_project-267-1717752519.331)
+[06-07-2024 09:28:40] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-267-1717752519.331)
+[06-07-2024 09:28:40] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-267-1717752519.331)
+[06-07-2024 09:28:40] [TrajectoryPlayer] [D] [start] Playing step number 4: tool (False)
+[06-07-2024 09:28:40] [RosPy] [D] Transitioning to ACTIVE (from WAITING_FOR_GOAL_ACK, goal: /niryo_robot_project-268-1717752520.429)
+[06-07-2024 09:28:42] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-268-1717752520.429)
+[06-07-2024 09:28:42] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-268-1717752520.429)
+[06-07-2024 09:28:42] [TrajectoryPlayer] [D] [start] Playing step number 5: movement ([1.4101, 0.33276, -0.4583, 0.00469, -1.50033, 0.71186])
+[06-07-2024 09:29:22] [RosPy] [D] Transitioning to WAITING_FOR_CANCEL_ACK (from DONE, goal: /niryo_robot_project-268-1717752520.429)
+[06-07-2024 09:29:22] [RosPy] [D] connecting to ('ned2', 60545)
+[06-07-2024 09:29:22] [RosPy] [D] connecting to ned2 60545
+[06-07-2024 09:29:22] [TrajectoryPlayer] [D] [start] Playing step number 0: file name (33-start.trj)
+[06-07-2024 09:29:22] [RosPy] [D] Transitioning to ACTIVE (from WAITING_FOR_GOAL_ACK, goal: /niryo_robot_project-269-1717752562.758)
+[06-07-2024 09:29:22] [RosPy] [D] Transitioning to RECALLING (from WAITING_FOR_CANCEL_ACK, goal: /niryo_robot_project-268-1717752520.429)
+[06-07-2024 09:29:22] [RosPy] [I] Received comm state RECALLING when in simple state DONE with SimpleActionClient in NS /niryo_robot_arm_commander/robot_action
+[06-07-2024 09:29:23] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-269-1717752562.758)
+[06-07-2024 09:29:23] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-269-1717752562.758)
+[06-07-2024 09:29:23] [RosPy] [D] Transitioning to ACTIVE (from WAITING_FOR_GOAL_ACK, goal: /niryo_robot_project-270-1717752563.771)
+[06-07-2024 09:29:25] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-270-1717752563.771)
+[06-07-2024 09:29:25] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-270-1717752563.771)
+[06-07-2024 09:29:25] [TrajectoryPlayer] [D] [start] Playing step number 1: start point ([StepValue(False), StepValue([0.00079, 0.49941, -1.25062, -0.00144, -0.00316, 0.70572])])
+[06-07-2024 09:29:25] [TrajectoryPlayer] [D] [start] Playing step number 2: id (33)
+[06-07-2024 09:29:25] [TrajectoryPlayer] [D] [start] Playing step number 3: label (start)
+[06-07-2024 09:29:25] [RosPy] [D] Transitioning to ACTIVE (from WAITING_FOR_GOAL_ACK, goal: /niryo_robot_project-271-1717752565.702)
+[06-07-2024 09:29:26] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-271-1717752565.702)
+[06-07-2024 09:29:26] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-271-1717752565.702)
+[06-07-2024 09:29:26] [TrajectoryPlayer] [D] [start] Playing step number 4: tool (False)
+[06-07-2024 09:29:26] [RosPy] [D] Transitioning to ACTIVE (from WAITING_FOR_GOAL_ACK, goal: /niryo_robot_project-272-1717752566.725)
+[06-07-2024 09:29:28] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-272-1717752566.725)
+[06-07-2024 09:29:28] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-272-1717752566.725)
+[06-07-2024 09:29:28] [TrajectoryPlayer] [D] [start] Playing step number 5: movement ([1.4101, 0.33276, -0.4583, 0.00469, -1.50033, 0.71186])
+[06-07-2024 09:30:00] [RosPy] [D] Transitioning to WAITING_FOR_CANCEL_ACK (from DONE, goal: /niryo_robot_project-272-1717752566.725)
+[06-07-2024 09:30:00] [RosPy] [D] connecting to ('ned2', 60545)
+[06-07-2024 09:30:00] [RosPy] [D] connecting to ned2 60545
+[06-07-2024 09:30:00] [TrajectoryPlayer] [D] [start] Playing step number 0: file name (33-start.trj)
+[06-07-2024 09:30:00] [RosPy] [D] Transitioning to ACTIVE (from WAITING_FOR_GOAL_ACK, goal: /niryo_robot_project-273-1717752600.138)
+[06-07-2024 09:30:00] [RosPy] [D] Transitioning to RECALLING (from WAITING_FOR_CANCEL_ACK, goal: /niryo_robot_project-272-1717752566.725)
+[06-07-2024 09:30:00] [RosPy] [I] Received comm state RECALLING when in simple state DONE with SimpleActionClient in NS /niryo_robot_arm_commander/robot_action
+[06-07-2024 09:30:01] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-273-1717752600.138)
+[06-07-2024 09:30:01] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-273-1717752600.138)
+[06-07-2024 09:30:01] [RosPy] [D] Transitioning to ACTIVE (from WAITING_FOR_GOAL_ACK, goal: /niryo_robot_project-274-1717752601.163)
+[06-07-2024 09:30:03] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-274-1717752601.163)
+[06-07-2024 09:30:03] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-274-1717752601.163)
+[06-07-2024 09:30:03] [TrajectoryPlayer] [D] [start] Playing step number 1: start point ([StepValue(False), StepValue([0.00079, 0.49941, -1.25062, -0.00144, -0.00316, 0.70572])])
+[06-07-2024 09:30:03] [TrajectoryPlayer] [D] [start] Playing step number 2: id (33)
+[06-07-2024 09:30:03] [TrajectoryPlayer] [D] [start] Playing step number 3: label (start)
+[06-07-2024 09:30:03] [RosPy] [D] Transitioning to ACTIVE (from WAITING_FOR_GOAL_ACK, goal: /niryo_robot_project-275-1717752603.106)
+[06-07-2024 09:30:04] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-275-1717752603.106)
+[06-07-2024 09:30:04] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-275-1717752603.106)
+[06-07-2024 09:30:04] [TrajectoryPlayer] [D] [start] Playing step number 4: tool (False)
+[06-07-2024 09:30:04] [RosPy] [D] Transitioning to ACTIVE (from WAITING_FOR_GOAL_ACK, goal: /niryo_robot_project-276-1717752604.122)
+[06-07-2024 09:30:06] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-276-1717752604.122)
+[06-07-2024 09:30:06] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-276-1717752604.122)
+[06-07-2024 09:30:06] [TrajectoryPlayer] [D] [start] Playing step number 5: movement ([1.4101, 0.33276, -0.4583, 0.00469, -1.50033, 0.71186])
+[06-07-2024 09:30:39] [RosPy] [D] Transitioning to WAITING_FOR_CANCEL_ACK (from DONE, goal: /niryo_robot_project-276-1717752604.122)
+[06-07-2024 09:30:39] [RosPy] [D] connecting to ('ned2', 60545)
+[06-07-2024 09:30:39] [RosPy] [D] connecting to ned2 60545
+[06-07-2024 09:30:39] [TrajectoryPlayer] [D] [start] Playing step number 0: file name (33-start.trj)
+[06-07-2024 09:30:39] [RosPy] [D] Transitioning to ACTIVE (from WAITING_FOR_GOAL_ACK, goal: /niryo_robot_project-277-1717752639.913)
+[06-07-2024 09:30:39] [RosPy] [D] Transitioning to RECALLING (from WAITING_FOR_CANCEL_ACK, goal: /niryo_robot_project-276-1717752604.122)
+[06-07-2024 09:30:39] [RosPy] [I] Received comm state RECALLING when in simple state DONE with SimpleActionClient in NS /niryo_robot_arm_commander/robot_action
+[06-07-2024 09:30:40] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-277-1717752639.913)
+[06-07-2024 09:30:40] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-277-1717752639.913)
+[06-07-2024 09:30:40] [RosPy] [D] Transitioning to ACTIVE (from WAITING_FOR_GOAL_ACK, goal: /niryo_robot_project-278-1717752640.940)
+[06-07-2024 09:30:42] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-278-1717752640.940)
+[06-07-2024 09:30:42] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-278-1717752640.940)
+[06-07-2024 09:30:42] [TrajectoryPlayer] [D] [start] Playing step number 1: start point ([StepValue(False), StepValue([0.00079, 0.49941, -1.25062, -0.00144, -0.00316, 0.70572])])
+[06-07-2024 09:30:42] [TrajectoryPlayer] [D] [start] Playing step number 2: id (33)
+[06-07-2024 09:30:42] [TrajectoryPlayer] [D] [start] Playing step number 3: label (start)
+[06-07-2024 09:30:42] [RosPy] [D] Transitioning to ACTIVE (from WAITING_FOR_GOAL_ACK, goal: /niryo_robot_project-279-1717752642.863)
+[06-07-2024 09:30:43] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-279-1717752642.863)
+[06-07-2024 09:30:43] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-279-1717752642.863)
+[06-07-2024 09:30:43] [TrajectoryPlayer] [D] [start] Playing step number 4: tool (False)
+[06-07-2024 09:30:43] [RosPy] [D] Transitioning to ACTIVE (from WAITING_FOR_GOAL_ACK, goal: /niryo_robot_project-280-1717752643.881)
+[06-07-2024 09:30:45] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-280-1717752643.881)
+[06-07-2024 09:30:45] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-280-1717752643.881)
+[06-07-2024 09:30:45] [TrajectoryPlayer] [D] [start] Playing step number 5: movement ([1.4101, 0.33276, -0.4583, 0.00469, -1.50033, 0.71186])
+[06-07-2024 09:31:26] [RosPy] [D] Transitioning to WAITING_FOR_CANCEL_ACK (from DONE, goal: /niryo_robot_project-280-1717752643.881)
+[06-07-2024 09:31:26] [RosPy] [D] connecting to ('ned2', 60545)
+[06-07-2024 09:31:26] [RosPy] [D] connecting to ned2 60545
+[06-07-2024 09:31:26] [RosPy] [D] Transitioning to RECALLING (from WAITING_FOR_CANCEL_ACK, goal: /niryo_robot_project-280-1717752643.881)
+[06-07-2024 09:31:26] [RosPy] [I] Received comm state RECALLING when in simple state DONE with SimpleActionClient in NS /niryo_robot_arm_commander/robot_action
+[06-07-2024 09:31:26] [TrajectoryPlayer] [D] [stop] Playing step number 0: file name (36-stop.trj)
+[06-07-2024 09:31:26] [RosPy] [D] Transitioning to ACTIVE (from WAITING_FOR_GOAL_ACK, goal: /niryo_robot_project-281-1717752686.201)
+[06-07-2024 09:31:27] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-281-1717752686.201)
+[06-07-2024 09:31:27] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-281-1717752686.201)
+[06-07-2024 09:31:27] [RosPy] [D] Transitioning to ACTIVE (from WAITING_FOR_GOAL_ACK, goal: /niryo_robot_project-282-1717752687.214)
+[06-07-2024 09:31:29] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-282-1717752687.214)
+[06-07-2024 09:31:29] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-282-1717752687.214)
+[06-07-2024 09:31:29] [TrajectoryPlayer] [D] [stop] Playing step number 1: start point ([StepValue(False), StepValue([-0.00073, 0.49941, -1.25062, -0.00144, -0.00776, 0.69192])])
+[06-07-2024 09:31:29] [TrajectoryPlayer] [D] [stop] Playing step number 2: id (36)
+[06-07-2024 09:31:29] [TrajectoryPlayer] [D] [stop] Playing step number 3: label (stop)
+[06-07-2024 09:31:29] [RosPy] [D] Transitioning to ACTIVE (from WAITING_FOR_GOAL_ACK, goal: /niryo_robot_project-283-1717752689.098)
+[06-07-2024 09:31:30] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-283-1717752689.098)
+[06-07-2024 09:31:30] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-283-1717752689.098)
+[06-07-2024 09:31:30] [TrajectoryPlayer] [D] [stop] Playing step number 4: tool (False)
+[06-07-2024 09:31:57] [RosPy] [D] Transitioning to WAITING_FOR_CANCEL_ACK (from DONE, goal: /niryo_robot_project-282-1717752687.214)
+[06-07-2024 09:31:57] [RosPy] [D] connecting to ('ned2', 60545)
+[06-07-2024 09:31:57] [RosPy] [D] connecting to ned2 60545
+[06-07-2024 09:31:57] [TrajectoryPlayer] [D] [start] Playing step number 0: file name (33-start.trj)
+[06-07-2024 09:31:57] [RosPy] [D] Transitioning to ACTIVE (from WAITING_FOR_GOAL_ACK, goal: /niryo_robot_project-284-1717752717.151)
+[06-07-2024 09:31:57] [RosPy] [D] Transitioning to RECALLING (from WAITING_FOR_CANCEL_ACK, goal: /niryo_robot_project-282-1717752687.214)
+[06-07-2024 09:31:57] [RosPy] [I] Received comm state RECALLING when in simple state DONE with SimpleActionClient in NS /niryo_robot_arm_commander/robot_action
+[06-07-2024 09:31:58] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-284-1717752717.151)
+[06-07-2024 09:31:58] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-284-1717752717.151)
+[06-07-2024 09:31:58] [RosPy] [D] Transitioning to ACTIVE (from WAITING_FOR_GOAL_ACK, goal: /niryo_robot_project-285-1717752718.163)
+[06-07-2024 09:31:58] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-285-1717752718.163)
+[06-07-2024 09:31:58] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-285-1717752718.163)
+[06-07-2024 09:31:58] [TrajectoryPlayer] [D] [start] Playing step number 1: start point ([StepValue(False), StepValue([0.00079, 0.49941, -1.25062, -0.00144, -0.00316, 0.70572])])
+[06-07-2024 09:31:58] [TrajectoryPlayer] [D] [start] Playing step number 2: id (33)
+[06-07-2024 09:31:58] [TrajectoryPlayer] [D] [start] Playing step number 3: label (start)
+[06-07-2024 09:31:58] [RosPy] [D] Transitioning to ACTIVE (from WAITING_FOR_GOAL_ACK, goal: /niryo_robot_project-286-1717752718.463)
+[06-07-2024 09:31:59] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-286-1717752718.463)
+[06-07-2024 09:31:59] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-286-1717752718.463)
+[06-07-2024 09:31:59] [TrajectoryPlayer] [D] [start] Playing step number 4: tool (False)
+[06-07-2024 09:31:59] [RosPy] [D] Transitioning to ACTIVE (from WAITING_FOR_GOAL_ACK, goal: /niryo_robot_project-287-1717752719.477)
+[06-07-2024 09:32:01] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-287-1717752719.477)
+[06-07-2024 09:32:01] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-287-1717752719.477)
+[06-07-2024 09:32:01] [TrajectoryPlayer] [D] [start] Playing step number 5: movement ([1.4101, 0.33276, -0.4583, 0.00469, -1.50033, 0.71186])
+[06-07-2024 09:32:57] [RosPy] [D] Transitioning to WAITING_FOR_CANCEL_ACK (from DONE, goal: /niryo_robot_project-287-1717752719.477)
+[06-07-2024 09:32:57] [RosPy] [D] connecting to ('ned2', 60545)
+[06-07-2024 09:32:57] [RosPy] [D] connecting to ned2 60545
+[06-07-2024 09:32:57] [RosPy] [D] Transitioning to RECALLING (from WAITING_FOR_CANCEL_ACK, goal: /niryo_robot_project-287-1717752719.477)
+[06-07-2024 09:32:57] [RosPy] [I] Received comm state RECALLING when in simple state DONE with SimpleActionClient in NS /niryo_robot_arm_commander/robot_action
+[06-07-2024 09:32:57] [TrajectoryPlayer] [D] [start] Playing step number 0: file name (33-start.trj)
+[06-07-2024 09:32:57] [RosPy] [D] Transitioning to ACTIVE (from WAITING_FOR_GOAL_ACK, goal: /niryo_robot_project-288-1717752777.403)
+[06-07-2024 09:32:58] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-288-1717752777.403)
+[06-07-2024 09:32:58] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-288-1717752777.403)
+[06-07-2024 09:32:58] [RosPy] [D] Transitioning to ACTIVE (from WAITING_FOR_GOAL_ACK, goal: /niryo_robot_project-289-1717752778.417)
+[06-07-2024 09:33:00] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-289-1717752778.417)
+[06-07-2024 09:33:00] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-289-1717752778.417)
+[06-07-2024 09:33:00] [TrajectoryPlayer] [D] [start] Playing step number 1: start point ([StepValue(False), StepValue([0.00079, 0.49941, -1.25062, -0.00144, -0.00316, 0.70572])])
+[06-07-2024 09:33:00] [TrajectoryPlayer] [D] [start] Playing step number 2: id (33)
+[06-07-2024 09:33:00] [TrajectoryPlayer] [D] [start] Playing step number 3: label (start)
+[06-07-2024 09:33:00] [RosPy] [D] Transitioning to ACTIVE (from WAITING_FOR_GOAL_ACK, goal: /niryo_robot_project-290-1717752780.343)
+[06-07-2024 09:33:00] [RosPy] [I] Got a transition callback on a goal handle that we're not tracking
+[06-07-2024 09:33:01] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-290-1717752780.343)
+[06-07-2024 09:33:01] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-290-1717752780.343)
+[06-07-2024 09:33:01] [TrajectoryPlayer] [D] [start] Playing step number 4: tool (False)
+[06-07-2024 09:33:01] [RosPy] [D] Transitioning to ACTIVE (from WAITING_FOR_GOAL_ACK, goal: /niryo_robot_project-291-1717752781.363)
+[06-07-2024 09:33:03] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-291-1717752781.363)
+[06-07-2024 09:33:03] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-291-1717752781.363)
+[06-07-2024 09:33:03] [TrajectoryPlayer] [D] [start] Playing step number 5: movement ([1.4101, 0.33276, -0.4583, 0.00469, -1.50033, 0.71186])
+[06-07-2024 09:35:22] [RosPy] [D] Transitioning to WAITING_FOR_CANCEL_ACK (from DONE, goal: /niryo_robot_project-291-1717752781.363)
+[06-07-2024 09:35:22] [RosPy] [D] connecting to ('ned2', 60545)
+[06-07-2024 09:35:22] [RosPy] [D] connecting to ned2 60545
+[06-07-2024 09:35:22] [TrajectoryPlayer] [D] [start] Playing step number 0: file name (33-start.trj)
+[06-07-2024 09:35:22] [RosPy] [D] Transitioning to ACTIVE (from WAITING_FOR_GOAL_ACK, goal: /niryo_robot_project-292-1717752922.334)
+[06-07-2024 09:35:22] [RosPy] [D] Transitioning to RECALLING (from WAITING_FOR_CANCEL_ACK, goal: /niryo_robot_project-291-1717752781.363)
+[06-07-2024 09:35:22] [RosPy] [I] Received comm state RECALLING when in simple state DONE with SimpleActionClient in NS /niryo_robot_arm_commander/robot_action
+[06-07-2024 09:35:23] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-292-1717752922.334)
+[06-07-2024 09:35:23] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-292-1717752922.334)
+[06-07-2024 09:35:23] [RosPy] [D] Transitioning to ACTIVE (from WAITING_FOR_GOAL_ACK, goal: /niryo_robot_project-293-1717752923.346)
+[06-07-2024 09:35:25] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-293-1717752923.346)
+[06-07-2024 09:35:25] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-293-1717752923.346)
+[06-07-2024 09:35:25] [TrajectoryPlayer] [D] [start] Playing step number 1: start point ([StepValue(False), StepValue([0.00079, 0.49941, -1.25062, -0.00144, -0.00316, 0.70572])])
+[06-07-2024 09:35:25] [TrajectoryPlayer] [D] [start] Playing step number 2: id (33)
+[06-07-2024 09:35:25] [TrajectoryPlayer] [D] [start] Playing step number 3: label (start)
+[06-07-2024 09:35:25] [RosPy] [D] Transitioning to ACTIVE (from WAITING_FOR_GOAL_ACK, goal: /niryo_robot_project-294-1717752925.251)
+[06-07-2024 09:35:26] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-294-1717752925.251)
+[06-07-2024 09:35:26] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-294-1717752925.251)
+[06-07-2024 09:35:26] [TrajectoryPlayer] [D] [start] Playing step number 4: tool (False)
+[06-07-2024 09:35:26] [RosPy] [D] Transitioning to ACTIVE (from WAITING_FOR_GOAL_ACK, goal: /niryo_robot_project-295-1717752926.267)
+[06-07-2024 09:35:28] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-295-1717752926.267)
+[06-07-2024 09:35:28] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-295-1717752926.267)
+[06-07-2024 09:35:28] [TrajectoryPlayer] [D] [start] Playing step number 5: movement ([1.4101, 0.33276, -0.4583, 0.00469, -1.50033, 0.71186])
+[06-07-2024 09:36:21] [RosPy] [D] Transitioning to WAITING_FOR_CANCEL_ACK (from DONE, goal: /niryo_robot_project-295-1717752926.267)
+[06-07-2024 09:36:21] [RosPy] [D] connecting to ('ned2', 60545)
+[06-07-2024 09:36:21] [RosPy] [D] connecting to ned2 60545
+[06-07-2024 09:36:21] [RosPy] [D] Transitioning to RECALLING (from WAITING_FOR_CANCEL_ACK, goal: /niryo_robot_project-295-1717752926.267)
+[06-07-2024 09:36:21] [RosPy] [I] Received comm state RECALLING when in simple state DONE with SimpleActionClient in NS /niryo_robot_arm_commander/robot_action
+[06-07-2024 09:36:21] [TrajectoryPlayer] [D] [start] Playing step number 0: file name (33-start.trj)
+[06-07-2024 09:36:21] [RosPy] [D] Transitioning to ACTIVE (from WAITING_FOR_GOAL_ACK, goal: /niryo_robot_project-296-1717752981.381)
+[06-07-2024 09:36:22] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-296-1717752981.381)
+[06-07-2024 09:36:22] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-296-1717752981.381)
+[06-07-2024 09:36:22] [RosPy] [D] Transitioning to ACTIVE (from WAITING_FOR_GOAL_ACK, goal: /niryo_robot_project-297-1717752982.394)
+[06-07-2024 09:36:24] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-297-1717752982.394)
+[06-07-2024 09:36:24] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-297-1717752982.394)
+[06-07-2024 09:36:24] [TrajectoryPlayer] [D] [start] Playing step number 1: start point ([StepValue(False), StepValue([0.00079, 0.49941, -1.25062, -0.00144, -0.00316, 0.70572])])
+[06-07-2024 09:36:24] [TrajectoryPlayer] [D] [start] Playing step number 2: id (33)
+[06-07-2024 09:36:24] [TrajectoryPlayer] [D] [start] Playing step number 3: label (start)
+[06-07-2024 09:36:24] [RosPy] [D] Transitioning to ACTIVE (from WAITING_FOR_GOAL_ACK, goal: /niryo_robot_project-298-1717752984.286)
+[06-07-2024 09:36:25] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-298-1717752984.286)
+[06-07-2024 09:36:25] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-298-1717752984.286)
+[06-07-2024 09:36:25] [TrajectoryPlayer] [D] [start] Playing step number 4: tool (False)
+[06-07-2024 09:36:25] [RosPy] [D] Transitioning to ACTIVE (from WAITING_FOR_GOAL_ACK, goal: /niryo_robot_project-299-1717752985.301)
+[06-07-2024 09:36:27] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-299-1717752985.301)
+[06-07-2024 09:36:27] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-299-1717752985.301)
+[06-07-2024 09:36:27] [TrajectoryPlayer] [D] [start] Playing step number 5: movement ([1.4101, 0.33276, -0.4583, 0.00469, -1.50033, 0.71186])
+[06-07-2024 09:37:47] [RosPy] [D] Transitioning to WAITING_FOR_CANCEL_ACK (from DONE, goal: /niryo_robot_project-299-1717752985.301)
+[06-07-2024 09:37:47] [RosPy] [D] connecting to ('ned2', 60545)
+[06-07-2024 09:37:47] [RosPy] [D] connecting to ned2 60545
+[06-07-2024 09:37:47] [TrajectoryPlayer] [D] [start] Playing step number 0: file name (33-start.trj)
+[06-07-2024 09:37:47] [RosPy] [D] Transitioning to ACTIVE (from WAITING_FOR_GOAL_ACK, goal: /niryo_robot_project-300-1717753067.161)
+[06-07-2024 09:37:47] [RosPy] [D] Transitioning to RECALLING (from WAITING_FOR_CANCEL_ACK, goal: /niryo_robot_project-299-1717752985.301)
+[06-07-2024 09:37:47] [RosPy] [I] Received comm state RECALLING when in simple state DONE with SimpleActionClient in NS /niryo_robot_arm_commander/robot_action
+[06-07-2024 09:37:48] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-300-1717753067.161)
+[06-07-2024 09:37:48] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-300-1717753067.161)
+[06-07-2024 09:37:48] [RosPy] [D] Transitioning to ACTIVE (from WAITING_FOR_GOAL_ACK, goal: /niryo_robot_project-301-1717753068.175)
+[06-07-2024 09:37:50] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-301-1717753068.175)
+[06-07-2024 09:37:50] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-301-1717753068.175)
+[06-07-2024 09:37:50] [TrajectoryPlayer] [D] [start] Playing step number 1: start point ([StepValue(False), StepValue([0.00079, 0.49941, -1.25062, -0.00144, -0.00316, 0.70572])])
+[06-07-2024 09:37:50] [TrajectoryPlayer] [D] [start] Playing step number 2: id (33)
+[06-07-2024 09:37:50] [TrajectoryPlayer] [D] [start] Playing step number 3: label (start)
+[06-07-2024 09:37:50] [RosPy] [D] Transitioning to ACTIVE (from WAITING_FOR_GOAL_ACK, goal: /niryo_robot_project-302-1717753070.062)
+[06-07-2024 09:37:51] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-302-1717753070.062)
+[06-07-2024 09:37:51] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-302-1717753070.062)
+[06-07-2024 09:37:51] [TrajectoryPlayer] [D] [start] Playing step number 4: tool (False)
+[06-07-2024 09:37:51] [RosPy] [D] Transitioning to ACTIVE (from WAITING_FOR_GOAL_ACK, goal: /niryo_robot_project-303-1717753071.083)
+[06-07-2024 09:37:52] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-303-1717753071.083)
+[06-07-2024 09:37:52] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-303-1717753071.083)
+[06-07-2024 09:37:52] [TrajectoryPlayer] [D] [start] Playing step number 5: movement ([1.4101, 0.33276, -0.4583, 0.00469, -1.50033, 0.71186])
+[06-07-2024 09:38:05] [RosPy] [D] Transitioning to WAITING_FOR_CANCEL_ACK (from DONE, goal: /niryo_robot_project-303-1717753071.083)
+[06-07-2024 09:38:05] [RosPy] [D] connecting to ('ned2', 60545)
+[06-07-2024 09:38:05] [RosPy] [D] connecting to ned2 60545
+[06-07-2024 09:38:05] [RosPy] [D] Transitioning to RECALLING (from WAITING_FOR_CANCEL_ACK, goal: /niryo_robot_project-303-1717753071.083)
+[06-07-2024 09:38:05] [RosPy] [I] Received comm state RECALLING when in simple state DONE with SimpleActionClient in NS /niryo_robot_arm_commander/robot_action
+[06-07-2024 09:38:05] [TrajectoryPlayer] [D] [stop] Playing step number 0: file name (36-stop.trj)
+[06-07-2024 09:38:05] [RosPy] [D] Transitioning to ACTIVE (from WAITING_FOR_GOAL_ACK, goal: /niryo_robot_project-304-1717753085.581)
+[06-07-2024 09:38:06] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-304-1717753085.581)
+[06-07-2024 09:38:06] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-304-1717753085.581)
+[06-07-2024 09:38:06] [RosPy] [D] Transitioning to ACTIVE (from WAITING_FOR_GOAL_ACK, goal: /niryo_robot_project-305-1717753086.594)
+[06-07-2024 09:38:08] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-305-1717753086.594)
+[06-07-2024 09:38:08] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-305-1717753086.594)
+[06-07-2024 09:38:08] [TrajectoryPlayer] [D] [stop] Playing step number 1: start point ([StepValue(False), StepValue([-0.00073, 0.49941, -1.25062, -0.00144, -0.00776, 0.69192])])
+[06-07-2024 09:38:08] [TrajectoryPlayer] [D] [stop] Playing step number 2: id (36)
+[06-07-2024 09:38:08] [TrajectoryPlayer] [D] [stop] Playing step number 3: label (stop)
+[06-07-2024 09:38:08] [RosPy] [D] Transitioning to ACTIVE (from WAITING_FOR_GOAL_ACK, goal: /niryo_robot_project-306-1717753088.483)
+[06-07-2024 09:38:09] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-306-1717753088.483)
+[06-07-2024 09:38:09] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-306-1717753088.483)
+[06-07-2024 09:38:09] [TrajectoryPlayer] [D] [stop] Playing step number 4: tool (False)
+[06-07-2024 09:38:15] [RosPy] [D] Transitioning to WAITING_FOR_CANCEL_ACK (from DONE, goal: /niryo_robot_project-305-1717753086.594)
+[06-07-2024 09:38:15] [RosPy] [D] connecting to ('ned2', 60545)
+[06-07-2024 09:38:15] [RosPy] [D] connecting to ned2 60545
+[06-07-2024 09:38:15] [RosPy] [D] Transitioning to RECALLING (from WAITING_FOR_CANCEL_ACK, goal: /niryo_robot_project-305-1717753086.594)
+[06-07-2024 09:38:15] [RosPy] [I] Received comm state RECALLING when in simple state DONE with SimpleActionClient in NS /niryo_robot_arm_commander/robot_action
+[06-07-2024 09:38:16] [TrajectoryPlayer] [D] [start] Playing step number 0: file name (33-start.trj)
+[06-07-2024 09:38:16] [RosPy] [D] Transitioning to ACTIVE (from WAITING_FOR_GOAL_ACK, goal: /niryo_robot_project-307-1717753096.027)
+[06-07-2024 09:38:16] [RosPy] [I] Got a transition callback on a goal handle that we're not tracking
+[06-07-2024 09:38:17] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-307-1717753096.027)
+[06-07-2024 09:38:17] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-307-1717753096.027)
+[06-07-2024 09:38:17] [RosPy] [D] Transitioning to ACTIVE (from WAITING_FOR_GOAL_ACK, goal: /niryo_robot_project-308-1717753097.071)
+[06-07-2024 09:38:17] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-308-1717753097.071)
+[06-07-2024 09:38:17] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-308-1717753097.071)
+[06-07-2024 09:38:17] [TrajectoryPlayer] [D] [start] Playing step number 1: start point ([StepValue(False), StepValue([0.00079, 0.49941, -1.25062, -0.00144, -0.00316, 0.70572])])
+[06-07-2024 09:38:17] [TrajectoryPlayer] [D] [start] Playing step number 2: id (33)
+[06-07-2024 09:38:17] [TrajectoryPlayer] [D] [start] Playing step number 3: label (start)
+[06-07-2024 09:38:17] [RosPy] [D] Transitioning to ACTIVE (from WAITING_FOR_GOAL_ACK, goal: /niryo_robot_project-309-1717753097.424)
+[06-07-2024 09:38:18] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-309-1717753097.424)
+[06-07-2024 09:38:18] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-309-1717753097.424)
+[06-07-2024 09:38:18] [TrajectoryPlayer] [D] [start] Playing step number 4: tool (False)
+[06-07-2024 09:38:18] [RosPy] [D] Transitioning to ACTIVE (from WAITING_FOR_GOAL_ACK, goal: /niryo_robot_project-310-1717753098.449)
+[06-07-2024 09:38:20] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-310-1717753098.449)
+[06-07-2024 09:38:20] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-310-1717753098.449)
+[06-07-2024 09:38:20] [TrajectoryPlayer] [D] [start] Playing step number 5: movement ([1.4101, 0.33276, -0.4583, 0.00469, -1.50033, 0.71186])
+[06-07-2024 09:39:59] [RosPy] [D] Transitioning to WAITING_FOR_CANCEL_ACK (from DONE, goal: /niryo_robot_project-310-1717753098.449)
+[06-07-2024 09:39:59] [RosPy] [D] connecting to ('ned2', 60545)
+[06-07-2024 09:39:59] [RosPy] [D] connecting to ned2 60545
+[06-07-2024 09:39:59] [TrajectoryPlayer] [D] [start] Playing step number 0: file name (33-start.trj)
+[06-07-2024 09:39:59] [RosPy] [D] Transitioning to ACTIVE (from WAITING_FOR_GOAL_ACK, goal: /niryo_robot_project-311-1717753199.545)
+[06-07-2024 09:39:59] [RosPy] [D] Transitioning to RECALLING (from WAITING_FOR_CANCEL_ACK, goal: /niryo_robot_project-310-1717753098.449)
+[06-07-2024 09:39:59] [RosPy] [I] Received comm state RECALLING when in simple state DONE with SimpleActionClient in NS /niryo_robot_arm_commander/robot_action
+[06-07-2024 09:40:00] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-311-1717753199.545)
+[06-07-2024 09:40:00] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-311-1717753199.545)
+[06-07-2024 09:40:00] [RosPy] [D] Transitioning to ACTIVE (from WAITING_FOR_GOAL_ACK, goal: /niryo_robot_project-312-1717753200.560)
+[06-07-2024 09:40:02] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-312-1717753200.560)
+[06-07-2024 09:40:02] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-312-1717753200.560)
+[06-07-2024 09:40:02] [TrajectoryPlayer] [D] [start] Playing step number 1: start point ([StepValue(False), StepValue([0.00079, 0.49941, -1.25062, -0.00144, -0.00316, 0.70572])])
+[06-07-2024 09:40:02] [TrajectoryPlayer] [D] [start] Playing step number 2: id (33)
+[06-07-2024 09:40:02] [TrajectoryPlayer] [D] [start] Playing step number 3: label (start)
+[06-07-2024 09:40:02] [RosPy] [D] Transitioning to ACTIVE (from WAITING_FOR_GOAL_ACK, goal: /niryo_robot_project-313-1717753202.445)
+[06-07-2024 09:40:03] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-313-1717753202.445)
+[06-07-2024 09:40:03] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-313-1717753202.445)
+[06-07-2024 09:40:03] [TrajectoryPlayer] [D] [start] Playing step number 4: tool (False)
+[06-07-2024 09:40:03] [RosPy] [D] Transitioning to ACTIVE (from WAITING_FOR_GOAL_ACK, goal: /niryo_robot_project-314-1717753203.459)
+[06-07-2024 09:40:05] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-314-1717753203.459)
+[06-07-2024 09:40:05] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-314-1717753203.459)
+[06-07-2024 09:40:05] [TrajectoryPlayer] [D] [start] Playing step number 5: movement ([1.4101, 0.33276, -0.4583, 0.00469, -1.50033, 0.71186])
+[06-07-2024 09:40:36] [RosPy] [D] Transitioning to WAITING_FOR_CANCEL_ACK (from DONE, goal: /niryo_robot_project-314-1717753203.459)
+[06-07-2024 09:40:36] [RosPy] [D] connecting to ('ned2', 60545)
+[06-07-2024 09:40:36] [RosPy] [D] connecting to ned2 60545
+[06-07-2024 09:40:36] [RosPy] [D] Transitioning to RECALLING (from WAITING_FOR_CANCEL_ACK, goal: /niryo_robot_project-314-1717753203.459)
+[06-07-2024 09:40:36] [RosPy] [I] Received comm state RECALLING when in simple state DONE with SimpleActionClient in NS /niryo_robot_arm_commander/robot_action
+[06-07-2024 09:40:36] [TrajectoryPlayer] [D] [start] Playing step number 0: file name (33-start.trj)
+[06-07-2024 09:40:36] [RosPy] [D] Transitioning to ACTIVE (from WAITING_FOR_GOAL_ACK, goal: /niryo_robot_project-315-1717753236.807)
+[06-07-2024 09:40:37] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-315-1717753236.807)
+[06-07-2024 09:40:37] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-315-1717753236.807)
+[06-07-2024 09:40:37] [RosPy] [D] Transitioning to ACTIVE (from WAITING_FOR_GOAL_ACK, goal: /niryo_robot_project-316-1717753237.822)
+[06-07-2024 09:40:39] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-316-1717753237.822)
+[06-07-2024 09:40:39] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-316-1717753237.822)
+[06-07-2024 09:40:39] [TrajectoryPlayer] [D] [start] Playing step number 1: start point ([StepValue(False), StepValue([0.00079, 0.49941, -1.25062, -0.00144, -0.00316, 0.70572])])
+[06-07-2024 09:40:39] [TrajectoryPlayer] [D] [start] Playing step number 2: id (33)
+[06-07-2024 09:40:39] [TrajectoryPlayer] [D] [start] Playing step number 3: label (start)
+[06-07-2024 09:40:39] [RosPy] [D] Transitioning to ACTIVE (from WAITING_FOR_GOAL_ACK, goal: /niryo_robot_project-317-1717753239.736)
+[06-07-2024 09:40:40] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-317-1717753239.736)
+[06-07-2024 09:40:40] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-317-1717753239.736)
+[06-07-2024 09:40:40] [TrajectoryPlayer] [D] [start] Playing step number 4: tool (False)
+[06-07-2024 09:40:40] [RosPy] [D] Transitioning to ACTIVE (from WAITING_FOR_GOAL_ACK, goal: /niryo_robot_project-318-1717753240.770)
+[06-07-2024 09:40:42] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-318-1717753240.770)
+[06-07-2024 09:40:42] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-318-1717753240.770)
+[06-07-2024 09:40:42] [TrajectoryPlayer] [D] [start] Playing step number 5: movement ([1.4101, 0.33276, -0.4583, 0.00469, -1.50033, 0.71186])
+[06-07-2024 09:41:10] [RosPy] [D] Transitioning to WAITING_FOR_CANCEL_ACK (from DONE, goal: /niryo_robot_project-318-1717753240.770)
+[06-07-2024 09:41:10] [RosPy] [D] connecting to ('ned2', 60545)
+[06-07-2024 09:41:10] [RosPy] [D] connecting to ned2 60545
+[06-07-2024 09:41:10] [RosPy] [D] Transitioning to RECALLING (from WAITING_FOR_CANCEL_ACK, goal: /niryo_robot_project-318-1717753240.770)
+[06-07-2024 09:41:10] [RosPy] [I] Received comm state RECALLING when in simple state DONE with SimpleActionClient in NS /niryo_robot_arm_commander/robot_action
+[06-07-2024 09:41:10] [TrajectoryPlayer] [D] [production] Playing step number 0: file name (40-production.trj)
+[06-07-2024 09:41:10] [RosPy] [D] Transitioning to ACTIVE (from WAITING_FOR_GOAL_ACK, goal: /niryo_robot_project-319-1717753270.615)
+[06-07-2024 09:41:11] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-319-1717753270.615)
+[06-07-2024 09:41:11] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-319-1717753270.615)
+[06-07-2024 09:41:11] [RosPy] [D] Transitioning to ACTIVE (from WAITING_FOR_GOAL_ACK, goal: /niryo_robot_project-320-1717753271.632)
+[06-07-2024 09:41:11] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-320-1717753271.632)
+[06-07-2024 09:41:11] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-320-1717753271.632)
+[06-07-2024 09:41:11] [TrajectoryPlayer] [D] [production] Playing step number 1: start point ([StepValue(False), StepValue([1.4101, 0.33276, -0.4583, 0.00469, -1.50033, 0.71186])])
+[06-07-2024 09:41:11] [TrajectoryPlayer] [D] [production] Playing step number 2: id (40)
+[06-07-2024 09:41:11] [TrajectoryPlayer] [D] [production] Playing step number 3: label (production)
+[06-07-2024 09:41:11] [RosPy] [D] Transitioning to ACTIVE (from WAITING_FOR_GOAL_ACK, goal: /niryo_robot_project-321-1717753271.830)
+[06-07-2024 09:41:12] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-321-1717753271.830)
+[06-07-2024 09:41:12] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-321-1717753271.830)
+[06-07-2024 09:41:12] [TrajectoryPlayer] [D] [production] Playing step number 4: tool (False)
+[06-07-2024 09:41:12] [RosPy] [D] connecting to ('ned2', 40971)
+[06-07-2024 09:41:12] [RosPy] [D] connecting to ned2 40971
+[06-07-2024 09:41:12] [TrajectoryPlayer] [D] [production] Playing step number 5: motor acceleration (200)
+[06-07-2024 09:41:12] [RosPy] [D] Transitioning to ACTIVE (from WAITING_FOR_GOAL_ACK, goal: /niryo_robot_project-322-1717753272.876)
+[06-07-2024 09:41:15] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-322-1717753272.876)
+[06-07-2024 09:41:15] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-322-1717753272.876)
+[06-07-2024 09:41:15] [TrajectoryPlayer] [D] [production] Playing step number 6: movement ([1.72209, -0.70194, 0.41582, -0.05513, -1.29631, -0.14257])
+[06-07-2024 09:41:15] [RosPy] [D] connecting to ('ned2', 40971)
+[06-07-2024 09:41:15] [RosPy] [D] connecting to ned2 40971
+[06-07-2024 09:41:15] [TrajectoryPlayer] [D] [production] Playing step number 7: motor acceleration (20)
+[06-07-2024 09:41:15] [RosPy] [D] Transitioning to ACTIVE (from WAITING_FOR_GOAL_ACK, goal: /niryo_robot_project-323-1717753275.431)
+[06-07-2024 09:41:16] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-323-1717753275.431)
+[06-07-2024 09:41:16] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-323-1717753275.431)
+[06-07-2024 09:41:16] [TrajectoryPlayer] [D] [production] Playing step number 8: movement ([1.72209, -0.74588, 0.39461, -0.05973, -1.29324, -0.14103])
+[06-07-2024 09:41:16] [RosPy] [D] Transitioning to ACTIVE (from WAITING_FOR_GOAL_ACK, goal: /niryo_robot_project-324-1717753276.029)
+[06-07-2024 09:41:17] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-324-1717753276.029)
+[06-07-2024 09:41:17] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-324-1717753276.029)
+[06-07-2024 09:41:17] [TrajectoryPlayer] [D] [production] Playing step number 9: tool (True)
+[06-07-2024 09:41:17] [RosPy] [D] Transitioning to ACTIVE (from WAITING_FOR_GOAL_ACK, goal: /niryo_robot_project-325-1717753277.048)
+[06-07-2024 09:41:18] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-325-1717753277.048)
+[06-07-2024 09:41:18] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-325-1717753277.048)
+[06-07-2024 09:41:18] [TrajectoryPlayer] [D] [production] Playing step number 10: movement ([1.716, -0.57923, 0.39613, -0.0582, -1.44203, 0.03231])
+[06-07-2024 09:41:18] [RosPy] [D] connecting to ('ned2', 40971)
+[06-07-2024 09:41:18] [RosPy] [D] connecting to ned2 40971
+[06-07-2024 09:41:18] [TrajectoryPlayer] [D] [production] Playing step number 11: motor acceleration (150)
+[06-07-2024 09:41:18] [RosPy] [D] Transitioning to ACTIVE (from WAITING_FOR_GOAL_ACK, goal: /niryo_robot_project-326-1717753278.865)
+[06-07-2024 09:41:20] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-326-1717753278.865)
+[06-07-2024 09:41:20] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-326-1717753278.865)
+[06-07-2024 09:41:20] [TrajectoryPlayer] [D] [production] Playing step number 12: movement ([0.53956, -0.50954, 0.3931, -0.04593, -1.44357, 0.03231])
+[06-07-2024 09:41:20] [RosPy] [D] Transitioning to ACTIVE (from WAITING_FOR_GOAL_ACK, goal: /niryo_robot_project-327-1717753280.710)
+[06-07-2024 09:41:21] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-327-1717753280.710)
+[06-07-2024 09:41:21] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-327-1717753280.710)
+[06-07-2024 09:41:21] [TrajectoryPlayer] [D] [production] Playing step number 13: movement ([0.50151, -0.73073, 0.48248, 0.16116, -1.68901, 0.37899])
+[06-07-2024 09:41:21] [RosPy] [D] Transitioning to ACTIVE (from WAITING_FOR_GOAL_ACK, goal: /niryo_robot_project-328-1717753281.950)
+[06-07-2024 09:41:22] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-328-1717753281.950)
+[06-07-2024 09:41:22] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-328-1717753281.950)
+[06-07-2024 09:41:22] [TrajectoryPlayer] [D] [production] Playing step number 14: tool (False)
+[06-07-2024 09:41:23] [RosPy] [D] connecting to ('ned2', 40971)
+[06-07-2024 09:41:23] [RosPy] [D] connecting to ned2 40971
+[06-07-2024 09:41:23] [TrajectoryPlayer] [D] [production] Playing step number 15: motor acceleration (200)
+[06-07-2024 09:41:23] [RosPy] [D] Transitioning to ACTIVE (from WAITING_FOR_GOAL_ACK, goal: /niryo_robot_project-329-1717753283.046)
+[06-07-2024 09:41:25] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-329-1717753283.046)
+[06-07-2024 09:41:25] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-329-1717753283.046)
+[06-07-2024 09:41:25] [TrajectoryPlayer] [D] [production] Playing step number 16: movement ([1.4101, 0.33276, -0.4583, 0.00469, -1.50033, 0.71186])
+                                                                                                                                                                                             [I] Log level set to 'debug'
+[I] Importing libraries
+[06-13-2024 05:53:10] [NiryoRobot] [I] 
+[06-13-2024 05:53:10] [NiryoRobot] [I] ╭──────────────────────────────╮
+[06-13-2024 05:53:10] [NiryoRobot] [I] │      Robot is starting       │
+[06-13-2024 05:53:10] [NiryoRobot] [I] │  Please wait one minute ...  │
+[06-13-2024 05:53:10] [NiryoRobot] [I] ╰──────────────────────────────╯
+[06-13-2024 05:53:10] [NiryoRobot] [I] 
+[06-13-2024 05:53:10] [NiryoRobot] [I] Starting RosPy
+[06-13-2024 05:53:10] [RosPy] [D] No topics to register with master node http://localhost:11311
+[06-13-2024 05:53:10] [RosPy] [D] init_node, name[/niryo_robot_project], pid[3053]
+[06-13-2024 05:53:10] [RosPy] [D] binding to 0.0.0.0 0
+[06-13-2024 05:53:10] [RosPy] [D] bound to 0.0.0.0 37065
+[06-13-2024 05:53:10] [RosPy] [D] ... service URL is rosrpc://ned2:37065
+[06-13-2024 05:53:10] [RosPy] [D] [/niryo_robot_project/get_loggers]: new Service instance
+[06-13-2024 05:53:10] [RosPy] [D] ... service URL is rosrpc://ned2:37065
+[06-13-2024 05:53:10] [RosPy] [D] [/niryo_robot_project/set_logger_level]: new Service instance
+[06-13-2024 05:53:10] [NiryoRobot] [I] Connecting to robot
+[06-13-2024 05:53:10] [RosPy] [D] ... service URL is rosrpc://ned2:37065
+[06-13-2024 05:53:10] [RosPy] [D] [/ping]: new Service instance
+[06-13-2024 05:53:10] [RosPy] [D] connecting to ('ned2', 42853)
+[06-13-2024 05:53:10] [RosPy] [D] connecting to ned2 42853
+[06-13-2024 05:53:11] [RosPy] [D] connecting to ned2 35273
+[06-13-2024 05:53:11] [RosPy] [D] connecting to ned2 38555
+[06-13-2024 05:53:11] [RosPy] [D] connecting to ned2 37065
+[06-13-2024 05:53:11] [RosPy] [D] connecting to ned2 39083
+[06-13-2024 05:53:11] [RosPy] [I] Python ROS Wrapper ready
+[06-13-2024 05:53:11] [NiryoRobot] [I] Started calibration
+[06-13-2024 05:53:11] [RosPy] [D] connecting to ('ned2', 52863)
+[06-13-2024 05:53:11] [RosPy] [D] connecting to ned2 44405
+[06-13-2024 05:53:11] [RosPy] [D] connecting to ned2 52863
+[06-13-2024 05:53:11] [RosPy] [D] connecting to ned2 52863
+[06-13-2024 05:53:11] [RosPy] [D] connecting to ned2 52863
+[06-13-2024 05:53:11] [RosPy] [D] connecting to ('ned2', 52863)
+[06-13-2024 05:53:11] [RosPy] [D] connecting to ned2 52863
+[06-13-2024 05:53:32] [RosPy] [D] connecting to ('ned2', 39929)
+[06-13-2024 05:53:32] [RosPy] [D] connecting to ned2 39929
+[06-13-2024 05:53:32] [RosPy] [D] connecting to ('ned2', 41535)
+[06-13-2024 05:53:32] [RosPy] [D] connecting to ned2 41535
+[06-13-2024 05:53:33] [RosPy] [D] connecting to ned2 41535
+[06-13-2024 05:53:33] [RosPy] [D] connecting to ned2 41535
+[06-13-2024 05:53:33] [RosPy] [D] connecting to ned2 41535
+[06-13-2024 05:53:33] [RosPy] [D] connecting to ned2 41535
+[06-13-2024 05:53:33] [RosPy] [D] Transitioning to ACTIVE (from WAITING_FOR_GOAL_ACK, goal: /niryo_robot_project-1-1718258013.493)
+[06-13-2024 05:53:34] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-1-1718258013.493)
+[06-13-2024 05:53:34] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-1-1718258013.493)
+[06-13-2024 05:53:34] [RosPy] [D] Transitioning to ACTIVE (from WAITING_FOR_GOAL_ACK, goal: /niryo_robot_project-2-1718258014.673)
+[06-13-2024 05:53:35] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-2-1718258014.673)
+[06-13-2024 05:53:35] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-2-1718258014.673)
+[06-13-2024 05:53:35] [RosPy] [D] connecting to ('ned2', 39929)
+[06-13-2024 05:53:35] [RosPy] [D] connecting to ned2 39929
+[06-13-2024 05:53:35] [RosPy] [D] connecting to ('ned2', 44405)
+[06-13-2024 05:53:35] [RosPy] [D] connecting to ned2 44405
+[06-13-2024 05:53:39] [NiryoRobot] [I] Calibration finished
+[06-13-2024 05:53:39] [NiryoRobot] [I] Loading trajectories ...
+[06-13-2024 05:53:39] [TrajectoryManager] [D] Loading trajectory: ./saved_trajectories/test.trj
+[06-13-2024 05:53:39] [TrajectoryManager] [D] Loading trajectory: ./saved_trajectories/33-start.trj
+[06-13-2024 05:53:39] [TrajectoryManager] [D] Loading trajectory: ./saved_trajectories/36-stop.trj
+[06-13-2024 05:53:39] [TrajectoryManager] [D] Loading trajectory: ./saved_trajectories/40-production.trj
+[06-13-2024 05:53:39] [NiryoRobot] [I] Starting Modbus/TCP server ...
+[06-13-2024 05:53:39] [ModbusServer] [I] Created server
+[06-13-2024 05:53:39] [ModbusServer] [I] Started server
+[06-13-2024 05:53:40] [NiryoRobot] [I] 
+[06-13-2024 05:53:40] [NiryoRobot] [I] ╭──────────────────────────────╮
+[06-13-2024 05:53:40] [NiryoRobot] [I] │        Robot started!        │
+[06-13-2024 05:53:40] [NiryoRobot] [I] │      Now enjoy the fun.      │
+[06-13-2024 05:53:40] [NiryoRobot] [I] ╰──────────────────────────────╯
+[06-13-2024 05:53:40] [NiryoRobot] [I] 
+[06-13-2024 05:53:40] [RosPy] [D] connecting to ('ned2', 44405)
+[06-13-2024 05:53:40] [RosPy] [D] connecting to ned2 44405
+[06-13-2024 05:53:44] [RosPy] [D] connecting to ('ned2', 39929)
+[06-13-2024 05:53:44] [RosPy] [D] connecting to ned2 39929
+[06-13-2024 05:56:13] [RosPy] [D] connecting to ('ned2', 52863)
+[06-13-2024 05:56:13] [RosPy] [D] connecting to ned2 38555
+[06-13-2024 05:56:13] [RosPy] [D] connecting to ned2 38555
+[06-13-2024 05:56:13] [RosPy] [D] connecting to ned2 52863
+[06-13-2024 05:56:13] [RosPy] [D] connecting to ned2 38555
+[06-13-2024 05:56:13] [TrajectoryPlayer] [D] [stop] Playing step number 0: file name (36-stop.trj)
+[06-13-2024 05:56:13] [RosPy] [D] Transitioning to ACTIVE (from WAITING_FOR_GOAL_ACK, goal: /niryo_robot_project-3-1718258173.733)
+[06-13-2024 05:56:14] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-3-1718258173.733)
+[06-13-2024 05:56:14] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-3-1718258173.733)
+[06-13-2024 05:56:14] [RosPy] [D] Transitioning to ACTIVE (from WAITING_FOR_GOAL_ACK, goal: /niryo_robot_project-4-1718258174.752)
+[06-13-2024 05:56:15] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-4-1718258174.752)
+[06-13-2024 05:56:15] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-4-1718258174.752)
+[06-13-2024 05:56:15] [TrajectoryPlayer] [D] [stop] Playing step number 1: start point ([StepValue(False), StepValue([-0.00073, 0.49941, -1.25062, -0.00144, -0.00776, 0.69192])])
+[06-13-2024 05:56:15] [TrajectoryPlayer] [D] [stop] Playing step number 2: id (36)
+[06-13-2024 05:56:15] [TrajectoryPlayer] [D] [stop] Playing step number 3: label (stop)
+[06-13-2024 05:56:15] [RosPy] [D] Transitioning to ACTIVE (from WAITING_FOR_GOAL_ACK, goal: /niryo_robot_project-5-1718258175.910)
+[06-13-2024 05:56:16] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-5-1718258175.910)
+[06-13-2024 05:56:16] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-5-1718258175.910)
+[06-13-2024 05:56:16] [TrajectoryPlayer] [D] [stop] Playing step number 4: tool (False)
+[06-13-2024 05:56:45] [RosPy] [D] Transitioning to WAITING_FOR_CANCEL_ACK (from DONE, goal: /niryo_robot_project-4-1718258174.752)
+[06-13-2024 05:56:45] [RosPy] [D] connecting to ('ned2', 52863)
+[06-13-2024 05:56:45] [RosPy] [D] connecting to ned2 52863
+[06-13-2024 05:56:45] [RosPy] [D] Transitioning to RECALLING (from WAITING_FOR_CANCEL_ACK, goal: /niryo_robot_project-4-1718258174.752)
+[06-13-2024 05:56:45] [RosPy] [I] Received comm state RECALLING when in simple state DONE with SimpleActionClient in NS /niryo_robot_arm_commander/robot_action
+[06-13-2024 05:56:45] [TrajectoryPlayer] [D] [start] Playing step number 0: file name (33-start.trj)
+[06-13-2024 05:56:45] [RosPy] [D] Transitioning to ACTIVE (from WAITING_FOR_GOAL_ACK, goal: /niryo_robot_project-6-1718258205.563)
+[06-13-2024 05:56:46] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-6-1718258205.563)
+[06-13-2024 05:56:46] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-6-1718258205.563)
+[06-13-2024 05:56:46] [RosPy] [D] Transitioning to ACTIVE (from WAITING_FOR_GOAL_ACK, goal: /niryo_robot_project-7-1718258206.585)
+[06-13-2024 05:56:48] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-7-1718258206.585)
+[06-13-2024 05:56:48] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-7-1718258206.585)
+[06-13-2024 05:56:48] [TrajectoryPlayer] [D] [start] Playing step number 1: start point ([StepValue(False), StepValue([0.00079, 0.49941, -1.25062, -0.00144, -0.00316, 0.70572])])
+[06-13-2024 05:56:48] [TrajectoryPlayer] [D] [start] Playing step number 2: id (33)
+[06-13-2024 05:56:48] [TrajectoryPlayer] [D] [start] Playing step number 3: label (start)
+[06-13-2024 05:56:48] [RosPy] [D] Transitioning to ACTIVE (from WAITING_FOR_GOAL_ACK, goal: /niryo_robot_project-8-1718258208.111)
+[06-13-2024 05:56:49] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-8-1718258208.111)
+[06-13-2024 05:56:49] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-8-1718258208.111)
+[06-13-2024 05:56:49] [TrajectoryPlayer] [D] [start] Playing step number 4: tool (False)
+[06-13-2024 05:56:49] [RosPy] [D] Transitioning to ACTIVE (from WAITING_FOR_GOAL_ACK, goal: /niryo_robot_project-9-1718258209.157)
+[06-13-2024 05:56:51] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-9-1718258209.157)
+[06-13-2024 05:56:51] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-9-1718258209.157)
+[06-13-2024 05:56:51] [TrajectoryPlayer] [D] [start] Playing step number 5: movement ([1.4101, 0.33276, -0.4583, 0.00469, -1.50033, 0.71186])
+[06-13-2024 05:57:16] [RosPy] [D] Transitioning to WAITING_FOR_CANCEL_ACK (from DONE, goal: /niryo_robot_project-9-1718258209.157)
+[06-13-2024 05:57:16] [RosPy] [D] connecting to ('ned2', 52863)
+[06-13-2024 05:57:16] [RosPy] [D] connecting to ned2 52863
+[06-13-2024 05:57:16] [RosPy] [D] Transitioning to RECALLING (from WAITING_FOR_CANCEL_ACK, goal: /niryo_robot_project-9-1718258209.157)
+[06-13-2024 05:57:16] [RosPy] [I] Received comm state RECALLING when in simple state DONE with SimpleActionClient in NS /niryo_robot_arm_commander/robot_action
+[06-13-2024 05:57:16] [TrajectoryPlayer] [D] [start] Playing step number 0: file name (33-start.trj)
+[06-13-2024 05:57:16] [RosPy] [D] Transitioning to ACTIVE (from WAITING_FOR_GOAL_ACK, goal: /niryo_robot_project-10-1718258236.159)
+[06-13-2024 05:57:17] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-10-1718258236.159)
+[06-13-2024 05:57:17] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-10-1718258236.159)
+[06-13-2024 05:57:17] [RosPy] [D] Transitioning to ACTIVE (from WAITING_FOR_GOAL_ACK, goal: /niryo_robot_project-11-1718258237.212)
+[06-13-2024 05:57:19] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-11-1718258237.212)
+[06-13-2024 05:57:19] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-11-1718258237.212)
+[06-13-2024 05:57:19] [TrajectoryPlayer] [D] [start] Playing step number 1: start point ([StepValue(False), StepValue([0.00079, 0.49941, -1.25062, -0.00144, -0.00316, 0.70572])])
+[06-13-2024 05:57:19] [TrajectoryPlayer] [D] [start] Playing step number 2: id (33)
+[06-13-2024 05:57:19] [TrajectoryPlayer] [D] [start] Playing step number 3: label (start)
+[06-13-2024 05:57:19] [RosPy] [D] Transitioning to ACTIVE (from WAITING_FOR_GOAL_ACK, goal: /niryo_robot_project-12-1718258239.551)
+[06-13-2024 05:57:20] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-12-1718258239.551)
+[06-13-2024 05:57:20] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-12-1718258239.551)
+[06-13-2024 05:57:20] [TrajectoryPlayer] [D] [start] Playing step number 4: tool (False)
+[06-13-2024 05:57:20] [RosPy] [D] Transitioning to ACTIVE (from WAITING_FOR_GOAL_ACK, goal: /niryo_robot_project-13-1718258240.574)
+[06-13-2024 05:57:23] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-13-1718258240.574)
+[06-13-2024 05:57:23] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-13-1718258240.574)
+[06-13-2024 05:57:23] [TrajectoryPlayer] [D] [start] Playing step number 5: movement ([1.4101, 0.33276, -0.4583, 0.00469, -1.50033, 0.71186])
+[06-13-2024 06:00:32] [RosPy] [D] Transitioning to WAITING_FOR_CANCEL_ACK (from DONE, goal: /niryo_robot_project-13-1718258240.574)
+[06-13-2024 06:00:32] [RosPy] [D] connecting to ('ned2', 52863)
+[06-13-2024 06:00:32] [RosPy] [D] connecting to ned2 52863
+[06-13-2024 06:00:32] [RosPy] [D] Transitioning to RECALLING (from WAITING_FOR_CANCEL_ACK, goal: /niryo_robot_project-13-1718258240.574)
+[06-13-2024 06:00:32] [RosPy] [I] Received comm state RECALLING when in simple state DONE with SimpleActionClient in NS /niryo_robot_arm_commander/robot_action
+[06-13-2024 06:00:33] [TrajectoryPlayer] [D] [start] Playing step number 0: file name (33-start.trj)
+[06-13-2024 06:00:33] [RosPy] [D] Transitioning to ACTIVE (from WAITING_FOR_GOAL_ACK, goal: /niryo_robot_project-14-1718258433.003)
+[06-13-2024 06:00:34] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-14-1718258433.003)
+[06-13-2024 06:00:34] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-14-1718258433.003)
+[06-13-2024 06:00:34] [RosPy] [D] Transitioning to ACTIVE (from WAITING_FOR_GOAL_ACK, goal: /niryo_robot_project-15-1718258434.021)
+[06-13-2024 06:00:36] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-15-1718258434.021)
+[06-13-2024 06:00:36] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-15-1718258434.021)
+[06-13-2024 06:00:36] [TrajectoryPlayer] [D] [start] Playing step number 1: start point ([StepValue(False), StepValue([0.00079, 0.49941, -1.25062, -0.00144, -0.00316, 0.70572])])
+[06-13-2024 06:00:36] [TrajectoryPlayer] [D] [start] Playing step number 2: id (33)
+[06-13-2024 06:00:36] [TrajectoryPlayer] [D] [start] Playing step number 3: label (start)
+[06-13-2024 06:00:36] [RosPy] [D] Transitioning to ACTIVE (from WAITING_FOR_GOAL_ACK, goal: /niryo_robot_project-16-1718258436.425)
+[06-13-2024 06:00:37] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-16-1718258436.425)
+[06-13-2024 06:00:37] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-16-1718258436.425)
+[06-13-2024 06:00:37] [TrajectoryPlayer] [D] [start] Playing step number 4: tool (False)
+[06-13-2024 06:00:37] [RosPy] [D] Transitioning to ACTIVE (from WAITING_FOR_GOAL_ACK, goal: /niryo_robot_project-17-1718258437.451)
+[06-13-2024 06:00:39] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-17-1718258437.451)
+[06-13-2024 06:00:39] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-17-1718258437.451)
+[06-13-2024 06:00:39] [TrajectoryPlayer] [D] [start] Playing step number 5: movement ([1.4101, 0.33276, -0.4583, 0.00469, -1.50033, 0.71186])
+[06-13-2024 06:03:12] [RosPy] [D] Transitioning to WAITING_FOR_CANCEL_ACK (from DONE, goal: /niryo_robot_project-17-1718258437.451)
+[06-13-2024 06:03:12] [RosPy] [D] connecting to ('ned2', 52863)
+[06-13-2024 06:03:12] [RosPy] [D] connecting to ned2 52863
+[06-13-2024 06:03:12] [TrajectoryPlayer] [D] [start] Playing step number 0: file name (33-start.trj)
+[06-13-2024 06:03:12] [RosPy] [D] Transitioning to ACTIVE (from WAITING_FOR_GOAL_ACK, goal: /niryo_robot_project-18-1718258592.877)
+[06-13-2024 06:03:12] [RosPy] [D] Transitioning to RECALLING (from WAITING_FOR_CANCEL_ACK, goal: /niryo_robot_project-17-1718258437.451)
+[06-13-2024 06:03:12] [RosPy] [I] Received comm state RECALLING when in simple state DONE with SimpleActionClient in NS /niryo_robot_arm_commander/robot_action
+[06-13-2024 06:03:13] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-18-1718258592.877)
+[06-13-2024 06:03:13] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-18-1718258592.877)
+[06-13-2024 06:03:13] [RosPy] [D] Transitioning to ACTIVE (from WAITING_FOR_GOAL_ACK, goal: /niryo_robot_project-19-1718258593.906)
+[06-13-2024 06:03:16] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-19-1718258593.906)
+[06-13-2024 06:03:16] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-19-1718258593.906)
+[06-13-2024 06:03:16] [TrajectoryPlayer] [D] [start] Playing step number 1: start point ([StepValue(False), StepValue([0.00079, 0.49941, -1.25062, -0.00144, -0.00316, 0.70572])])
+[06-13-2024 06:03:16] [TrajectoryPlayer] [D] [start] Playing step number 2: id (33)
+[06-13-2024 06:03:16] [TrajectoryPlayer] [D] [start] Playing step number 3: label (start)
+[06-13-2024 06:03:16] [RosPy] [D] Transitioning to ACTIVE (from WAITING_FOR_GOAL_ACK, goal: /niryo_robot_project-20-1718258596.345)
+[06-13-2024 06:03:17] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-20-1718258596.345)
+[06-13-2024 06:03:17] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-20-1718258596.345)
+[06-13-2024 06:03:17] [TrajectoryPlayer] [D] [start] Playing step number 4: tool (False)
+[06-13-2024 06:03:17] [RosPy] [D] Transitioning to ACTIVE (from WAITING_FOR_GOAL_ACK, goal: /niryo_robot_project-21-1718258597.363)
+[06-13-2024 06:03:19] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-21-1718258597.363)
+[06-13-2024 06:03:19] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-21-1718258597.363)
+[06-13-2024 06:03:19] [TrajectoryPlayer] [D] [start] Playing step number 5: movement ([1.4101, 0.33276, -0.4583, 0.00469, -1.50033, 0.71186])
+[06-13-2024 06:04:06] [RosPy] [D] Transitioning to WAITING_FOR_CANCEL_ACK (from DONE, goal: /niryo_robot_project-21-1718258597.363)
+[06-13-2024 06:04:06] [RosPy] [D] Transitioning to RECALLING (from WAITING_FOR_CANCEL_ACK, goal: /niryo_robot_project-21-1718258597.363)
+[06-13-2024 06:04:06] [RosPy] [I] Received comm state RECALLING when in simple state DONE with SimpleActionClient in NS /niryo_robot_arm_commander/robot_action
+[06-13-2024 06:04:06] [RosPy] [D] connecting to ('ned2', 52863)
+[06-13-2024 06:04:06] [RosPy] [D] connecting to ned2 52863
+[06-13-2024 06:04:06] [TrajectoryPlayer] [D] [start] Playing step number 0: file name (33-start.trj)
+[06-13-2024 06:04:06] [RosPy] [D] Transitioning to ACTIVE (from WAITING_FOR_GOAL_ACK, goal: /niryo_robot_project-22-1718258646.723)
+[06-13-2024 06:04:07] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-22-1718258646.723)
+[06-13-2024 06:04:07] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-22-1718258646.723)
+[06-13-2024 06:04:07] [RosPy] [D] Transitioning to ACTIVE (from WAITING_FOR_GOAL_ACK, goal: /niryo_robot_project-23-1718258647.747)
+[06-13-2024 06:04:10] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-23-1718258647.747)
+[06-13-2024 06:04:10] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-23-1718258647.747)
+[06-13-2024 06:04:10] [TrajectoryPlayer] [D] [start] Playing step number 1: start point ([StepValue(False), StepValue([0.00079, 0.49941, -1.25062, -0.00144, -0.00316, 0.70572])])
+[06-13-2024 06:04:10] [TrajectoryPlayer] [D] [start] Playing step number 2: id (33)
+[06-13-2024 06:04:10] [TrajectoryPlayer] [D] [start] Playing step number 3: label (start)
+[06-13-2024 06:04:10] [RosPy] [D] Transitioning to ACTIVE (from WAITING_FOR_GOAL_ACK, goal: /niryo_robot_project-24-1718258650.183)
+[06-13-2024 06:04:11] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-24-1718258650.183)
+[06-13-2024 06:04:11] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-24-1718258650.183)
+[06-13-2024 06:04:11] [TrajectoryPlayer] [D] [start] Playing step number 4: tool (False)
+[06-13-2024 06:04:11] [RosPy] [D] Transitioning to ACTIVE (from WAITING_FOR_GOAL_ACK, goal: /niryo_robot_project-25-1718258651.204)
+[06-13-2024 06:04:13] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-25-1718258651.204)
+[06-13-2024 06:04:13] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-25-1718258651.204)
+[06-13-2024 06:04:13] [TrajectoryPlayer] [D] [start] Playing step number 5: movement ([1.4101, 0.33276, -0.4583, 0.00469, -1.50033, 0.71186])
+[06-13-2024 06:05:56] [RosPy] [D] Transitioning to WAITING_FOR_CANCEL_ACK (from DONE, goal: /niryo_robot_project-25-1718258651.204)
+[06-13-2024 06:05:56] [RosPy] [D] Transitioning to RECALLING (from WAITING_FOR_CANCEL_ACK, goal: /niryo_robot_project-25-1718258651.204)
+[06-13-2024 06:05:56] [RosPy] [I] Received comm state RECALLING when in simple state DONE with SimpleActionClient in NS /niryo_robot_arm_commander/robot_action
+[06-13-2024 06:05:56] [RosPy] [D] connecting to ('ned2', 52863)
+[06-13-2024 06:05:56] [RosPy] [D] connecting to ned2 52863
+[06-13-2024 06:05:56] [TrajectoryPlayer] [D] [start] Playing step number 0: file name (33-start.trj)
+[06-13-2024 06:05:56] [RosPy] [D] Transitioning to ACTIVE (from WAITING_FOR_GOAL_ACK, goal: /niryo_robot_project-26-1718258756.856)
+[06-13-2024 06:05:57] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-26-1718258756.856)
+[06-13-2024 06:05:57] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-26-1718258756.856)
+[06-13-2024 06:05:57] [RosPy] [D] Transitioning to ACTIVE (from WAITING_FOR_GOAL_ACK, goal: /niryo_robot_project-27-1718258757.872)
+[06-13-2024 06:06:00] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-27-1718258757.872)
+[06-13-2024 06:06:00] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-27-1718258757.872)
+[06-13-2024 06:06:00] [TrajectoryPlayer] [D] [start] Playing step number 1: start point ([StepValue(False), StepValue([0.00079, 0.49941, -1.25062, -0.00144, -0.00316, 0.70572])])
+[06-13-2024 06:06:00] [TrajectoryPlayer] [D] [start] Playing step number 2: id (33)
+[06-13-2024 06:06:00] [TrajectoryPlayer] [D] [start] Playing step number 3: label (start)
+[06-13-2024 06:06:00] [RosPy] [D] Transitioning to ACTIVE (from WAITING_FOR_GOAL_ACK, goal: /niryo_robot_project-28-1718258760.321)
+[06-13-2024 06:06:01] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-28-1718258760.321)
+[06-13-2024 06:06:01] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-28-1718258760.321)
+[06-13-2024 06:06:01] [TrajectoryPlayer] [D] [start] Playing step number 4: tool (False)
+[06-13-2024 06:06:01] [RosPy] [D] Transitioning to ACTIVE (from WAITING_FOR_GOAL_ACK, goal: /niryo_robot_project-29-1718258761.342)
+[06-13-2024 06:06:03] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-29-1718258761.342)
+[06-13-2024 06:06:03] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-29-1718258761.342)
+[06-13-2024 06:06:03] [TrajectoryPlayer] [D] [start] Playing step number 5: movement ([1.4101, 0.33276, -0.4583, 0.00469, -1.50033, 0.71186])
+[06-13-2024 06:06:27] [RosPy] [D] Transitioning to WAITING_FOR_CANCEL_ACK (from DONE, goal: /niryo_robot_project-29-1718258761.342)
+[06-13-2024 06:06:27] [RosPy] [D] connecting to ('ned2', 52863)
+[06-13-2024 06:06:27] [RosPy] [D] connecting to ned2 52863
+[06-13-2024 06:06:27] [RosPy] [D] Transitioning to RECALLING (from WAITING_FOR_CANCEL_ACK, goal: /niryo_robot_project-29-1718258761.342)
+[06-13-2024 06:06:27] [RosPy] [I] Received comm state RECALLING when in simple state DONE with SimpleActionClient in NS /niryo_robot_arm_commander/robot_action
+[06-13-2024 06:06:27] [TrajectoryPlayer] [D] [production] Playing step number 0: file name (40-production.trj)
+[06-13-2024 06:06:27] [RosPy] [D] Transitioning to ACTIVE (from WAITING_FOR_GOAL_ACK, goal: /niryo_robot_project-30-1718258787.612)
+[06-13-2024 06:06:28] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-30-1718258787.612)
+[06-13-2024 06:06:28] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-30-1718258787.612)
+[06-13-2024 06:06:28] [RosPy] [D] Transitioning to ACTIVE (from WAITING_FOR_GOAL_ACK, goal: /niryo_robot_project-31-1718258788.629)
+[06-13-2024 06:06:28] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-31-1718258788.629)
+[06-13-2024 06:06:28] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-31-1718258788.629)
+[06-13-2024 06:06:28] [TrajectoryPlayer] [D] [production] Playing step number 1: start point ([StepValue(False), StepValue([1.4101, 0.33276, -0.4583, 0.00469, -1.50033, 0.71186])])
+[06-13-2024 06:06:28] [TrajectoryPlayer] [D] [production] Playing step number 2: id (40)
+[06-13-2024 06:06:28] [TrajectoryPlayer] [D] [production] Playing step number 3: label (production)
+[06-13-2024 06:06:28] [RosPy] [D] Transitioning to ACTIVE (from WAITING_FOR_GOAL_ACK, goal: /niryo_robot_project-32-1718258788.857)
+[06-13-2024 06:06:29] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-32-1718258788.857)
+[06-13-2024 06:06:29] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-32-1718258788.857)
+[06-13-2024 06:06:29] [TrajectoryPlayer] [D] [production] Playing step number 4: tool (False)
+[06-13-2024 06:06:29] [RosPy] [D] connecting to ('ned2', 38555)
+[06-13-2024 06:06:29] [RosPy] [D] connecting to ned2 38555
+[06-13-2024 06:06:29] [TrajectoryPlayer] [D] [production] Playing step number 5: motor acceleration (200)
+[06-13-2024 06:06:29] [RosPy] [D] Transitioning to ACTIVE (from WAITING_FOR_GOAL_ACK, goal: /niryo_robot_project-33-1718258789.906)
+[06-13-2024 06:06:32] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-33-1718258789.906)
+[06-13-2024 06:06:32] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-33-1718258789.906)
+[06-13-2024 06:06:32] [TrajectoryPlayer] [D] [production] Playing step number 6: movement ([1.72209, -0.70194, 0.41582, -0.05513, -1.29631, -0.14257])
+[06-13-2024 06:06:32] [RosPy] [D] connecting to ('ned2', 38555)
+[06-13-2024 06:06:32] [RosPy] [D] connecting to ned2 38555
+[06-13-2024 06:06:32] [TrajectoryPlayer] [D] [production] Playing step number 7: motor acceleration (20)
+[06-13-2024 06:06:32] [RosPy] [D] Transitioning to ACTIVE (from WAITING_FOR_GOAL_ACK, goal: /niryo_robot_project-34-1718258792.464)
+[06-13-2024 06:06:33] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-34-1718258792.464)
+[06-13-2024 06:06:33] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-34-1718258792.464)
+[06-13-2024 06:06:33] [TrajectoryPlayer] [D] [production] Playing step number 8: movement ([1.72209, -0.74588, 0.39461, -0.05973, -1.29324, -0.14103])
+[06-13-2024 06:06:33] [RosPy] [D] Transitioning to ACTIVE (from WAITING_FOR_GOAL_ACK, goal: /niryo_robot_project-35-1718258793.085)
+[06-13-2024 06:06:34] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-35-1718258793.085)
+[06-13-2024 06:06:34] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-35-1718258793.085)
+[06-13-2024 06:06:34] [TrajectoryPlayer] [D] [production] Playing step number 9: tool (True)
+[06-13-2024 06:06:34] [RosPy] [D] Transitioning to ACTIVE (from WAITING_FOR_GOAL_ACK, goal: /niryo_robot_project-36-1718258794.107)
+[06-13-2024 06:06:35] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-36-1718258794.107)
+[06-13-2024 06:06:35] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-36-1718258794.107)
+[06-13-2024 06:06:35] [TrajectoryPlayer] [D] [production] Playing step number 10: movement ([1.716, -0.57923, 0.39613, -0.0582, -1.44203, 0.03231])
+[06-13-2024 06:06:35] [RosPy] [D] connecting to ('ned2', 38555)
+[06-13-2024 06:06:35] [RosPy] [D] connecting to ned2 38555
+[06-13-2024 06:06:35] [TrajectoryPlayer] [D] [production] Playing step number 11: motor acceleration (150)
+[06-13-2024 06:06:36] [RosPy] [D] Transitioning to ACTIVE (from WAITING_FOR_GOAL_ACK, goal: /niryo_robot_project-37-1718258795.994)
+[06-13-2024 06:06:37] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-37-1718258795.994)
+[06-13-2024 06:06:37] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-37-1718258795.994)
+[06-13-2024 06:06:37] [TrajectoryPlayer] [D] [production] Playing step number 12: movement ([0.53956, -0.50954, 0.3931, -0.04593, -1.44357, 0.03231])
+[06-13-2024 06:06:37] [RosPy] [D] Transitioning to ACTIVE (from WAITING_FOR_GOAL_ACK, goal: /niryo_robot_project-38-1718258797.817)
+[06-13-2024 06:06:39] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-38-1718258797.817)
+[06-13-2024 06:06:39] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-38-1718258797.817)
+[06-13-2024 06:06:39] [TrajectoryPlayer] [D] [production] Playing step number 13: movement ([0.50151, -0.73073, 0.48248, 0.16116, -1.68901, 0.37899])
+[06-13-2024 06:06:39] [RosPy] [D] Transitioning to ACTIVE (from WAITING_FOR_GOAL_ACK, goal: /niryo_robot_project-39-1718258799.044)
+[06-13-2024 06:06:40] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-39-1718258799.044)
+[06-13-2024 06:06:40] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-39-1718258799.044)
+[06-13-2024 06:06:40] [TrajectoryPlayer] [D] [production] Playing step number 14: tool (False)
+[06-13-2024 06:06:40] [RosPy] [D] connecting to ('ned2', 38555)
+[06-13-2024 06:06:40] [RosPy] [D] connecting to ned2 38555
+[06-13-2024 06:06:40] [TrajectoryPlayer] [D] [production] Playing step number 15: motor acceleration (200)
+[06-13-2024 06:06:40] [RosPy] [D] Transitioning to ACTIVE (from WAITING_FOR_GOAL_ACK, goal: /niryo_robot_project-40-1718258800.110)
+[06-13-2024 06:06:42] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-40-1718258800.110)
+[06-13-2024 06:06:42] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-40-1718258800.110)
+[06-13-2024 06:06:42] [TrajectoryPlayer] [D] [production] Playing step number 16: movement ([1.4101, 0.33276, -0.4583, 0.00469, -1.50033, 0.71186])
+[06-13-2024 06:06:47] [RosPy] [D] Transitioning to WAITING_FOR_CANCEL_ACK (from DONE, goal: /niryo_robot_project-40-1718258800.110)
+[06-13-2024 06:06:47] [RosPy] [D] connecting to ('ned2', 52863)
+[06-13-2024 06:06:47] [RosPy] [D] connecting to ned2 52863
+[06-13-2024 06:06:48] [TrajectoryPlayer] [D] [start] Playing step number 0: file name (33-start.trj)
+[06-13-2024 06:06:48] [RosPy] [D] Transitioning to ACTIVE (from WAITING_FOR_GOAL_ACK, goal: /niryo_robot_project-41-1718258808.077)
+[06-13-2024 06:06:48] [RosPy] [D] Transitioning to RECALLING (from WAITING_FOR_CANCEL_ACK, goal: /niryo_robot_project-40-1718258800.110)
+[06-13-2024 06:06:48] [RosPy] [I] Received comm state RECALLING when in simple state DONE with SimpleActionClient in NS /niryo_robot_arm_commander/robot_action
+[06-13-2024 06:06:49] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-41-1718258808.077)
+[06-13-2024 06:06:49] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-41-1718258808.077)
+[06-13-2024 06:06:49] [RosPy] [D] Transitioning to ACTIVE (from WAITING_FOR_GOAL_ACK, goal: /niryo_robot_project-42-1718258809.095)
+[06-13-2024 06:06:51] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-42-1718258809.095)
+[06-13-2024 06:06:51] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-42-1718258809.095)
+[06-13-2024 06:06:51] [TrajectoryPlayer] [D] [start] Playing step number 1: start point ([StepValue(False), StepValue([0.00079, 0.49941, -1.25062, -0.00144, -0.00316, 0.70572])])
+[06-13-2024 06:06:51] [TrajectoryPlayer] [D] [start] Playing step number 2: id (33)
+[06-13-2024 06:06:51] [TrajectoryPlayer] [D] [start] Playing step number 3: label (start)
+[06-13-2024 06:06:51] [RosPy] [D] Transitioning to ACTIVE (from WAITING_FOR_GOAL_ACK, goal: /niryo_robot_project-43-1718258811.061)
+[06-13-2024 06:06:52] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-43-1718258811.061)
+[06-13-2024 06:06:52] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-43-1718258811.061)
+[06-13-2024 06:06:52] [TrajectoryPlayer] [D] [start] Playing step number 4: tool (False)
+[06-13-2024 06:06:52] [RosPy] [D] Transitioning to ACTIVE (from WAITING_FOR_GOAL_ACK, goal: /niryo_robot_project-44-1718258812.082)
+[06-13-2024 06:06:54] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-44-1718258812.082)
+[06-13-2024 06:06:54] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-44-1718258812.082)
+[06-13-2024 06:06:54] [TrajectoryPlayer] [D] [start] Playing step number 5: movement ([1.4101, 0.33276, -0.4583, 0.00469, -1.50033, 0.71186])
+[06-13-2024 06:08:14] [RosPy] [D] Transitioning to WAITING_FOR_CANCEL_ACK (from DONE, goal: /niryo_robot_project-44-1718258812.082)
+[06-13-2024 06:08:14] [RosPy] [D] connecting to ('ned2', 52863)
+[06-13-2024 06:08:14] [RosPy] [D] connecting to ned2 52863
+[06-13-2024 06:08:14] [RosPy] [D] Transitioning to RECALLING (from WAITING_FOR_CANCEL_ACK, goal: /niryo_robot_project-44-1718258812.082)
+[06-13-2024 06:08:14] [RosPy] [I] Received comm state RECALLING when in simple state DONE with SimpleActionClient in NS /niryo_robot_arm_commander/robot_action
+[06-13-2024 06:08:14] [TrajectoryPlayer] [D] [start] Playing step number 0: file name (33-start.trj)
+[06-13-2024 06:08:14] [RosPy] [D] Transitioning to ACTIVE (from WAITING_FOR_GOAL_ACK, goal: /niryo_robot_project-45-1718258894.835)
+[06-13-2024 06:08:15] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-45-1718258894.835)
+[06-13-2024 06:08:15] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-45-1718258894.835)
+[06-13-2024 06:08:15] [RosPy] [D] Transitioning to ACTIVE (from WAITING_FOR_GOAL_ACK, goal: /niryo_robot_project-46-1718258895.862)
+[06-13-2024 06:08:17] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-46-1718258895.862)
+[06-13-2024 06:08:17] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-46-1718258895.862)
+[06-13-2024 06:08:17] [TrajectoryPlayer] [D] [start] Playing step number 1: start point ([StepValue(False), StepValue([0.00079, 0.49941, -1.25062, -0.00144, -0.00316, 0.70572])])
+[06-13-2024 06:08:17] [TrajectoryPlayer] [D] [start] Playing step number 2: id (33)
+[06-13-2024 06:08:17] [TrajectoryPlayer] [D] [start] Playing step number 3: label (start)
+[06-13-2024 06:08:17] [RosPy] [D] Transitioning to ACTIVE (from WAITING_FOR_GOAL_ACK, goal: /niryo_robot_project-47-1718258897.837)
+[06-13-2024 06:08:18] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-47-1718258897.837)
+[06-13-2024 06:08:18] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-47-1718258897.837)
+[06-13-2024 06:08:18] [TrajectoryPlayer] [D] [start] Playing step number 4: tool (False)
+[06-13-2024 06:08:18] [RosPy] [D] Transitioning to ACTIVE (from WAITING_FOR_GOAL_ACK, goal: /niryo_robot_project-48-1718258898.869)
+[06-13-2024 06:08:20] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-48-1718258898.869)
+[06-13-2024 06:08:20] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-48-1718258898.869)
+[06-13-2024 06:08:20] [TrajectoryPlayer] [D] [start] Playing step number 5: movement ([1.4101, 0.33276, -0.4583, 0.00469, -1.50033, 0.71186])
+[06-13-2024 06:08:59] [RosPy] [D] Transitioning to WAITING_FOR_CANCEL_ACK (from DONE, goal: /niryo_robot_project-48-1718258898.869)
+[06-13-2024 06:08:59] [RosPy] [D] connecting to ('ned2', 52863)
+[06-13-2024 06:08:59] [RosPy] [D] connecting to ned2 52863
+[06-13-2024 06:08:59] [RosPy] [D] Transitioning to RECALLING (from WAITING_FOR_CANCEL_ACK, goal: /niryo_robot_project-48-1718258898.869)
+[06-13-2024 06:08:59] [RosPy] [I] Received comm state RECALLING when in simple state DONE with SimpleActionClient in NS /niryo_robot_arm_commander/robot_action
+[06-13-2024 06:08:59] [TrajectoryPlayer] [D] [start] Playing step number 0: file name (33-start.trj)
+[06-13-2024 06:08:59] [RosPy] [D] Transitioning to ACTIVE (from WAITING_FOR_GOAL_ACK, goal: /niryo_robot_project-49-1718258939.240)
+[06-13-2024 06:09:00] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-49-1718258939.240)
+[06-13-2024 06:09:00] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-49-1718258939.240)
+[06-13-2024 06:09:00] [RosPy] [D] Transitioning to ACTIVE (from WAITING_FOR_GOAL_ACK, goal: /niryo_robot_project-50-1718258940.262)
+[06-13-2024 06:09:02] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-50-1718258940.262)
+[06-13-2024 06:09:02] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-50-1718258940.262)
+[06-13-2024 06:09:02] [TrajectoryPlayer] [D] [start] Playing step number 1: start point ([StepValue(False), StepValue([0.00079, 0.49941, -1.25062, -0.00144, -0.00316, 0.70572])])
+[06-13-2024 06:09:02] [TrajectoryPlayer] [D] [start] Playing step number 2: id (33)
+[06-13-2024 06:09:02] [TrajectoryPlayer] [D] [start] Playing step number 3: label (start)
+[06-13-2024 06:09:02] [RosPy] [D] Transitioning to ACTIVE (from WAITING_FOR_GOAL_ACK, goal: /niryo_robot_project-51-1718258942.163)
+[06-13-2024 06:09:03] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-51-1718258942.163)
+[06-13-2024 06:09:03] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-51-1718258942.163)
+[06-13-2024 06:09:03] [TrajectoryPlayer] [D] [start] Playing step number 4: tool (False)
+[06-13-2024 06:09:03] [RosPy] [D] Transitioning to ACTIVE (from WAITING_FOR_GOAL_ACK, goal: /niryo_robot_project-52-1718258943.208)
+[06-13-2024 06:09:05] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-52-1718258943.208)
+[06-13-2024 06:09:05] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-52-1718258943.208)
+[06-13-2024 06:09:05] [TrajectoryPlayer] [D] [start] Playing step number 5: movement ([1.4101, 0.33276, -0.4583, 0.00469, -1.50033, 0.71186])
+[06-13-2024 06:09:40] [RosPy] [D] Transitioning to WAITING_FOR_CANCEL_ACK (from DONE, goal: /niryo_robot_project-52-1718258943.208)
+[06-13-2024 06:09:40] [RosPy] [D] connecting to ('ned2', 52863)
+[06-13-2024 06:09:40] [RosPy] [D] connecting to ned2 52863
+[06-13-2024 06:09:40] [TrajectoryPlayer] [D] [start] Playing step number 0: file name (33-start.trj)
+[06-13-2024 06:09:40] [RosPy] [D] Transitioning to ACTIVE (from WAITING_FOR_GOAL_ACK, goal: /niryo_robot_project-53-1718258980.687)
+[06-13-2024 06:09:40] [RosPy] [D] Transitioning to RECALLING (from WAITING_FOR_CANCEL_ACK, goal: /niryo_robot_project-52-1718258943.208)
+[06-13-2024 06:09:40] [RosPy] [I] Received comm state RECALLING when in simple state DONE with SimpleActionClient in NS /niryo_robot_arm_commander/robot_action
+[06-13-2024 06:09:41] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-53-1718258980.687)
+[06-13-2024 06:09:41] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-53-1718258980.687)
+[06-13-2024 06:09:41] [RosPy] [D] Transitioning to ACTIVE (from WAITING_FOR_GOAL_ACK, goal: /niryo_robot_project-54-1718258981.731)
+[06-13-2024 06:09:43] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-54-1718258981.731)
+[06-13-2024 06:09:43] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-54-1718258981.731)
+[06-13-2024 06:09:43] [TrajectoryPlayer] [D] [start] Playing step number 1: start point ([StepValue(False), StepValue([0.00079, 0.49941, -1.25062, -0.00144, -0.00316, 0.70572])])
+[06-13-2024 06:09:43] [TrajectoryPlayer] [D] [start] Playing step number 2: id (33)
+[06-13-2024 06:09:43] [TrajectoryPlayer] [D] [start] Playing step number 3: label (start)
+[06-13-2024 06:09:43] [RosPy] [D] Transitioning to ACTIVE (from WAITING_FOR_GOAL_ACK, goal: /niryo_robot_project-55-1718258983.684)
+[06-13-2024 06:09:44] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-55-1718258983.684)
+[06-13-2024 06:09:44] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-55-1718258983.684)
+[06-13-2024 06:09:44] [TrajectoryPlayer] [D] [start] Playing step number 4: tool (False)
+[06-13-2024 06:09:44] [RosPy] [D] Transitioning to ACTIVE (from WAITING_FOR_GOAL_ACK, goal: /niryo_robot_project-56-1718258984.703)
+[06-13-2024 06:09:46] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-56-1718258984.703)
+[06-13-2024 06:09:46] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-56-1718258984.703)
+[06-13-2024 06:09:46] [TrajectoryPlayer] [D] [start] Playing step number 5: movement ([1.4101, 0.33276, -0.4583, 0.00469, -1.50033, 0.71186])
+[06-13-2024 06:13:15] [RosPy] [D] Transitioning to WAITING_FOR_CANCEL_ACK (from DONE, goal: /niryo_robot_project-56-1718258984.703)
+[06-13-2024 06:13:15] [RosPy] [D] connecting to ('ned2', 52863)
+[06-13-2024 06:13:15] [RosPy] [D] connecting to ned2 52863
+[06-13-2024 06:13:15] [TrajectoryPlayer] [D] [start] Playing step number 0: file name (33-start.trj)
+[06-13-2024 06:13:15] [RosPy] [D] Transitioning to ACTIVE (from WAITING_FOR_GOAL_ACK, goal: /niryo_robot_project-57-1718259195.918)
+[06-13-2024 06:13:15] [RosPy] [D] Transitioning to RECALLING (from WAITING_FOR_CANCEL_ACK, goal: /niryo_robot_project-56-1718258984.703)
+[06-13-2024 06:13:15] [RosPy] [I] Received comm state RECALLING when in simple state DONE with SimpleActionClient in NS /niryo_robot_arm_commander/robot_action
+[06-13-2024 06:13:16] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-57-1718259195.918)
+[06-13-2024 06:13:16] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-57-1718259195.918)
+[06-13-2024 06:13:16] [RosPy] [D] Transitioning to ACTIVE (from WAITING_FOR_GOAL_ACK, goal: /niryo_robot_project-58-1718259196.954)
+[06-13-2024 06:13:18] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-58-1718259196.954)
+[06-13-2024 06:13:18] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-58-1718259196.954)
+[06-13-2024 06:13:18] [TrajectoryPlayer] [D] [start] Playing step number 1: start point ([StepValue(False), StepValue([0.00079, 0.49941, -1.25062, -0.00144, -0.00316, 0.70572])])
+[06-13-2024 06:13:18] [TrajectoryPlayer] [D] [start] Playing step number 2: id (33)
+[06-13-2024 06:13:18] [TrajectoryPlayer] [D] [start] Playing step number 3: label (start)
+[06-13-2024 06:13:18] [RosPy] [D] Transitioning to ACTIVE (from WAITING_FOR_GOAL_ACK, goal: /niryo_robot_project-59-1718259198.870)
+[06-13-2024 06:13:19] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-59-1718259198.870)
+[06-13-2024 06:13:19] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-59-1718259198.870)
+[06-13-2024 06:13:19] [TrajectoryPlayer] [D] [start] Playing step number 4: tool (False)
+[06-13-2024 06:13:19] [RosPy] [D] Transitioning to ACTIVE (from WAITING_FOR_GOAL_ACK, goal: /niryo_robot_project-60-1718259199.894)
+[06-13-2024 06:13:21] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-60-1718259199.894)
+[06-13-2024 06:13:21] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-60-1718259199.894)
+[06-13-2024 06:13:21] [TrajectoryPlayer] [D] [start] Playing step number 5: movement ([1.4101, 0.33276, -0.4583, 0.00469, -1.50033, 0.71186])
+[06-13-2024 06:16:17] [RosPy] [D] Transitioning to WAITING_FOR_CANCEL_ACK (from DONE, goal: /niryo_robot_project-60-1718259199.894)
+[06-13-2024 06:16:17] [RosPy] [D] connecting to ('ned2', 52863)
+[06-13-2024 06:16:17] [RosPy] [D] connecting to ned2 52863
+[06-13-2024 06:16:17] [TrajectoryPlayer] [D] [start] Playing step number 0: file name (33-start.trj)
+[06-13-2024 06:16:17] [RosPy] [D] Transitioning to ACTIVE (from WAITING_FOR_GOAL_ACK, goal: /niryo_robot_project-61-1718259377.462)
+[06-13-2024 06:16:17] [RosPy] [D] Transitioning to RECALLING (from WAITING_FOR_CANCEL_ACK, goal: /niryo_robot_project-60-1718259199.894)
+[06-13-2024 06:16:17] [RosPy] [I] Received comm state RECALLING when in simple state DONE with SimpleActionClient in NS /niryo_robot_arm_commander/robot_action
+[06-13-2024 06:16:18] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-61-1718259377.462)
+[06-13-2024 06:16:18] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-61-1718259377.462)
+[06-13-2024 06:16:18] [RosPy] [D] Transitioning to ACTIVE (from WAITING_FOR_GOAL_ACK, goal: /niryo_robot_project-62-1718259378.474)
+[06-13-2024 06:16:20] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-62-1718259378.474)
+[06-13-2024 06:16:20] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-62-1718259378.474)
+[06-13-2024 06:16:20] [TrajectoryPlayer] [D] [start] Playing step number 1: start point ([StepValue(False), StepValue([0.00079, 0.49941, -1.25062, -0.00144, -0.00316, 0.70572])])
+[06-13-2024 06:16:20] [TrajectoryPlayer] [D] [start] Playing step number 2: id (33)
+[06-13-2024 06:16:20] [TrajectoryPlayer] [D] [start] Playing step number 3: label (start)
+[06-13-2024 06:16:20] [RosPy] [D] Transitioning to ACTIVE (from WAITING_FOR_GOAL_ACK, goal: /niryo_robot_project-63-1718259380.378)
+[06-13-2024 06:16:21] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-63-1718259380.378)
+[06-13-2024 06:16:21] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-63-1718259380.378)
+[06-13-2024 06:16:21] [TrajectoryPlayer] [D] [start] Playing step number 4: tool (False)
+[06-13-2024 06:16:21] [RosPy] [D] Transitioning to ACTIVE (from WAITING_FOR_GOAL_ACK, goal: /niryo_robot_project-64-1718259381.394)
+[06-13-2024 06:16:23] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-64-1718259381.394)
+[06-13-2024 06:16:23] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-64-1718259381.394)
+[06-13-2024 06:16:23] [TrajectoryPlayer] [D] [start] Playing step number 5: movement ([1.4101, 0.33276, -0.4583, 0.00469, -1.50033, 0.71186])
+[06-13-2024 06:16:49] [RosPy] [D] Transitioning to WAITING_FOR_CANCEL_ACK (from DONE, goal: /niryo_robot_project-64-1718259381.394)
+[06-13-2024 06:16:49] [RosPy] [D] connecting to ('ned2', 52863)
+[06-13-2024 06:16:49] [RosPy] [D] connecting to ned2 52863
+[06-13-2024 06:16:49] [TrajectoryPlayer] [D] [production] Playing step number 0: file name (40-production.trj)
+[06-13-2024 06:16:49] [RosPy] [D] Transitioning to ACTIVE (from WAITING_FOR_GOAL_ACK, goal: /niryo_robot_project-65-1718259409.872)
+[06-13-2024 06:16:49] [RosPy] [D] Transitioning to RECALLING (from WAITING_FOR_CANCEL_ACK, goal: /niryo_robot_project-64-1718259381.394)
+[06-13-2024 06:16:49] [RosPy] [I] Received comm state RECALLING when in simple state DONE with SimpleActionClient in NS /niryo_robot_arm_commander/robot_action
+[06-13-2024 06:16:50] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-65-1718259409.872)
+[06-13-2024 06:16:50] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-65-1718259409.872)
+[06-13-2024 06:16:50] [RosPy] [D] Transitioning to ACTIVE (from WAITING_FOR_GOAL_ACK, goal: /niryo_robot_project-66-1718259410.886)
+[06-13-2024 06:16:51] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-66-1718259410.886)
+[06-13-2024 06:16:51] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-66-1718259410.886)
+[06-13-2024 06:16:51] [TrajectoryPlayer] [D] [production] Playing step number 1: start point ([StepValue(False), StepValue([1.4101, 0.33276, -0.4583, 0.00469, -1.50033, 0.71186])])
+[06-13-2024 06:16:51] [TrajectoryPlayer] [D] [production] Playing step number 2: id (40)
+[06-13-2024 06:16:51] [TrajectoryPlayer] [D] [production] Playing step number 3: label (production)
+[06-13-2024 06:16:51] [RosPy] [D] Transitioning to ACTIVE (from WAITING_FOR_GOAL_ACK, goal: /niryo_robot_project-67-1718259411.065)
+[06-13-2024 06:16:52] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-67-1718259411.065)
+[06-13-2024 06:16:52] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-67-1718259411.065)
+[06-13-2024 06:16:52] [TrajectoryPlayer] [D] [production] Playing step number 4: tool (False)
+[06-13-2024 06:16:52] [RosPy] [D] connecting to ('ned2', 38555)
+[06-13-2024 06:16:52] [RosPy] [D] connecting to ned2 38555
+[06-13-2024 06:16:52] [TrajectoryPlayer] [D] [production] Playing step number 5: motor acceleration (200)
+[06-13-2024 06:16:52] [RosPy] [D] Transitioning to ACTIVE (from WAITING_FOR_GOAL_ACK, goal: /niryo_robot_project-68-1718259412.102)
+[06-13-2024 06:16:54] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-68-1718259412.102)
+[06-13-2024 06:16:54] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-68-1718259412.102)
+[06-13-2024 06:16:54] [TrajectoryPlayer] [D] [production] Playing step number 6: movement ([1.72209, -0.70194, 0.41582, -0.05513, -1.29631, -0.14257])
+[06-13-2024 06:16:54] [RosPy] [D] connecting to ('ned2', 38555)
+[06-13-2024 06:16:54] [RosPy] [D] connecting to ned2 38555
+[06-13-2024 06:16:54] [TrajectoryPlayer] [D] [production] Playing step number 7: motor acceleration (20)
+[06-13-2024 06:16:54] [RosPy] [D] Transitioning to ACTIVE (from WAITING_FOR_GOAL_ACK, goal: /niryo_robot_project-69-1718259414.662)
+[06-13-2024 06:16:55] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-69-1718259414.662)
+[06-13-2024 06:16:55] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-69-1718259414.662)
+[06-13-2024 06:16:55] [TrajectoryPlayer] [D] [production] Playing step number 8: movement ([1.72209, -0.74588, 0.39461, -0.05973, -1.29324, -0.14103])
+[06-13-2024 06:16:55] [RosPy] [D] Transitioning to ACTIVE (from WAITING_FOR_GOAL_ACK, goal: /niryo_robot_project-70-1718259415.270)
+[06-13-2024 06:16:56] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-70-1718259415.270)
+[06-13-2024 06:16:56] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-70-1718259415.270)
+[06-13-2024 06:16:56] [TrajectoryPlayer] [D] [production] Playing step number 9: tool (True)
+[06-13-2024 06:16:56] [RosPy] [D] Transitioning to ACTIVE (from WAITING_FOR_GOAL_ACK, goal: /niryo_robot_project-71-1718259416.290)
+[06-13-2024 06:16:58] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-71-1718259416.290)
+[06-13-2024 06:16:58] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-71-1718259416.290)
+[06-13-2024 06:16:58] [TrajectoryPlayer] [D] [production] Playing step number 10: movement ([1.716, -0.57923, 0.39613, -0.0582, -1.44203, 0.03231])
+[06-13-2024 06:16:58] [RosPy] [D] connecting to ('ned2', 38555)
+[06-13-2024 06:16:58] [RosPy] [D] connecting to ned2 38555
+[06-13-2024 06:16:58] [TrajectoryPlayer] [D] [production] Playing step number 11: motor acceleration (150)
+[06-13-2024 06:16:58] [RosPy] [D] Transitioning to ACTIVE (from WAITING_FOR_GOAL_ACK, goal: /niryo_robot_project-72-1718259418.110)
+[06-13-2024 06:16:59] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-72-1718259418.110)
+[06-13-2024 06:16:59] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-72-1718259418.110)
+[06-13-2024 06:16:59] [TrajectoryPlayer] [D] [production] Playing step number 12: movement ([0.53956, -0.50954, 0.3931, -0.04593, -1.44357, 0.03231])
+[06-13-2024 06:16:59] [RosPy] [D] Transitioning to ACTIVE (from WAITING_FOR_GOAL_ACK, goal: /niryo_robot_project-73-1718259419.929)
+[06-13-2024 06:17:01] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-73-1718259419.929)
+[06-13-2024 06:17:01] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-73-1718259419.929)
+[06-13-2024 06:17:01] [TrajectoryPlayer] [D] [production] Playing step number 13: movement ([0.50151, -0.73073, 0.48248, 0.16116, -1.68901, 0.37899])
+[06-13-2024 06:17:01] [RosPy] [D] Transitioning to ACTIVE (from WAITING_FOR_GOAL_ACK, goal: /niryo_robot_project-74-1718259421.123)
+[06-13-2024 06:17:02] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-74-1718259421.123)
+[06-13-2024 06:17:02] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-74-1718259421.123)
+[06-13-2024 06:17:02] [TrajectoryPlayer] [D] [production] Playing step number 14: tool (False)
+[06-13-2024 06:17:02] [RosPy] [D] connecting to ('ned2', 38555)
+[06-13-2024 06:17:02] [RosPy] [D] connecting to ned2 38555
+[06-13-2024 06:17:02] [TrajectoryPlayer] [D] [production] Playing step number 15: motor acceleration (200)
+[06-13-2024 06:17:02] [RosPy] [D] Transitioning to ACTIVE (from WAITING_FOR_GOAL_ACK, goal: /niryo_robot_project-75-1718259422.194)
+[06-13-2024 06:17:04] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-75-1718259422.194)
+[06-13-2024 06:17:04] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-75-1718259422.194)
+[06-13-2024 06:17:04] [TrajectoryPlayer] [D] [production] Playing step number 16: movement ([1.4101, 0.33276, -0.4583, 0.00469, -1.50033, 0.71186])
+[06-13-2024 06:17:41] [RosPy] [D] Transitioning to WAITING_FOR_CANCEL_ACK (from DONE, goal: /niryo_robot_project-75-1718259422.194)
+[06-13-2024 06:17:41] [RosPy] [D] connecting to ('ned2', 52863)
+[06-13-2024 06:17:41] [RosPy] [D] connecting to ned2 52863
+[06-13-2024 06:17:41] [RosPy] [D] Transitioning to RECALLING (from WAITING_FOR_CANCEL_ACK, goal: /niryo_robot_project-75-1718259422.194)
+[06-13-2024 06:17:41] [RosPy] [I] Received comm state RECALLING when in simple state DONE with SimpleActionClient in NS /niryo_robot_arm_commander/robot_action
+[06-13-2024 06:17:41] [TrajectoryPlayer] [D] [start] Playing step number 0: file name (33-start.trj)
+[06-13-2024 06:17:41] [RosPy] [D] Transitioning to ACTIVE (from WAITING_FOR_GOAL_ACK, goal: /niryo_robot_project-76-1718259461.806)
+[06-13-2024 06:17:42] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-76-1718259461.806)
+[06-13-2024 06:17:42] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-76-1718259461.806)
+[06-13-2024 06:17:42] [RosPy] [D] Transitioning to ACTIVE (from WAITING_FOR_GOAL_ACK, goal: /niryo_robot_project-77-1718259462.818)
+[06-13-2024 06:17:44] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-77-1718259462.818)
+[06-13-2024 06:17:44] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-77-1718259462.818)
+[06-13-2024 06:17:44] [TrajectoryPlayer] [D] [start] Playing step number 1: start point ([StepValue(False), StepValue([0.00079, 0.49941, -1.25062, -0.00144, -0.00316, 0.70572])])
+[06-13-2024 06:17:44] [TrajectoryPlayer] [D] [start] Playing step number 2: id (33)
+[06-13-2024 06:17:44] [TrajectoryPlayer] [D] [start] Playing step number 3: label (start)
+[06-13-2024 06:17:44] [RosPy] [D] Transitioning to ACTIVE (from WAITING_FOR_GOAL_ACK, goal: /niryo_robot_project-78-1718259464.721)
+[06-13-2024 06:17:45] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-78-1718259464.721)
+[06-13-2024 06:17:45] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-78-1718259464.721)
+[06-13-2024 06:17:45] [TrajectoryPlayer] [D] [start] Playing step number 4: tool (False)
+[06-13-2024 06:17:45] [RosPy] [D] Transitioning to ACTIVE (from WAITING_FOR_GOAL_ACK, goal: /niryo_robot_project-79-1718259465.743)
+[06-13-2024 06:17:47] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-79-1718259465.743)
+[06-13-2024 06:17:47] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-79-1718259465.743)
+[06-13-2024 06:17:47] [TrajectoryPlayer] [D] [start] Playing step number 5: movement ([1.4101, 0.33276, -0.4583, 0.00469, -1.50033, 0.71186])
+[06-13-2024 06:27:06] [RosPy] [D] connecting to ned2 42853
+[06-13-2024 06:27:06] [RosPy] [D] [/niryo_robot/collision_detected] failed to receive incoming message : unable to receive data from sender, check sender's logs for details
+[06-13-2024 06:27:06] [RosPy] [D] [/niryo_robot/collision_detected] failed to receive incoming message : unable to receive data from sender, check sender's logs for details
+[06-13-2024 06:27:06] [RosPy] [D] [/niryo_robot/collision_detected] failed to receive incoming message : unable to receive data from sender, check sender's logs for details
+[06-13-2024 06:27:06] [RosPy] [D] [/niryo_robot_sound/sound_database] failed to receive incoming message : unable to receive data from sender, check sender's logs for details
+[06-13-2024 06:27:06] [RosPy] [D] [/niryo_robot/collision_detected] failed to receive incoming message : unable to receive data from sender, check sender's logs for details
+[06-13-2024 06:27:06] [RosPy] [D] [/niryo_robot_hardware_interface/end_effector_interface/custom_button_status] failed to receive incoming message : unable to receive data from sender, check sender's logs for details
+[06-13-2024 06:27:06] [RosPy] [D] [/niryo_robot_hardware_interface/hardware_status] failed to receive incoming message : unable to receive data from sender, check sender's logs for details
+[06-13-2024 06:27:06] [RosPy] [D] [/niryo_robot_tools_commander/current_id] failed to receive incoming message : unable to receive data from sender, check sender's logs for details
+[06-13-2024 06:27:06] [RosPy] [D] [/niryo_robot_tools_commander/action_server/status] failed to receive incoming message : unable to receive data from sender, check sender's logs for details
+[06-13-2024 06:27:06] [RosPy] [D] [/niryo_robot_tools_commander/action_server/result] failed to receive incoming message : unable to receive data from sender, check sender's logs for details
+[06-13-2024 06:27:06] [RosPy] [D] [/niryo_robot_tools_commander/action_server/feedback] failed to receive incoming message : unable to receive data from sender, check sender's logs for details
+[06-13-2024 06:27:06] [RosPy] [D] [/niryo_robot_arm_commander/robot_action/status] failed to receive incoming message : unable to receive data from sender, check sender's logs for details
+[06-13-2024 06:27:06] [RosPy] [D] [/niryo_robot_arm_commander/robot_action/feedback] failed to receive incoming message : unable to receive data from sender, check sender's logs for details
+[06-13-2024 06:27:06] [RosPy] [D] [/niryo_robot_arm_commander/robot_action/result] failed to receive incoming message : unable to receive data from sender, check sender's logs for details
+[06-13-2024 06:27:06] [NiryoRobot] [I] External shutdown request from [/master]: [[/niryo_robot_project] reason: new node registered with same name]
+[06-13-2024 06:27:06] [NiryoRobot] [W] !! Detected new instance of program !!
+[06-13-2024 06:27:06] [NiryoRobot] [I] Shutting down this program ...
+[06-13-2024 06:27:06] [RosPy] [D] connecting to ('ned2', 44405)
+[06-13-2024 06:27:06] [RosPy] [D] connecting to ned2 44405
+[06-13-2024 06:27:09] [NiryoRobot] [I] Stopping robot ...
+[06-13-2024 06:27:09] [ModbusServer] [I] Closing server
+[06-13-2024 06:27:09] [ModbusServer] [I] Stopped server
+[06-13-2024 06:27:09] [TrajectoryManager] [D] Saved trajectory 'Test' at test.trj
+[06-13-2024 06:27:09] [TrajectoryManager] [D] Saved trajectory 'start' at 33-start.trj
+[06-13-2024 06:27:09] [TrajectoryManager] [D] Saved trajectory 'stop' at 36-stop.trj
+[06-13-2024 06:27:09] [TrajectoryManager] [D] Saved trajectory 'production' at 40-production.trj
+[06-13-2024 06:27:09] [RosPy] [D] connecting to ('ned2', 44405)
+[06-13-2024 06:27:09] [RosPy] [D] connecting to ned2 44405
+[06-13-2024 06:27:09] [NiryoRobot] [I] Stopping RosPy ...
+[06-13-2024 06:27:11] [NiryoRobot] [I] Robot stopped
+[I] Log level set to 'debug'
+[I] Importing libraries
+[06-13-2024 06:37:58] [NiryoRobot] [I] 
+[06-13-2024 06:37:58] [NiryoRobot] [I] ╭──────────────────────────────╮
+[06-13-2024 06:37:58] [NiryoRobot] [I] │      Robot is starting       │
+[06-13-2024 06:37:58] [NiryoRobot] [I] │  Please wait one minute ...  │
+[06-13-2024 06:37:58] [NiryoRobot] [I] ╰──────────────────────────────╯
+[06-13-2024 06:37:58] [NiryoRobot] [I] 
+[06-13-2024 06:37:58] [NiryoRobot] [I] Starting RosPy
+[06-13-2024 06:38:01] [RosPy] [D] No topics to register with master node http://localhost:11311
+[06-13-2024 06:38:01] [RosPy] [D] init_node, name[/niryo_robot_project], pid[50875]
+[06-13-2024 06:38:01] [RosPy] [D] binding to 0.0.0.0 0
+[06-13-2024 06:38:01] [RosPy] [D] bound to 0.0.0.0 37441
+[06-13-2024 06:38:01] [RosPy] [D] ... service URL is rosrpc://ned2:37441
+[06-13-2024 06:38:01] [RosPy] [D] [/niryo_robot_project/get_loggers]: new Service instance
+[06-13-2024 06:38:01] [RosPy] [D] ... service URL is rosrpc://ned2:37441
+[06-13-2024 06:38:01] [RosPy] [D] [/niryo_robot_project/set_logger_level]: new Service instance
+[06-13-2024 06:38:01] [NiryoRobot] [I] Waiting for the other handler, to stop itself ...
+[06-13-2024 06:38:13] [NiryoRobot] [I] Connecting to robot
+[06-13-2024 06:38:14] [RosPy] [D] ... service URL is rosrpc://ned2:37441
+[06-13-2024 06:38:14] [RosPy] [D] [/ping]: new Service instance
+[06-13-2024 06:38:14] [RosPy] [D] connecting to ('ned2', 42853)
+[06-13-2024 06:38:14] [RosPy] [D] connecting to ned2 42853
+[06-13-2024 06:38:14] [RosPy] [D] Unable to connect subscriber to publisher [http://ned2:38223/] for topic [/niryo_robot/collision_detected]: [Errno 111] Connection refused
+[06-13-2024 06:38:14] [RosPy] [D] connecting to ned2 38555
+[06-13-2024 06:38:14] [RosPy] [D] Unable to connect subscriber to publisher [http://ned2:33459/] for topic [/niryo_robot/collision_detected]: [Errno 111] Connection refused
+[06-13-2024 06:38:14] [RosPy] [D] connecting to ned2 35273
+[06-13-2024 06:38:14] [RosPy] [D] connecting to ned2 39083
+[06-13-2024 06:38:15] [RosPy] [D] connecting to ned2 46767
+[06-13-2024 06:38:15] [RosPy] [D] Unable to connect subscriber to publisher [http://ned2:39203/] for topic [/niryo_robot/collision_detected]: [Errno 111] Connection refused
+[06-13-2024 06:38:15] [RosPy] [D] connecting to ned2 43401
+[06-13-2024 06:38:15] [RosPy] [D] connecting to ned2 36209
+[06-13-2024 06:38:15] [RosPy] [D] connecting to ned2 37441
+[06-13-2024 06:38:16] [RosPy] [I] Python ROS Wrapper ready
+[06-13-2024 06:38:16] [NiryoRobot] [I] Started calibration
+[06-13-2024 06:38:16] [RosPy] [D] connecting to ('ned2', 52863)
+[06-13-2024 06:38:16] [RosPy] [D] connecting to ned2 44405
+[06-13-2024 06:38:16] [RosPy] [D] connecting to ned2 52863
+[06-13-2024 06:38:16] [RosPy] [D] connecting to ned2 52863
+[06-13-2024 06:38:16] [RosPy] [D] connecting to ned2 52863
+[06-13-2024 06:38:17] [RosPy] [D] connecting to ('ned2', 52863)
+[06-13-2024 06:38:17] [RosPy] [D] connecting to ned2 52863
+[06-13-2024 06:38:40] [RosPy] [D] connecting to ('ned2', 39929)
+[06-13-2024 06:38:40] [RosPy] [D] connecting to ned2 39929
+[06-13-2024 06:38:40] [RosPy] [D] connecting to ('ned2', 41535)
+[06-13-2024 06:38:40] [RosPy] [D] connecting to ned2 41535
+[06-13-2024 06:38:42] [RosPy] [D] connecting to ned2 41535
+[06-13-2024 06:38:43] [RosPy] [D] connecting to ned2 41535
+[06-13-2024 06:38:43] [RosPy] [D] connecting to ned2 41535
+[06-13-2024 06:38:43] [RosPy] [D] connecting to ned2 41535
+[06-13-2024 06:38:43] [RosPy] [D] Transitioning to ACTIVE (from WAITING_FOR_GOAL_ACK, goal: /niryo_robot_project-1-1718260723.545)
+[06-13-2024 06:38:44] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-1-1718260723.545)
+[06-13-2024 06:38:44] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-1-1718260723.545)
+[06-13-2024 06:38:45] [RosPy] [D] Transitioning to ACTIVE (from WAITING_FOR_GOAL_ACK, goal: /niryo_robot_project-2-1718260725.046)
+[06-13-2024 06:38:46] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-2-1718260725.046)
+[06-13-2024 06:38:46] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-2-1718260725.046)
+[06-13-2024 06:38:46] [RosPy] [D] connecting to ('ned2', 39929)
+[06-13-2024 06:38:46] [RosPy] [D] connecting to ned2 39929
+[06-13-2024 06:38:46] [RosPy] [D] connecting to ('ned2', 44405)
+[06-13-2024 06:38:46] [RosPy] [D] connecting to ned2 44405
+[06-13-2024 06:38:53] [NiryoRobot] [E] niryo_robot_sound.api.sound_ros_wrapper.SoundRosWrapperException: Error Code : -504
+[06-13-2024 06:38:53] [NiryoRobot] [E] Message : Sound connected.wav timeout
+[06-13-2024 06:38:53] [NiryoRobot] [E] 
+[06-13-2024 06:38:53] [NiryoRobot] [E] !! Exited before finish starting
+[06-13-2024 06:38:53] [NiryoRobot] [I] Stopping robot ...
+[06-13-2024 06:38:53] [RosPy] [D] connecting to ('ned2', 44405)
+[06-13-2024 06:38:54] [RosPy] [D] connecting to ned2 44405
+[06-13-2024 06:39:00] [NiryoRobot] [E] niryo_robot_sound.api.sound_ros_wrapper.SoundRosWrapperException: Error Code : -504
+[06-13-2024 06:39:00] [NiryoRobot] [E] Message : Sound warn.wav timeout
+[06-13-2024 06:39:00] [NiryoRobot] [I] Robot stopped
+[06-13-2024 06:39:00] [NiryoRobot] [I] Stopping RosPy ...
+[06-13-2024 06:39:00] [RosPy] [D] connecting to ned2 42853
+[06-13-2024 06:39:01] [RosPy] [D] [/niryo_robot/collision_detected] failed to receive incoming message : unable to receive data from sender, check sender's logs for details
+[06-13-2024 06:39:01] [RosPy] [D] [/niryo_robot/collision_detected] failed to receive incoming message : unable to receive data from sender, check sender's logs for details
+[06-13-2024 06:39:01] [RosPy] [D] [/niryo_robot/collision_detected] failed to receive incoming message : unable to receive data from sender, check sender's logs for details
+[06-13-2024 06:39:01] [RosPy] [D] [/niryo_robot/collision_detected] failed to receive incoming message : unable to receive data from sender, check sender's logs for details
+[06-13-2024 06:39:01] [RosPy] [D] [/niryo_robot/collision_detected] failed to receive incoming message : unable to receive data from sender, check sender's logs for details
+[06-13-2024 06:39:01] [RosPy] [D] [/niryo_robot/collision_detected] failed to receive incoming message : unable to receive data from sender, check sender's logs for details
+[06-13-2024 06:39:01] [RosPy] [D] [/niryo_robot/collision_detected] failed to receive incoming message : unable to receive data from sender, check sender's logs for details
+[06-13-2024 06:39:01] [RosPy] [D] [/niryo_robot_sound/sound_database] failed to receive incoming message : unable to receive data from sender, check sender's logs for details
+[06-13-2024 06:39:01] [RosPy] [D] [/niryo_robot_hardware_interface/end_effector_interface/custom_button_status] failed to receive incoming message : unable to receive data from sender, check sender's logs for details
+[06-13-2024 06:39:01] [RosPy] [D] [/niryo_robot_hardware_interface/hardware_status] failed to receive incoming message : unable to receive data from sender, check sender's logs for details
+[06-13-2024 06:39:01] [RosPy] [D] [/niryo_robot_tools_commander/current_id] failed to receive incoming message : unable to receive data from sender, check sender's logs for details
+[06-13-2024 06:39:01] [RosPy] [D] [/niryo_robot_tools_commander/action_server/status] failed to receive incoming message : unable to receive data from sender, check sender's logs for details
+[06-13-2024 06:39:01] [RosPy] [D] [/niryo_robot_tools_commander/action_server/result] failed to receive incoming message : unable to receive data from sender, check sender's logs for details
+[06-13-2024 06:39:01] [RosPy] [D] [/niryo_robot_tools_commander/action_server/feedback] failed to receive incoming message : unable to receive data from sender, check sender's logs for details
+[I] Log level set to 'debug'
+[I] Importing libraries
+[06-13-2024 06:39:48] [NiryoRobot] [I] 
+[06-13-2024 06:39:48] [NiryoRobot] [I] ╭──────────────────────────────╮
+[06-13-2024 06:39:48] [NiryoRobot] [I] │      Robot is starting       │
+[06-13-2024 06:39:48] [NiryoRobot] [I] │  Please wait one minute ...  │
+[06-13-2024 06:39:48] [NiryoRobot] [I] ╰──────────────────────────────╯
+[06-13-2024 06:39:48] [NiryoRobot] [I] 
+[06-13-2024 06:39:48] [NiryoRobot] [I] Starting RosPy
+[06-13-2024 06:39:51] [RosPy] [D] No topics to register with master node http://localhost:11311
+[06-13-2024 06:39:51] [RosPy] [D] init_node, name[/niryo_robot_project], pid[52933]
+[06-13-2024 06:39:51] [RosPy] [D] binding to 0.0.0.0 0
+[06-13-2024 06:39:51] [RosPy] [D] bound to 0.0.0.0 42361
+[06-13-2024 06:39:51] [RosPy] [D] ... service URL is rosrpc://ned2:42361
+[06-13-2024 06:39:51] [RosPy] [D] [/niryo_robot_project/get_loggers]: new Service instance
+[06-13-2024 06:39:51] [RosPy] [D] ... service URL is rosrpc://ned2:42361
+[06-13-2024 06:39:51] [RosPy] [D] [/niryo_robot_project/set_logger_level]: new Service instance
+[06-13-2024 06:39:51] [NiryoRobot] [I] Connecting to robot
+[06-13-2024 06:39:51] [RosPy] [D] ... service URL is rosrpc://ned2:42361
+[06-13-2024 06:39:51] [RosPy] [D] [/ping]: new Service instance
+[06-13-2024 06:39:51] [RosPy] [D] connecting to ('ned2', 42853)
+[06-13-2024 06:39:51] [RosPy] [D] connecting to ned2 42853
+[06-13-2024 06:39:52] [RosPy] [D] Unable to connect subscriber to publisher [http://ned2:38223/] for topic [/niryo_robot/collision_detected]: [Errno 111] Connection refused
+[06-13-2024 06:39:52] [RosPy] [D] connecting to ned2 38555
+[06-13-2024 06:39:52] [RosPy] [D] Unable to connect subscriber to publisher [http://ned2:33459/] for topic [/niryo_robot/collision_detected]: [Errno 111] Connection refused
+[06-13-2024 06:39:52] [RosPy] [D] connecting to ned2 39083
+[06-13-2024 06:39:52] [RosPy] [D] connecting to ned2 35273
+[06-13-2024 06:39:52] [RosPy] [D] connecting to ned2 46767
+[06-13-2024 06:39:52] [RosPy] [D] Unable to connect subscriber to publisher [http://ned2:39203/] for topic [/niryo_robot/collision_detected]: [Errno 111] Connection refused
+[06-13-2024 06:39:52] [RosPy] [D] connecting to ned2 42361
+[06-13-2024 06:39:52] [RosPy] [D] connecting to ned2 36209
+[06-13-2024 06:39:52] [RosPy] [D] connecting to ned2 43401
+[06-13-2024 06:39:53] [RosPy] [I] Python ROS Wrapper ready
+[06-13-2024 06:39:53] [NiryoRobot] [I] Started calibration
+[06-13-2024 06:39:53] [RosPy] [D] connecting to ('ned2', 52863)
+[06-13-2024 06:39:53] [RosPy] [D] connecting to ned2 44405
+[06-13-2024 06:39:53] [RosPy] [D] connecting to ned2 52863
+[06-13-2024 06:39:53] [RosPy] [D] connecting to ned2 52863
+[06-13-2024 06:39:54] [RosPy] [D] connecting to ned2 52863
+[06-13-2024 06:39:54] [RosPy] [D] connecting to ('ned2', 52863)
+[06-13-2024 06:39:54] [RosPy] [D] connecting to ned2 52863
+[06-13-2024 06:40:16] [RosPy] [D] connecting to ('ned2', 39929)
+[06-13-2024 06:40:16] [RosPy] [D] connecting to ned2 39929
+[06-13-2024 06:40:16] [RosPy] [D] connecting to ('ned2', 41535)
+[06-13-2024 06:40:16] [RosPy] [D] connecting to ned2 41535
+[06-13-2024 06:40:18] [RosPy] [D] connecting to ned2 41535
+[06-13-2024 06:40:19] [RosPy] [D] connecting to ned2 41535
+[06-13-2024 06:40:19] [RosPy] [D] connecting to ned2 41535
+[06-13-2024 06:40:19] [RosPy] [D] connecting to ned2 41535
+[06-13-2024 06:40:19] [RosPy] [D] Transitioning to ACTIVE (from WAITING_FOR_GOAL_ACK, goal: /niryo_robot_project-1-1718260819.628)
+[06-13-2024 06:40:21] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-1-1718260819.628)
+[06-13-2024 06:40:21] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-1-1718260819.628)
+[06-13-2024 06:40:21] [RosPy] [D] Transitioning to ACTIVE (from WAITING_FOR_GOAL_ACK, goal: /niryo_robot_project-2-1718260821.410)
+[06-13-2024 06:40:22] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-2-1718260821.410)
+[06-13-2024 06:40:22] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-2-1718260821.410)
+[06-13-2024 06:40:22] [RosPy] [D] connecting to ('ned2', 39929)
+[06-13-2024 06:40:22] [RosPy] [D] connecting to ned2 39929
+[06-13-2024 06:40:22] [RosPy] [D] connecting to ('ned2', 44405)
+[06-13-2024 06:40:22] [RosPy] [D] connecting to ned2 44405
+[06-13-2024 06:40:28] [NiryoRobot] [I] Calibration finished
+[06-13-2024 06:40:28] [NiryoRobot] [I] Loading trajectories ...
+[06-13-2024 06:40:28] [TrajectoryManager] [D] Loading trajectory: ./saved_trajectories/test.trj
+[06-13-2024 06:40:28] [TrajectoryManager] [D] Loading trajectory: ./saved_trajectories/33-start.trj
+[06-13-2024 06:40:28] [TrajectoryManager] [D] Loading trajectory: ./saved_trajectories/36-stop.trj
+[06-13-2024 06:40:28] [TrajectoryManager] [D] Loading trajectory: ./saved_trajectories/40-production.trj
+[06-13-2024 06:40:28] [NiryoRobot] [I] Starting Modbus/TCP server ...
+[06-13-2024 06:40:28] [ModbusServer] [I] Created server
+[06-13-2024 06:40:28] [ModbusServer] [I] Started server
+[06-13-2024 06:40:28] [NiryoRobot] [I] Starting Gamepad manager
+[06-13-2024 06:40:29] [NiryoRobot] [I] 
+[06-13-2024 06:40:29] [NiryoRobot] [I] ╭──────────────────────────────╮
+[06-13-2024 06:40:29] [NiryoRobot] [I] │        Robot started!        │
+[06-13-2024 06:40:29] [NiryoRobot] [I] │      Now enjoy the fun.      │
+[06-13-2024 06:40:29] [NiryoRobot] [I] ╰──────────────────────────────╯
+[06-13-2024 06:40:29] [NiryoRobot] [I] 
+[06-13-2024 06:40:29] [RosPy] [D] connecting to ('ned2', 44405)
+[06-13-2024 06:40:29] [RosPy] [D] connecting to ned2 44405
+[06-13-2024 06:40:36] [NiryoRobot] [E] Traceback (most recent call last):
+[06-13-2024 06:40:36] [NiryoRobot] [E]   File "robot/main.py", line 219, in start
+[06-13-2024 06:40:36] [NiryoRobot] [E]     if self.status_sounds: self.robot.sound.play("ready.wav")
+[06-13-2024 06:40:36] [NiryoRobot] [E]   File "/home/niryo/catkin_ws/install/release/ned2/lib/python3/dist-packages/niryo_robot_sound/api/sound_ros_wrapper.py", line 95, in play
+[06-13-2024 06:40:36] [NiryoRobot] [E]     return self.__classic_return_w_check(result)
+[06-13-2024 06:40:36] [NiryoRobot] [E]   File "/home/niryo/catkin_ws/install/release/ned2/lib/python3/dist-packages/niryo_robot_sound/api/sound_ros_wrapper.py", line 236, in __classic_return_w_check
+[06-13-2024 06:40:36] [NiryoRobot] [E]     self.__check_result_status(result)
+[06-13-2024 06:40:36] [NiryoRobot] [E]   File "/home/niryo/catkin_ws/install/release/ned2/lib/python3/dist-packages/niryo_robot_sound/api/sound_ros_wrapper.py", line 242, in __check_result_status
+[06-13-2024 06:40:36] [NiryoRobot] [E]     raise SoundRosWrapperException("Error Code : {}\nMessage : {}".format(result.status, result.message))
+[06-13-2024 06:40:36] [NiryoRobot] [E] niryo_robot_sound.api.sound_ros_wrapper.SoundRosWrapperException: Error Code : -504
+[06-13-2024 06:40:36] [NiryoRobot] [E] Message : Sound ready.wav timeout
+[06-13-2024 06:40:36] [NiryoRobot] [I] Stopping robot ...
+[06-13-2024 06:40:36] [ModbusServer] [I] Closing server
+[06-13-2024 06:40:37] [ModbusServer] [I] Stopped server
+[06-13-2024 06:40:37] [TrajectoryManager] [D] Saved trajectory 'Test' at test.trj
+[06-13-2024 06:40:37] [TrajectoryManager] [D] Saved trajectory 'start' at 33-start.trj
+[06-13-2024 06:40:37] [TrajectoryManager] [D] Saved trajectory 'stop' at 36-stop.trj
+[06-13-2024 06:40:37] [TrajectoryManager] [D] Saved trajectory 'production' at 40-production.trj
+[06-13-2024 06:40:37] [RosPy] [D] connecting to ('ned2', 44405)
+[06-13-2024 06:40:37] [RosPy] [D] connecting to ned2 44405
+[06-13-2024 06:40:43] [NiryoRobot] [E] niryo_robot_sound.api.sound_ros_wrapper.SoundRosWrapperException: Error Code : -504
+[06-13-2024 06:40:43] [NiryoRobot] [E] Message : Sound warn.wav timeout
+[06-13-2024 06:40:43] [NiryoRobot] [I] Robot stopped
+[06-13-2024 06:40:43] [NiryoRobot] [I] Stopping RosPy ...
+[06-13-2024 06:40:43] [RosPy] [D] connecting to ned2 42853
+[06-13-2024 06:40:44] [RosPy] [D] [/niryo_robot/collision_detected] failed to receive incoming message : unable to receive data from sender, check sender's logs for details
+[06-13-2024 06:40:44] [RosPy] [D] [/niryo_robot/collision_detected] failed to receive incoming message : unable to receive data from sender, check sender's logs for details
+[06-13-2024 06:40:44] [RosPy] [D] [/niryo_robot/collision_detected] failed to receive incoming message : unable to receive data from sender, check sender's logs for details
+[06-13-2024 06:40:44] [RosPy] [D] [/niryo_robot/collision_detected] failed to receive incoming message : unable to receive data from sender, check sender's logs for details
+[06-13-2024 06:40:44] [RosPy] [D] [/niryo_robot/collision_detected] failed to receive incoming message : unable to receive data from sender, check sender's logs for details
+[06-13-2024 06:40:44] [RosPy] [D] [/niryo_robot/collision_detected] failed to receive incoming message : unable to receive data from sender, check sender's logs for details
+[06-13-2024 06:40:44] [RosPy] [D] [/niryo_robot/collision_detected] failed to receive incoming message : unable to receive data from sender, check sender's logs for details
+[06-13-2024 06:40:44] [RosPy] [D] [/niryo_robot_sound/sound_database] failed to receive incoming message : unable to receive data from sender, check sender's logs for details
+[06-13-2024 06:40:44] [RosPy] [D] [/niryo_robot_hardware_interface/end_effector_interface/custom_button_status] failed to receive incoming message : unable to receive data from sender, check sender's logs for details
+[06-13-2024 06:40:44] [RosPy] [D] [/niryo_robot_tools_commander/current_id] failed to receive incoming message : unable to receive data from sender, check sender's logs for details
+[06-13-2024 06:40:44] [RosPy] [D] [/niryo_robot_hardware_interface/hardware_status] failed to receive incoming message : unable to receive data from sender, check sender's logs for details
+[06-13-2024 06:40:44] [RosPy] [D] [/niryo_robot_tools_commander/action_server/status] failed to receive incoming message : unable to receive data from sender, check sender's logs for details
+[06-13-2024 06:40:44] [RosPy] [D] [/niryo_robot_tools_commander/action_server/result] failed to receive incoming message : unable to receive data from sender, check sender's logs for details
+[06-13-2024 06:40:44] [RosPy] [D] [/niryo_robot_tools_commander/action_server/feedback] failed to receive incoming message : unable to receive data from sender, check sender's logs for details
+[I] Log level set to 'debug'
+[I] Importing libraries
+[06-13-2024 06:48:58] [NiryoRobot] [I] 
+[06-13-2024 06:48:58] [NiryoRobot] [I] ╭──────────────────────────────╮
+[06-13-2024 06:48:58] [NiryoRobot] [I] │      Robot is starting       │
+[06-13-2024 06:48:58] [NiryoRobot] [I] │  Please wait one minute ...  │
+[06-13-2024 06:48:58] [NiryoRobot] [I] ╰──────────────────────────────╯
+[06-13-2024 06:48:58] [NiryoRobot] [I] 
+[06-13-2024 06:48:58] [NiryoRobot] [I] Starting RosPy
+[06-13-2024 06:48:58] [RosPy] [D] No topics to register with master node http://localhost:11311
+[06-13-2024 06:48:59] [RosPy] [D] init_node, name[/niryo_robot_project], pid[2612]
+[06-13-2024 06:48:59] [RosPy] [D] binding to 0.0.0.0 0
+[06-13-2024 06:48:59] [RosPy] [D] bound to 0.0.0.0 33859
+[06-13-2024 06:48:59] [RosPy] [D] ... service URL is rosrpc://ned2:33859
+[06-13-2024 06:48:59] [RosPy] [D] [/niryo_robot_project/get_loggers]: new Service instance
+[06-13-2024 06:48:59] [RosPy] [D] ... service URL is rosrpc://ned2:33859
+[06-13-2024 06:48:59] [RosPy] [D] [/niryo_robot_project/set_logger_level]: new Service instance
+[06-13-2024 06:48:59] [NiryoRobot] [I] Connecting to robot
+[06-13-2024 06:48:59] [RosPy] [D] ... service URL is rosrpc://ned2:33859
+[06-13-2024 06:48:59] [RosPy] [D] [/ping]: new Service instance
+[06-13-2024 06:48:59] [RosPy] [D] connecting to ('ned2', 32939)
+[06-13-2024 06:48:59] [RosPy] [D] connecting to ned2 32939
+[06-13-2024 06:48:59] [RosPy] [D] connecting to ned2 36275
+[06-13-2024 06:48:59] [RosPy] [D] connecting to ned2 34387
+[06-13-2024 06:48:59] [RosPy] [D] connecting to ned2 40731
+[06-13-2024 06:48:59] [RosPy] [D] connecting to ned2 33859
+[06-13-2024 06:48:59] [RosPy] [I] Python ROS Wrapper ready
+[06-13-2024 06:48:59] [NiryoRobot] [I] Started calibration
+[06-13-2024 06:48:59] [RosPy] [D] connecting to ('ned2', 39405)
+[06-13-2024 06:48:59] [RosPy] [D] connecting to ned2 39405
+[06-13-2024 06:48:59] [RosPy] [D] connecting to ned2 37491
+[06-13-2024 06:48:59] [RosPy] [D] connecting to ned2 39405
+[06-13-2024 06:48:59] [RosPy] [D] connecting to ned2 39405
+[06-13-2024 06:48:59] [RosPy] [D] connecting to ('ned2', 39405)
+[06-13-2024 06:48:59] [RosPy] [D] connecting to ned2 39405
+[06-13-2024 06:49:20] [RosPy] [D] connecting to ('ned2', 37093)
+[06-13-2024 06:49:20] [RosPy] [D] connecting to ned2 37093
+[06-13-2024 06:49:20] [RosPy] [D] connecting to ('ned2', 42541)
+[06-13-2024 06:49:20] [RosPy] [D] connecting to ned2 42541
+[06-13-2024 06:49:21] [RosPy] [D] connecting to ned2 42541
+[06-13-2024 06:49:21] [RosPy] [D] connecting to ned2 42541
+[06-13-2024 06:49:21] [RosPy] [D] connecting to ned2 42541
+[06-13-2024 06:49:21] [RosPy] [D] connecting to ned2 42541
+[06-13-2024 06:49:21] [RosPy] [D] Transitioning to ACTIVE (from WAITING_FOR_GOAL_ACK, goal: /niryo_robot_project-1-1718261361.980)
+[06-13-2024 06:49:23] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-1-1718261361.980)
+[06-13-2024 06:49:23] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-1-1718261361.980)
+[06-13-2024 06:49:23] [RosPy] [D] Transitioning to ACTIVE (from WAITING_FOR_GOAL_ACK, goal: /niryo_robot_project-2-1718261363.148)
+[06-13-2024 06:49:24] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-2-1718261363.148)
+[06-13-2024 06:49:24] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-2-1718261363.148)
+[06-13-2024 06:49:24] [RosPy] [D] connecting to ('ned2', 37093)
+[06-13-2024 06:49:24] [RosPy] [D] connecting to ned2 37093
+[06-13-2024 06:49:24] [RosPy] [D] connecting to ('ned2', 37491)
+[06-13-2024 06:49:24] [RosPy] [D] connecting to ned2 37491
+[06-13-2024 06:49:27] [NiryoRobot] [I] Calibration finished
+[06-13-2024 06:49:27] [NiryoRobot] [I] Loading trajectories ...
+[06-13-2024 06:49:27] [TrajectoryManager] [D] Loading trajectory: ./saved_trajectories/test.trj
+[06-13-2024 06:49:27] [TrajectoryManager] [D] Loading trajectory: ./saved_trajectories/33-start.trj
+[06-13-2024 06:49:27] [TrajectoryManager] [D] Loading trajectory: ./saved_trajectories/36-stop.trj
+[06-13-2024 06:49:27] [TrajectoryManager] [D] Loading trajectory: ./saved_trajectories/40-production.trj
+[06-13-2024 06:49:27] [NiryoRobot] [I] Starting Modbus/TCP server ...
+[06-13-2024 06:49:27] [ModbusServer] [I] Created server
+[06-13-2024 06:49:27] [ModbusServer] [I] Started server
+[06-13-2024 06:49:27] [NiryoRobot] [I] Starting Gamepad manager
+[06-13-2024 06:49:34] [NiryoRobot] [I] 
+[06-13-2024 06:49:34] [NiryoRobot] [I] ╭──────────────────────────────╮
+[06-13-2024 06:49:34] [NiryoRobot] [I] │        Robot started!        │
+[06-13-2024 06:49:34] [NiryoRobot] [I] │      Now enjoy the fun.      │
+[06-13-2024 06:49:34] [NiryoRobot] [I] ╰──────────────────────────────╯
+[06-13-2024 06:49:34] [NiryoRobot] [I] 
+[06-13-2024 06:49:34] [RosPy] [D] connecting to ('ned2', 37491)
+[06-13-2024 06:49:34] [RosPy] [D] connecting to ned2 37491
+[06-13-2024 06:49:35] [RosPy] [D] connecting to ned2 36577
+[06-13-2024 06:49:37] [RosPy] [D] connecting to ('ned2', 37093)
+[06-13-2024 06:49:37] [RosPy] [D] connecting to ned2 37093
+[06-13-2024 06:52:03] [RosPy] [D] connecting to ned2 40731
+[06-13-2024 06:52:03] [RosPy] [D] connecting to ('ned2', 39405)
+[06-13-2024 06:52:03] [RosPy] [D] connecting to ned2 40731
+[06-13-2024 06:52:03] [RosPy] [D] connecting to ned2 39405
+[06-13-2024 06:52:03] [RosPy] [D] connecting to ned2 40731
+[06-13-2024 06:52:03] [TrajectoryPlayer] [D] [start] Playing step number 0: file name (33-start.trj)
+[06-13-2024 06:52:03] [RosPy] [D] Transitioning to ACTIVE (from WAITING_FOR_GOAL_ACK, goal: /niryo_robot_project-3-1718261523.599)
+[06-13-2024 06:52:04] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-3-1718261523.599)
+[06-13-2024 06:52:04] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-3-1718261523.599)
+[06-13-2024 06:52:04] [RosPy] [D] Transitioning to ACTIVE (from WAITING_FOR_GOAL_ACK, goal: /niryo_robot_project-4-1718261524.615)
+[06-13-2024 06:52:06] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-4-1718261524.615)
+[06-13-2024 06:52:06] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-4-1718261524.615)
+[06-13-2024 06:52:06] [TrajectoryPlayer] [D] [start] Playing step number 1: start point ([StepValue(False), StepValue([0.00079, 0.49941, -1.25062, -0.00144, -0.00316, 0.70572])])
+[06-13-2024 06:52:06] [TrajectoryPlayer] [D] [start] Playing step number 2: id (33)
+[06-13-2024 06:52:06] [TrajectoryPlayer] [D] [start] Playing step number 3: label (start)
+[06-13-2024 06:52:06] [RosPy] [D] Transitioning to ACTIVE (from WAITING_FOR_GOAL_ACK, goal: /niryo_robot_project-5-1718261526.064)
+[06-13-2024 06:52:07] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-5-1718261526.064)
+[06-13-2024 06:52:07] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-5-1718261526.064)
+[06-13-2024 06:52:07] [TrajectoryPlayer] [D] [start] Playing step number 4: tool (False)
+[06-13-2024 06:52:07] [RosPy] [D] Transitioning to ACTIVE (from WAITING_FOR_GOAL_ACK, goal: /niryo_robot_project-6-1718261527.089)
+[06-13-2024 06:52:09] [RosPy] [D] Transitioning to WAITING_FOR_RESULT (from ACTIVE, goal: /niryo_robot_project-6-1718261527.089)
+[06-13-2024 06:52:09] [RosPy] [D] Transitioning to DONE (from WAITING_FOR_RESULT, goal: /niryo_robot_project-6-1718261527.089)
+[06-13-2024 06:52:09] [TrajectoryPlayer] [D] [start] Playing step number 5: movement ([1.4101, 0.33276, -0.4583, 0.00469, -1.50033, 0.71186])

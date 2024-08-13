@@ -1,0 +1,624 @@
+@startuml
+title Riryo robot: Classes attributes and methods definitions view
+skinparam linetype polyline
+skinparam linetype ortho
+left to right direction
+
+legend top left
+{{
+  !procedure $arrow($type, $text)
+    {{\nleft to right direction\nskinparam backgroundcolor transparent\nlabel " " as A\nlabel " " as B\nA $type B\n}} => $text
+  !endprocedure
+  !procedure $package($label, $content, $text)
+    {{\npackage $label{\n$content " "\n}\nskinparam backgroundcolor transparent\n}} => $text
+  !endprocedure
+
+  map Legend {
+    $arrow("--|>", " Inherits from")
+    $package("file", "label", "\n  File")
+    $package("folder <<Frame>>", "class", "\n  Folder")
+  }
+  skinparam backgroundcolor transparent
+}}
+endlegend
+
+package robot <<Frame>> #77AADD {
+  package main #77AADD {
+    class NiryoRobot #77AADD {
+      +error_occur : bool
+      #logger : Logger
+      +modbus : ModbusServer
+      #robot : NiryoRosWrapper
+      +status_sounds : bool
+      +terminal : ShellManager
+      
+      +__init__()
+
+      +acquire_lockfile()
+      +loop()
+      +setup()
+      +start(do_calibration: bool, load_trajectories: bool, start_modbus: bool, use_terminal: bool, status_sounds: bool, default_pose: bool)
+      +stop()
+      +stop_complete()
+      +stopped_prematurely()
+    }
+  }
+  package calibration #77AADD {
+    class calibration <<(S,orange)>> #77AADD {
+      +new_calibration(robot: NiryoRosWrapper)
+    }
+  }
+  package modbus <<Frame>> #99DDFF {
+    package holding_register #99DDFF {
+      class HoldingRegisterDataBlock #99DDFF {
+        #robot: NiryoRosWrapper
+        -execution_thread : Thread
+        -is_action_client_running : bool
+        -learning : TrajectoryLearning
+        #logger : Logger
+        -playing : TrajectoryPlayer
+        -selected : int
+        -tool_state : bool
+
+        +__init__(robot: NiryoRosWrapper)
+        -__set_move_in_progress()
+        -__set_error_code(code: int)
+        -__set_move_done(status_result: int)
+        -__run_action_async(func: function, args: list[object])
+        -__get_status_code(status: object)
+
+        +process_command(address: int, values: list[int])
+        +setValues(address: int, values: list[int])
+        +setValuesOffset(address: int, values: list[int])
+
+        +add_pose_flag(value: int)
+        +check_move_running()
+        +get_trajectory_name()
+        +is_trajectory_selected()
+
+        +run_selected_trajectory(value: int)
+        +save_delete_trajectory(value: int)
+        +select_trajectory(value: int)
+        +set_learning_mode(value: int)
+        +set_motor_speed(value: int)
+        +set_tool_state(value: int)
+        +stop_running_trajectory(value: int)
+        +unselect_trajectory(value: int)
+        +update_status(status: int)
+      }
+    }
+    package input_register #99DDFF {
+      class InputRegisterDataBlock  #99DDFF {
+        #robot: NiryoRosWrapper
+
+        +__init__(robot: NiryoRosWrapper)
+      }
+    }
+    package server #99DDFF {
+      class ModbusServer #99DDFF {
+        +context: ModbusServerContext
+        +holding_register: HoldingRegisterDataBlock
+        +identity: ModbusDeviceIdentification
+        +input_register: InputRegisterDataBlock
+        #logger: Logger
+        +server: ModbusTcpServer
+        +store: ModbusSlaveContext
+        -thread: Thread
+
+        +__init__(robot: NiryoRosWrapper)
+
+        +start()
+        +stop()
+      }
+    }
+  }
+  package trajectory <<Frame>> #44BB99 {
+    package controller #44BB99 {
+      class TrajectoryStep #44BB99 {
+        +type: StepType
+        +value: StepValue
+
+        +__init__(type: StepType, value: StepValue)
+
+        +deserialize(buffer: str)
+        +get_value() -> object
+        +is_property() -> bool
+        +run(robot: NiryoRosWrapper) -> GoalReport
+        +serialize() -> str
+      }
+      class PropertyStep #44BB99 {
+      }
+      class TrajectoryController #44BB99 {
+        +add_step(step: TrajectoryStep) -> TrajectoryController
+        +clear() -> TrajectoryController
+        +contains(type: StepType) -> bool
+        +count_steps() -> int
+        +get_content() -> list[TrajectoryStep]
+        +get_properties() -> list[TrajectoryStep]
+        +get_property(type: StepType) -> PropertyStep
+        +get_step(index: int) -> TrajectoryStep
+        +get_steps() -> list[PropertyStep]
+        +pop_step(index: int) -> TrajectoryStep
+        +set_property(step: PropertyStep) -> TrajectoryController
+      }
+    }
+    package executor #44BB99 {
+      class TrajectoryExecutor #44BB99 {
+      }
+    }
+    package learning #44BB99 {
+      class TrajectoryLearning #44BB99 {
+        #robot: NiryoRosWrapper
+        +deep_learning: bool
+        +learn_saved: bool
+        +learning: bool
+        +trajectory: Trajectory
+
+        +__init__( robot: NiryoRosWrapper)
+
+        +add_pos_flag()
+        +clear()
+        +ensure_started()
+        +ensure_stopped()
+        +get_robot_pos() -> tuple[float]
+        +save(trajectory_name: str, id: int, custom_filename: str) -> Trajectory
+        +set_motor_speed(percent: int)
+        +set_tool_state(enabled: bool)
+        +start(deep_learning: bool=False)
+        +stop() -> Trajectory
+      }
+    }
+    package manager #44BB99 {
+      class TrajectoryManager #44BB99 {
+        #logger: Logger
+        +trajectories: str
+
+        +add(trajecotry: Trajectory) -> TrajectoryManager
+        +clear() -> TrajectoryManager
+        +find(consumer: function[[Trajectory], bool]) -> Trajectory
+        +get(index: int) -> Trajectory
+        +get_by_id(id: int) -> Trajectory
+        +get_by_name(traj_name: str, ignore_case: bool) -> Trajectory
+        +load(custom_directory: str) -> TrajectoryManager
+        +load_add(custom_directory: str) -> TrajectoryManager
+        +load_replace(custom_directory: str) -> TrajectoryManager
+        +save() -> TrajectoryManager
+      }
+    }
+    package parser #44BB99 {
+      class TrajectoryParser #44BB99 {
+        +find_step_type(line: str) -> StepType
+        +new_trajectory_file_by_name(trajectory_name: str) -> str
+        +read(file: str) -> Trajectory
+        +read_next_step(file) -> str
+        +write(traj: Trajectory)
+      }
+    }
+    package player #44BB99 {
+      class TrajectoryPlayer #44BB99 {
+        +ignore_errors: bool
+        #logger: Logger
+        #robot: NiryoRosWrapper
+        +trajectory: Trajectory
+
+        +__init__(robot: NiryoRosWrapper, trajectory: Trajectory, ignore_errors: bool=False)
+
+        +play()
+        +play_all()
+        +play_next_step()
+      }
+    }
+    package step <<Frame>> #burlywood {
+      package executor #burlywood {
+        metaclass StepExecutor #burlywood {
+          +executor: function[[StepValue], tuple[int, str]]
+
+          +run(robot: NiryoRosWrapper, args: StepValue) -> GoalReport
+        }
+        enum StepExecutors #burlywood {
+          +move: StepExecutor
+          +tool: StepExecutor
+          +start: StepExecutor
+          +acceleration: StepExecutor
+          +none: StepExecutor
+        }
+        class _executor_funcs_temp <<private>> #burlywood {
+          {static} +start_executor(robot: NiryoRosWrapper, args: StepValue)
+        }
+      }
+      package goal #burlywood {
+        exception GoalFailure #burlywood {
+          +__init__(test_result: GoalResult)
+          +__str__() -> str
+        }
+        class GoalReport #burlywood {
+          +result: GoalResult
+
+          +__init__(func: function, args: tuple, prefix: str="")
+
+          +raise_if_error()
+        }
+        metaclass GoalResult #burlywood {
+          +error: Exception
+          +message: str
+          +status: int
+        }
+      }
+      package type #burlywood {
+        metaclass StepType #burlywood {
+          +alias: str
+          +duplicate_allowed: bool
+          +id: int
+          +is_property: bool
+          +label: str
+          +needed: bool
+          +none_value_allowed: bool
+
+          +executor: StepExecutor
+          +serializer: function[[object], str]
+          +deserializer: function[[str], object]
+
+          +__repr__() -> str
+          +__str__() -> str
+
+          +check_buffer(buffer: str, raise_err: bool=True) -> bool
+          +deserialize(buffer: str) -> StepValue
+          +is_valid_alias(alias: str) -> bool
+          +serialize(value: StepValue) -> str
+        }
+        enum StepTypes #burlywood {
+          +label: StepType
+          +id: StepType
+          +start: StepType
+          +move: StepType
+          +tool: StepType
+          +acceleration: StepType
+          +file: StepType
+          +none: StepType
+
+          {static} +find(buffer: str) -> StepType
+          {static} +get(consumer: function[[StepType], bool]) -> StepType
+          {static} +select(consumer: function[[StepType], bool]) -> list[StepType]
+        }
+        class _step_funcs_temp <<private>> #burlywood {
+          {static} +serialize_int(values: object) -> str
+          {static} +deserialize_int(buffer: str) -> int
+          {static} +serialize_str(values: object) -> str
+          {static} +deserialize_str(buffer: str) -> str
+
+          {static} +start_serializer(values: list) -> str
+          {static} +start_deserializer(buffer: str) -> list
+          {static} +move_serializer(values: list) -> str
+          {static} +move_deserializer(buffer: str) -> list
+          {static} +tool_serializer(values: bool) -> str
+          {static} +tool_deserializer(buffer: str) -> bool
+        }
+      }
+      package value #burlywood {
+        class StepValue #burlywood {
+          +is_none: bool
+          +value: object
+
+          +__init__(value: object=None)
+          +__repr__() -> str
+          +__str__() -> str
+        }
+      }
+    }
+    package trajectory #44BB99 {
+      class Trajectory #44BB99 {
+        +add_joints(joints: tuple[float]) -> Trajectory
+        +add_motor_speed(percent: int) -> Trajectory
+        +add_tool_state(state: bool) -> Trajectory
+        +get_filename() -> str
+        +get_id() -> int
+        +get_name() -> str
+        +get_start_state() -> tuple[bool, tuple[float]]
+        +set_filename(filename: str) -> Trajectory
+        +set_id(id: int) -> Trajectory
+        +set_name(name: str) -> Trajectory
+        +set_start_state(tool: bool, joints: tuple[float]) -> Trajectory
+      }
+    }
+  }
+  package util <<Frame>> #BBCC33 {
+    package cli #BBCC33 {
+      class CliParser #BBCC33 {
+        +__init__()
+      }
+    }
+    package colors #BBCC33 {
+      class Colors #BBCC33 {
+        {static} +COLORS: dict[str, list[int, int, int]]
+        {static} +b: list[int, int, int]
+        {static} +black: list[int, int, int]
+        {static} +blue: list[int, int, int]
+        {static} +brown: list[int, int, int]
+        {static} +cyan: list[int, int, int]
+        {static} +g: list[int, int, int]
+        {static} +gray: list[int, int, int]
+        {static} +green: list[int, int, int]
+        {static} +grey: list[int, int, int]
+        {static} +k: list[int, int, int]
+        {static} +magenta: list[int, int, int]
+        {static} +orange: list[int, int, int]
+        {static} +pink: list[int, int, int]
+        {static} +purple: list[int, int, int]
+        {static} +r: list[int, int, int]
+        {static} +red: list[int, int, int]
+        {static} +w: list[int, int, int]
+        {static} +white: list[int, int, int]
+        {static} +y: list[int, int, int]
+        {static} +yellow: list[int, int, int]
+
+        {static} +fix(r: int, g: int, b: int, expand: bool=False) -> list[int, int, int]
+        {static} +fix2(values: tuple[int], expand: bool=False) -> list[int, int, int]
+        {static} +contract(v: int, nBits: int, length=8) -> int
+        {static} +expand(v: int, nBits: int, length=8) -> int
+        {static} +convert(rgbOrName: Union[str, list]) -> list[int, int, int]
+      }
+    }
+    package commands #BBCC33 {
+      metaclass Command #BBCC33 {
+        +name: str
+        +description: str
+        +command: function[[NiryoRosWrapper, Logger], int]
+        +fargs: str = ""
+        +args_needed: int = 0
+
+        +__call__(robot: NiryoRosWrapper, logger: Logger, args: tuple[str])
+      }
+      class ShellCommands #BBCC33 {
+        {static} +commands : list[Command]
+
+        {static} #help(robot: NiryoRosWrapper, logger: Logger, args: tuple[str])
+        {static} #calibrate(robot: NiryoRosWrapper, logger: Logger, args: tuple[str])
+        {static} #clear(robot: NiryoRosWrapper, logger: Logger, args: tuple[str])
+        {static} #deep(robot: NiryoRosWrapper, logger: Logger, args: tuple[str])
+        {static} #default(robot: NiryoRosWrapper, logger: Logger, args: tuple[str])
+        {static} #halt(robot: NiryoRosWrapper, logger: Logger, args: tuple[str])
+        {static} #loglevel(robot: NiryoRosWrapper, logger: Logger, args: tuple[str])
+        {static} #manual(robot: NiryoRosWrapper, logger: Logger, args: tuple[str])
+        {static} #play(robot: NiryoRosWrapper, logger: Logger, args: tuple[str])
+        {static} #exec_(robot: NiryoRosWrapper, logger: Logger, args: tuple[str])
+        {static} #speed(robot: NiryoRosWrapper, logger: Logger, args: tuple[str])
+      }
+    }
+    package errors #BBCC33 {
+      exception ModbusServerError #BBCC33 {
+      }
+      exception StepAliasError #BBCC33 {
+      }
+      exception StepDeserializeError #BBCC33 {
+        #exc : Exception
+        
+        +__init__(exc: Exception, args: object)
+        +__str__() -> str
+      }
+      exception TrajectoryLearningError #BBCC33 {
+      }
+      exception TrajectoryManagerError #BBCC33 {
+      }
+      exception TrajectoryNotFoundError #BBCC33 {
+      }
+      exception TrajectoryPlayError #BBCC33 {
+        #exc : Exception
+
+        +__init__(exc: Exception, args: object)
+        +__str__() -> str
+      }
+      exception TrajectoryReadError #BBCC33 {
+        +file : str
+        +message : str
+
+        +__init__(file: str, message: str, args: object)
+        +__str__() -> str
+      }
+    }
+    package lock #BBCC33 {
+      class LockFile #BBCC33 {
+        +lockfile : str
+        +present : bool
+
+        +__init__(file: str)
+
+        +acquire(who: object)
+        +handled() -> bool
+        +handler() -> int
+        +notify_release()
+        +release()
+      }
+    }
+    package logger #BBCC33 {
+      class Logger #BBCC33 {
+        +input_prompt: str
+        +log_prompt: str
+        +topic: str
+
+        +__init__(topic: str)
+        +__call__(text: str='', args: tuple)
+
+        +debug(text: str, args: tuple)
+        +info(text: str, args: tuple)
+        +warn(text: str, args: tuple)
+        +err(text: Union[str, BaseException], args: tuple, no_stacktrace: bool=False)
+        +input(no_block: bool) -> str
+      }
+      class ColorCodes #BBCC33 {
+        {static} +backBlue: str
+        {static} +backDefault: str
+        {static} +backGreen: str
+        {static} +backRed: str
+        {static} +backYellow: str
+        {static} +black: str
+        {static} +blue: str
+        {static} +bold: str
+        {static} +cyan: str
+        {static} +flush: str
+        {static} +green: str
+        {static} +italic: str
+        {static} +lightBlack: str
+        {static} +lightBlue: str
+        {static} +lightCyan: str
+        {static} +lightGreen: str
+        {static} +lightMagenta: str
+        {static} +lightRed: str
+        {static} +lightWhite: str
+        {static} +lightYellow: str
+        {static} +purple: str
+        {static} +red: str
+        {static} +reset: str
+        {static} +underline: str
+        {static} +white: str
+        {static} +yellow: str
+
+        {static} +prefix: str
+        {static} +codes: dict[str, str]
+
+        {static} +parse(text: str, use_colors: bool) -> str
+      }
+      class Log #BBCC33 {
+        {static} - _current_file: str
+        {static} +file_split_size: int
+        {static} +level: LogLevel
+        {static} +logs_path: str
+        {static} +use_colors: bool
+        {static} +write_logs: bool
+
+        {static} #write(text: str)
+        {static} +format(text: str, args: tuple, format_prefix: str='@')
+        {static} +log(level: LogLevel, text: str, args: tuple, pre_tag: str='')
+        {static} +debug(text: str, args: tuple, pre_tag: str='')
+        {static} +info(text: str, args: tuple, pre_tag: str='')
+        {static} +warn(text: str, args: tuple, pre_tag: str='')
+        {static} +err(text: Union[str, BaseException], args: tuple, pre_tag: str='', no_stacktrace: bool=False)
+      }
+      enum LogLevel #BBCC33 {
+        +debug: int
+        +info: int
+        +warn: int
+        +err: int
+        +none: int
+      }
+    }
+    package shell #BBCC33 {
+      class Shell #BBCC33 {
+        #logger : Logger
+        #robot : NiryoRosWrapper
+
+        +__init__(robot: NiryoRosWrapper)
+
+        +parse_command(command_args: tuple[str]) -> int
+        +wait_process_command() -> int
+      }
+
+      class ShellManager #BBCC33 {
+        #robot : NiryoRosWrapper
+        -shell : Shell
+        
+        +__init__(robot: NiryoRosWrapper)
+
+        +run()
+      }
+    }
+    package tests #BBCC33 {
+      class Tests #BBCC33 {
+        {static} -_create_test(message: str, valid_types: list[type], reverse: bool=False) -> function
+
+        {static} +bool(objects: tuple[object], raise_err: bool=True)
+        {static} +str(objects: tuple[object], raise_err: bool=True)
+        {static} +buff(objects: tuple[object], raise_err: bool=True)
+        {static} +float(objects: tuple[object], raise_err: bool=True)
+        {static} +int(objects: tuple[object], raise_err: bool=True)
+        {static} +list(objects: tuple[object], raise_err: bool=True)
+        {static} +none(objects: tuple[object], raise_err: bool=True)
+        {static} +object_size(size, objects: tuple[object], raise_err: bool=True)
+      }
+      class Convert #BBCC33 {
+        {static} +to_bool(value: object) -> bool
+      }
+    }
+    package rospy_logger #BBCC33 {
+      class rospy_logger <<(S,orange)>> #BBCC33 {
+        +redirect_rospy_logger(logger_topic: str="ROSPy")
+      }
+    }
+    package strings #BBCC33 {
+      class strings <<(S,orange)>> #BBCC33 {
+        +filename_pattern: Pattern
+        +reserved_filename_pattern: Pattern
+        +time_periods: list[str]
+
+        +sanitize_filename(filename: str) -> str
+        +find_available_file(file: str, start_index: int=0, separator: str='-') -> str
+        +get_parent_path(path: str) -> str
+        +get_child_path(path: str) -> str
+        +getchar() -> str
+        +rJust(str: str, newLength: int, filler: str=" ") -> str
+        +rJustList(lst: list[str], newLength: int, filler: str=" ") -> list[str]
+        +lJust(str: str, newLength: int, filler: str=" ") -> str
+        +lJustList(lst: list[str], newLength: int, filler: str=" ") -> list[str]
+        +mJust(left: str, right: str, newLength: int, filler: str=" ") -> str
+        +mJustList(left: list[str], right: list[str], newLength: int, filler: str=" ") -> list[str]
+        +timedelta_format(delta_ms: int)
+      }
+    }
+    package vars #BBCC33 {
+      class vars <<(S,orange)>> #BBCC33 {
+        +AXIS_JOINTS_COUNT: int
+        +AXIS_JOINTS_PRECISION: int
+
+        +JOINTS_DEFAULT_POSE: list[int]
+        +JOINTS_MOVE_OFFSET: int
+
+        +TRAJECTORY_FILE_EXT: str
+        +TRAJECTORY_DIR_PATH: str
+        +TRAJECTORY_BANNED_DUPLICATED_STEPS: list[StepType]
+        +TRAJECTORY_NEEDED_STEPS: list[StepType]
+        +TRAJECTORY_PROPERTY_STEPS: list[StepType]
+
+        +TRAJECTORY_MAX_ID: int
+        +TRAJECTORY_IDS: list[int]
+
+        +EXIST_REQUESTED_EVENT: Event
+
+        +MODBUS_SERVER_ADDRESS: str
+        +MODBUS_SERVER_PORT: int
+        +MODBUS_IDENTITY_VENDOR_NAME: str
+        +MODBUS_IDENTITY_VENDOR_URL: str
+        +MODBUS_IDENTITY_PRODUCT_NAME: str
+        +MODBUS_IDENTITY_MODEL_NAME: str
+        +MODBUS_IDENTITY_REVISION: str
+
+        +ROSPY_NODE_WAIT_TIMEOUT: int
+
+        +LOCK_FILE_PATH: str
+
+        +format_trajectory_file_name(name: str) -> str
+        +get_trajectory_file(name: str) -> str
+        +list_trajectory_files(custom_dir: str="") -> list[str]
+      }
+    }
+  }
+}
+
+robot.trajectory.controller.PropertyStep --|> robot.trajectory.controller.TrajectoryStep
+robot.trajectory.executor.TrajectoryExecutor --|> robot.trajectory.player.TrajectoryPlayer
+robot.trajectory.step.goal.GoalFailure --|> robot.trajectory.step.goal.GoalResult
+robot.trajectory.trajectory.Trajectory --|> robot.trajectory.controller.TrajectoryController
+
+' Layout modifications
+robot.main -[hidden]- robot.calibration
+robot.modbus.input_register -[hidden]- robot.modbus.holding_register
+robot.modbus.holding_register -[hidden]- robot.modbus.server
+robot.trajectory.learning -[hidden]- robot.trajectory.manager
+robot.trajectory.manager -[hidden]- robot.trajectory.parser
+robot.trajectory.step.goal -[hidden]u- robot.trajectory.step.value
+robot.trajectory.step.type.StepType -[hidden]- robot.trajectory.step.type.StepTypes
+robot.trajectory.step.type.StepTypes -[hidden]- robot.trajectory.step.type._step_funcs_temp
+robot.util.colors -[hidden]- robot.util.commands
+robot.util.errors.TrajectoryReadError -[hidden]u- robot.util.errors.TrajectoryLearningError
+robot.util.commands -[hidden]- robot.util.shell
+robot.util.rospy_logger -[hidden]- robot.util.strings
+robot.util.strings -[hidden]- robot.util.vars
+@enduml

@@ -1,0 +1,812 @@
+[06-05-2024 07:07:39] [NiryoRobot] [I] │        Robot started!        │
+[06-05-2024 07:07:39] [NiryoRobot] [I] │      Now enjoy the fun.      │
+[06-05-2024 07:07:39] [NiryoRobot] [I] ╰──────────────────────────────╯
+[06-05-2024 07:07:39] [NiryoRobot] [I] 
+[06-05-2024 07:07:39] [Shell] [I] Shell started
+>>> play
+[06-05-2024 07:07:46] [Shell] [I] Trajectories: 
+[06-05-2024 07:07:46] [Shell] [I] | Name: black 	ID: 0 	Steps: 6
+[06-05-2024 07:07:46] [Shell] [I] | Name: Test 	ID: 10 	Steps: 7
+[06-05-2024 07:07:46] [Shell] [I] | Name: start 	ID: 11 	Steps: 2
+[06-05-2024 07:07:46] [Shell] [I] | Name: stop 	ID: 12 	Steps: 1
+[06-05-2024 07:07:46] [Shell] [I] | Name: move 	ID: 14 	Steps: 6
+>>> default
+[06-05-2024 07:08:23] [Shell] [I] Moving to the default position ...
+[06-05-2024 07:09:37] [RosPy] [I] Received comm state RECALLING when in simple state DONE with SimpleActionClient in NS /niryo_robot_arm_commander/robot_action
+[06-05-2024 07:09:54] [RosPy] [I] Received comm state RECALLING when in simple state DONE with SimpleActionClient in NS /niryo_robot_arm_commander/robot_action
+[06-05-2024 07:58:12] [TrajectoryLearning] [W] previous trajectory not saved or cleared, overriding.
+[06-05-2024 07:58:19] [TrajectoryLearning] [W] previous trajectory not saved or cleared, overriding.
+>>> play
+[06-05-2024 07:59:14] [Shell] [I] Trajectories: 
+[06-05-2024 07:59:14] [Shell] [I] | Name: black 	ID: 0 	Steps: 6
+[06-05-2024 07:59:14] [Shell] [I] | Name: Test 	ID: 10 	Steps: 7
+[06-05-2024 07:59:14] [Shell] [I] | Name: start 	ID: 11 	Steps: 2
+[06-05-2024 07:59:14] [Shell] [I] | Name: stop 	ID: 12 	Steps: 1
+[06-05-2024 07:59:14] [Shell] [I] | Name: move 	ID: 14 	Steps: 6
+[06-05-2024 08:01:16] [RosPy] [I] Received comm state RECALLING when in simple state DONE with SimpleActionClient in NS /niryo_robot_arm_commander/robot_action
+[06-05-2024 08:01:29] [RosPy] [I] Received comm state RECALLING when in simple state DONE with SimpleActionClient in NS /niryo_robot_arm_commander/robot_action
+[06-05-2024 08:02:48] [TrajectoryLearning] [W] previous trajectory not saved or cleared, overriding.
+[06-05-2024 08:03:09] [TrajectoryLearning] [W] previous trajectory not saved or cleared, overriding.
+[06-05-2024 08:03:20] [TrajectoryLearning] [W] previous trajectory not saved or cleared, overriding.
+[06-05-2024 08:10:42] [TrajectoryLearning] [W] previous trajectory not saved or cleared, overriding.
+[06-05-2024 08:11:22] [RosPy] [I] Received comm state RECALLING when in simple state DONE with SimpleActionClient in NS /niryo_robot_arm_commander/robot_action
+[06-05-2024 08:11:46] [RosPy] [I] Received comm state RECALLING when in simple state DONE with SimpleActionClient in NS /niryo_robot_arm_commander/robot_action
+[06-05-2024 08:12:02] [RosPy] [I] Received comm state RECALLING when in simple state DONE with SimpleActionClient in NS /niryo_robot_arm_commander/robot_action
+[06-05-2024 08:18:55] [RosPy] [I] Received comm state RECALLING when in simple state DONE with SimpleActionClient in NS /niryo_robot_arm_commander/robot_action
+[06-05-2024 08:19:08] [RosPy] [I] Received comm state PREEMPTING when in simple state DONE with SimpleActionClient in NS /niryo_robot_arm_commander/robot_action
+[06-05-2024 08:19:45] [RosPy] [I] Received comm state RECALLING when in simple state DONE with SimpleActionClient in NS /niryo_robot_arm_commander/robot_action
+[06-05-2024 08:30:46] [RosPy] [I] Received comm state RECALLING when in simple state DONE with SimpleActionClient in NS /niryo_robot_arm_commander/robot_action
+[06-05-2024 08:31:52] [RosPy] [I] Received comm state PREEMPTING when in simple state DONE with SimpleActionClient in NS /niryo_robot_arm_commander/robot_action
+[06-05-2024 09:22:31] [TrajectoryLearning] [W] previous trajectory not saved or cleared, overriding.
+[06-05-2024 09:22:44] [TrajectoryLearning] [W] previous trajectory not saved or cleared, overriding.
+[06-05-2024 09:22:55] [TrajectoryLearning] [W] previous trajectory not saved or cleared, overriding.
+[06-05-2024 09:25:35] [TrajectoryLearning] [W] previous trajectory not saved or cleared, overriding.
+[06-05-2024 09:27:02] [TrajectoryLearning] [W] previous trajectory not saved or cleared, overriding.
+[06-05-2024 09:27:25] [TrajectoryLearning] [W] previous trajectory not saved or cleared, overriding.
+[06-05-2024 11:37:08] [RosPy] [I] Received comm state RECALLING when in simple state DONE with SimpleActionClient in NS /niryo_robot_arm_commander/robot_action
+[06-05-2024 11:39:13] [RosPy] [I] Received comm state RECALLING when in simple state DONE with SimpleActionClient in NS /niryo_robot_arm_commander/robot_action
+[06-05-2024 11:39:27] [RosPy] [I] Received comm state RECALLING when in simple state DONE with SimpleActionClient in NS /niryo_robot_arm_commander/robot_action
+[06-05-2024 11:42:04] [RosPy] [I] Received comm state RECALLING when in simple state DONE with SimpleActionClient in NS /niryo_robot_arm_commander/robot_action
+[06-05-2024 11:43:54] [RosPy] [I] Received comm state RECALLING when in simple state DONE with SimpleActionClient in NS /niryo_robot_arm_commander/robot_action
+[06-05-2024 11:45:03] [RosPy] [I] Received comm state RECALLING when in simple state DONE with SimpleActionClient in NS /niryo_robot_arm_commander/robot_action
+[06-05-2024 11:46:25] [RosPy] [I] Received comm state RECALLING when in simple state DONE with SimpleActionClient in NS /niryo_robot_arm_commander/robot_action
+[06-05-2024 11:51:24] [RosPy] [I] Received comm state RECALLING when in simple state DONE with SimpleActionClient in NS /niryo_robot_arm_commander/robot_action
+[06-05-2024 11:54:09] [RosPy] [I] Received comm state RECALLING when in simple state DONE with SimpleActionClient in NS /niryo_robot_arm_commander/robot_action
+[06-05-2024 11:57:54] [RosPy] [I] Received comm state RECALLING when in simple state DONE with SimpleActionClient in NS /niryo_robot_arm_commander/robot_action
+[06-05-2024 12:12:50] [RosPy] [I] Received comm state RECALLING when in simple state DONE with SimpleActionClient in NS /niryo_robot_arm_commander/robot_action
+[06-05-2024 12:23:32] [RosPy] [I] Received comm state RECALLING when in simple state DONE with SimpleActionClient in NS /niryo_robot_arm_commander/robot_action
+[06-05-2024 12:26:48] [RosPy] [I] Received comm state RECALLING when in simple state DONE with SimpleActionClient in NS /niryo_robot_arm_commander/robot_action
+[06-05-2024 12:27:57] [RosPy] [I] Received comm state RECALLING when in simple state DONE with SimpleActionClient in NS /niryo_robot_arm_commander/robot_action
+[06-05-2024 12:28:56] [RosPy] [I] Received comm state RECALLING when in simple state DONE with SimpleActionClient in NS /niryo_robot_arm_commander/robot_action
+[06-05-2024 12:31:39] [RosPy] [I] Received comm state RECALLING when in simple state DONE with SimpleActionClient in NS /niryo_robot_arm_commander/robot_action
+[06-05-2024 12:57:17] [RosPy] [I] Received comm state RECALLING when in simple state DONE with SimpleActionClient in NS /niryo_robot_arm_commander/robot_action
+[06-05-2024 13:12:01] [RosPy] [I] Received comm state RECALLING when in simple state DONE with SimpleActionClient in NS /niryo_robot_arm_commander/robot_action
+[06-05-2024 13:12:25] [RosPy] [I] Received comm state RECALLING when in simple state DONE with SimpleActionClient in NS /niryo_robot_arm_commander/robot_action
+[06-05-2024 13:32:29] [HoldingRegisterDataBlock] [E] Traceback (most recent call last):
+[06-05-2024 13:32:29] [HoldingRegisterDataBlock] [E]   File "/home/niryo/projects/robot/modbus/holding_register.py", line 278, in set_motor_speed
+[06-05-2024 13:32:29] [HoldingRegisterDataBlock] [E]     try: self.learning.set_motor_speed(value)
+[06-05-2024 13:32:29] [HoldingRegisterDataBlock] [E]   File "/home/niryo/projects/robot/trajectory/learning.py", line 91, in set_motor_speed
+[06-05-2024 13:32:29] [HoldingRegisterDataBlock] [E]     GoalReport(self.robot.set_arm_max_velocity, percent).raise_if_error()
+[06-05-2024 13:32:29] [HoldingRegisterDataBlock] [E]   File "/home/niryo/projects/robot/trajectory/step/goal.py", line 48, in raise_if_error
+[06-05-2024 13:32:29] [HoldingRegisterDataBlock] [E]     if self.result.status < 0: raise GoalFailure(self.result)
+[06-05-2024 13:32:29] [HoldingRegisterDataBlock] [E] trajectory.step.goal.GoalFailure: TypeError: set_arm_max_velocity() argument after * must be an iterable, not int
+>>> exit
+[06-05-2024 13:36:11] [NiryoRobot] [I] Moving to default position ...
+[06-05-2024 13:36:11] [Shell] [I] Shell stopped
+[06-05-2024 13:36:15] [NiryoRobot] [I] Stopping robot ...
+[06-05-2024 13:36:15] [ModbusServer] [I] Closing server
+[06-05-2024 13:36:15] [ModbusServer] [I] Stopped server
+[06-05-2024 13:36:18] [NiryoRobot] [I] Robot stopped
+[06-05-2024 13:36:18] [NiryoRobot] [I] Stopping RosPy ...
+[I] Importing libraries
+[06-05-2024 13:37:08] [NiryoRobot] [I] 
+[06-05-2024 13:37:08] [NiryoRobot] [I] ╭──────────────────────────────╮
+[06-05-2024 13:37:08] [NiryoRobot] [I] │      Robot is starting       │
+[06-05-2024 13:37:08] [NiryoRobot] [I] │  Please wait one minute ...  │
+[06-05-2024 13:37:08] [NiryoRobot] [I] ╰──────────────────────────────╯
+[06-05-2024 13:37:08] [NiryoRobot] [I] 
+[06-05-2024 13:37:08] [NiryoRobot] [I] Starting RosPy
+[06-05-2024 13:37:09] [NiryoRobot] [I] Connecting to robot
+[06-05-2024 13:37:09] [RosPy] [I] Python ROS Wrapper ready
+[06-05-2024 13:37:09] [NiryoRobot] [I] Loading trajectories ...
+[06-05-2024 13:37:09] [NiryoRobot] [I] Starting Modbus/TCP server ...
+[06-05-2024 13:37:09] [ModbusServer] [I] Created server
+[06-05-2024 13:37:09] [ModbusServer] [I] Started server
+[06-05-2024 13:37:09] [NiryoRobot] [I] Starting terminal ...
+[06-05-2024 13:37:10] [NiryoRobot] [I] 
+[06-05-2024 13:37:10] [NiryoRobot] [I] ╭──────────────────────────────╮
+[06-05-2024 13:37:10] [NiryoRobot] [I] │        Robot started!        │
+[06-05-2024 13:37:10] [NiryoRobot] [I] │      Now enjoy the fun.      │
+[06-05-2024 13:37:10] [NiryoRobot] [I] ╰──────────────────────────────╯
+[06-05-2024 13:37:10] [NiryoRobot] [I] 
+[06-05-2024 13:37:10] [Shell] [I] Shell started
+[06-05-2024 13:37:32] [RosPy] [I] Received comm state RECALLING when in simple state DONE with SimpleActionClient in NS /niryo_robot_arm_commander/robot_action
+>>> play
+[06-05-2024 13:37:40] [Shell] [I] Trajectories: 
+[06-05-2024 13:37:40] [Shell] [I] | Name: Test 	ID: 10 	Steps: 7
+[06-05-2024 13:37:40] [Shell] [I] | Name: start 	ID: 32 	Steps: 2
+>>> play start
+[06-05-2024 13:37:44] [RosPy] [I] Received comm state RECALLING when in simple state DONE with SimpleActionClient in NS /niryo_robot_arm_commander/robot_action
+>>> exit
+[06-05-2024 13:38:12] [Shell] [I] Shell stopped
+[06-05-2024 13:38:12] [NiryoRobot] [I] Moving to default position ...
+[06-05-2024 13:38:13] [NiryoRobot] [I] Stopping robot ...
+[06-05-2024 13:38:13] [ModbusServer] [I] Closing server
+[06-05-2024 13:38:13] [ModbusServer] [I] Stopped server
+[06-05-2024 13:38:15] [NiryoRobot] [I] Robot stopped
+[06-05-2024 13:38:15] [NiryoRobot] [I] Stopping RosPy ...
+[I] Importing libraries
+[06-05-2024 13:43:39] [NiryoRobot] [I] 
+[06-05-2024 13:43:39] [NiryoRobot] [I] ╭──────────────────────────────╮
+[06-05-2024 13:43:39] [NiryoRobot] [I] │      Robot is starting       │
+[06-05-2024 13:43:39] [NiryoRobot] [I] │  Please wait one minute ...  │
+[06-05-2024 13:43:39] [NiryoRobot] [I] ╰──────────────────────────────╯
+[06-05-2024 13:43:39] [NiryoRobot] [I] 
+[06-05-2024 13:43:39] [NiryoRobot] [I] Starting RosPy
+[06-05-2024 13:43:39] [NiryoRobot] [I] Waiting for the other handler, to stop itself ...
+[06-05-2024 13:43:44] [NiryoRobot] [I] Connecting to robot
+[06-05-2024 13:43:45] [RosPy] [I] Python ROS Wrapper ready
+[06-05-2024 13:43:45] [NiryoRobot] [I] Loading trajectories ...
+[06-05-2024 13:43:45] [NiryoRobot] [I] Starting Modbus/TCP server ...
+[06-05-2024 13:43:45] [ModbusServer] [I] Created server
+[06-05-2024 13:43:45] [ModbusServer] [I] Started server
+[06-05-2024 13:43:45] [NiryoRobot] [I] Starting terminal ...
+[06-05-2024 13:43:46] [NiryoRobot] [I] 
+[06-05-2024 13:43:46] [NiryoRobot] [I] ╭──────────────────────────────╮
+[06-05-2024 13:43:46] [NiryoRobot] [I] │        Robot started!        │
+[06-05-2024 13:43:46] [NiryoRobot] [I] │      Now enjoy the fun.      │
+[06-05-2024 13:43:46] [NiryoRobot] [I] ╰──────────────────────────────╯
+[06-05-2024 13:43:46] [NiryoRobot] [I] 
+[06-05-2024 13:43:46] [Shell] [I] Shell started
+>>> play
+[06-05-2024 13:44:11] [Shell] [I] Trajectories: 
+[06-05-2024 13:44:11] [Shell] [I] | Name: Test 	ID: 10 	Steps: 7
+[06-05-2024 13:44:11] [Shell] [I] | Name: start 	ID: 32 	Steps: 2
+[06-05-2024 13:45:45] [RosPy] [I] Received comm state RECALLING when in simple state DONE with SimpleActionClient in NS /niryo_robot_arm_commander/robot_action
+[06-05-2024 13:51:26] [RosPy] [I] Received comm state RECALLING when in simple state DONE with SimpleActionClient in NS /niryo_robot_arm_commander/robot_action
+[06-05-2024 13:51:37] [RosPy] [I] Received comm state PREEMPTING when in simple state DONE with SimpleActionClient in NS /niryo_robot_arm_commander/robot_action
+[06-05-2024 13:52:18] [RosPy] [I] Received comm state RECALLING when in simple state DONE with SimpleActionClient in NS /niryo_robot_arm_commander/robot_action
+[06-05-2024 13:52:32] [RosPy] [I] Received comm state RECALLING when in simple state DONE with SimpleActionClient in NS /niryo_robot_arm_commander/robot_action
+[06-05-2024 13:58:05] [RosPy] [I] Received comm state RECALLING when in simple state DONE with SimpleActionClient in NS /niryo_robot_arm_commander/robot_action
+>>> play reload
+[06-05-2024 13:58:45] [Shell] [I] Trajectories reloaded.
+[06-05-2024 13:59:03] [RosPy] [I] Received comm state RECALLING when in simple state DONE with SimpleActionClient in NS /niryo_robot_arm_commander/robot_action
+[06-05-2024 14:08:49] [RosPy] [I] Received comm state RECALLING when in simple state DONE with SimpleActionClient in NS /niryo_robot_arm_commander/robot_action
+[06-05-2024 14:08:56] [RosPy] [I] Received comm state PREEMPTING when in simple state DONE with SimpleActionClient in NS /niryo_robot_arm_commander/robot_action
+[06-05-2024 14:09:49] [RosPy] [I] Received comm state RECALLING when in simple state DONE with SimpleActionClient in NS /niryo_robot_arm_commander/robot_action
+[06-05-2024 14:11:39] [RosPy] [I] Received comm state RECALLING when in simple state DONE with SimpleActionClient in NS /niryo_robot_arm_commander/robot_action
+[06-05-2024 14:13:42] [RosPy] [I] Received comm state RECALLING when in simple state DONE with SimpleActionClient in NS /niryo_robot_arm_commander/robot_action
+[06-05-2024 14:15:05] [RosPy] [I] Received comm state RECALLING when in simple state DONE with SimpleActionClient in NS /niryo_robot_arm_commander/robot_action
+[06-05-2024 14:29:20] [RosPy] [I] Received comm state RECALLING when in simple state DONE with SimpleActionClient in NS /niryo_robot_arm_commander/robot_action
+[06-05-2024 14:29:40] [RosPy] [I] SimpleActionClient received DONE twice
+>>> play reload
+[06-05-2024 14:43:25] [Shell] [I] Trajectories reloaded.
+[06-05-2024 14:43:54] [RosPy] [I] Received comm state RECALLING when in simple state DONE with SimpleActionClient in NS /niryo_robot_arm_commander/robot_action
+[06-05-2024 14:44:30] [RosPy] [I] Received comm state RECALLING when in simple state DONE with SimpleActionClient in NS /niryo_robot_arm_commander/robot_action
+>>> play reload
+[06-05-2024 14:45:01] [Shell] [I] Trajectories reloaded.
+[06-05-2024 14:45:39] [RosPy] [I] Received comm state RECALLING when in simple state DONE with SimpleActionClient in NS /niryo_robot_arm_commander/robot_action
+[06-05-2024 14:46:31] [RosPy] [I] Received comm state RECALLING when in simple state DONE with SimpleActionClient in NS /niryo_robot_arm_commander/robot_action
+[06-05-2024 14:47:46] [RosPy] [I] Got a transition callback on a goal handle that we're not tracking
+[06-05-2024 14:47:46] [RosPy] [I] Received comm state RECALLING when in simple state DONE with SimpleActionClient in NS /niryo_robot_arm_commander/robot_action
+[06-05-2024 14:49:25] [RosPy] [I] Received comm state RECALLING when in simple state DONE with SimpleActionClient in NS /niryo_robot_arm_commander/robot_action
+>>> play reload
+[06-05-2024 14:51:36] [Shell] [I] Trajectories reloaded.
+[06-05-2024 14:52:12] [RosPy] [I] Received comm state RECALLING when in simple state DONE with SimpleActionClient in NS /niryo_robot_arm_commander/robot_action
+[06-05-2024 14:52:37] [RosPy] [I] Received comm state RECALLING when in simple state DONE with SimpleActionClient in NS /niryo_robot_arm_commander/robot_action
+[06-05-2024 14:53:04] [RosPy] [I] Received comm state RECALLING when in simple state DONE with SimpleActionClient in NS /niryo_robot_arm_commander/robot_action
+>>> play reload
+[06-05-2024 14:53:33] [Shell] [I] Trajectories reloaded.
+[06-05-2024 14:53:37] [RosPy] [I] Received comm state RECALLING when in simple state DONE with SimpleActionClient in NS /niryo_robot_arm_commander/robot_action
+[06-05-2024 14:54:19] [RosPy] [I] Received comm state RECALLING when in simple state DONE with SimpleActionClient in NS /niryo_robot_arm_commander/robot_action
+>>> play reload
+[06-05-2024 14:54:36] [Shell] [I] Trajectories reloaded.
+[06-05-2024 14:54:41] [RosPy] [I] Received comm state RECALLING when in simple state DONE with SimpleActionClient in NS /niryo_robot_arm_commander/robot_action
+[06-05-2024 14:55:51] [RosPy] [I] Received comm state RECALLING when in simple state DONE with SimpleActionClient in NS /niryo_robot_arm_commander/robot_action
+[06-05-2024 14:56:53] [TrajectoryLearning] [W] previous trajectory not saved or cleared, overriding.
+[06-05-2024 14:57:46] [TrajectoryLearning] [W] previous trajectory not saved or cleared, overriding.
+[06-05-2024 15:00:22] [TrajectoryLearning] [W] previous trajectory not saved or cleared, overriding.
+[06-05-2024 15:05:51] [RosPy] [I] Received comm state RECALLING when in simple state DONE with SimpleActionClient in NS /niryo_robot_arm_commander/robot_action
+[06-05-2024 15:08:42] [RosPy] [I] Received comm state RECALLING when in simple state DONE with SimpleActionClient in NS /niryo_robot_arm_commander/robot_action
+[06-05-2024 15:09:02] [RosPy] [I] Received comm state PREEMPTING when in simple state DONE with SimpleActionClient in NS /niryo_robot_arm_commander/robot_action
+>>> play reload
+[06-05-2024 15:09:49] [Shell] [I] Trajectories reloaded.
+[06-05-2024 15:10:39] [RosPy] [I] Received comm state RECALLING when in simple state DONE with SimpleActionClient in NS /niryo_robot_arm_commander/robot_action
+[06-05-2024 15:10:59] [RosPy] [I] Received comm state PREEMPTING when in simple state DONE with SimpleActionClient in NS /niryo_robot_arm_commander/robot_action
+>>> play reload
+[06-05-2024 15:11:41] [Shell] [I] Trajectories reloaded.
+[06-05-2024 15:11:48] [RosPy] [I] Received comm state RECALLING when in simple state DONE with SimpleActionClient in NS /niryo_robot_arm_commander/robot_action
+>>> play reload
+[06-05-2024 15:12:26] [Shell] [I] Trajectories reloaded.
+[06-05-2024 15:12:29] [RosPy] [I] Received comm state RECALLING when in simple state DONE with SimpleActionClient in NS /niryo_robot_arm_commander/robot_action
+[06-05-2024 15:12:47] [RosPy] [I] Received comm state PREEMPTING when in simple state DONE with SimpleActionClient in NS /niryo_robot_arm_commander/robot_action
+[06-05-2024 15:12:52] [RosPy] [I] Received comm state PREEMPTING when in simple state DONE with SimpleActionClient in NS /niryo_robot_arm_commander/robot_action
+[06-05-2024 15:13:01] [RosPy] [I] Received comm state PREEMPTING when in simple state DONE with SimpleActionClient in NS /niryo_robot_arm_commander/robot_action
+[06-05-2024 15:27:20] [RosPy] [I] Received comm state RECALLING when in simple state DONE with SimpleActionClient in NS /niryo_robot_arm_commander/robot_action
+[06-05-2024 15:35:25] [RosPy] [I] Received comm state RECALLING when in simple state DONE with SimpleActionClient in NS /niryo_robot_arm_commander/robot_action
+[I] Importing libraries
+[06-06-2024 12:17:33] [NiryoRobot] [I] 
+[06-06-2024 12:17:33] [NiryoRobot] [I] ╭──────────────────────────────╮
+[06-06-2024 12:17:33] [NiryoRobot] [I] │      Robot is starting       │
+[06-06-2024 12:17:33] [NiryoRobot] [I] │  Please wait one minute ...  │
+[06-06-2024 12:17:33] [NiryoRobot] [I] ╰──────────────────────────────╯
+[06-06-2024 12:17:33] [NiryoRobot] [I] 
+[06-06-2024 12:17:33] [NiryoRobot] [I] Starting RosPy
+[06-06-2024 12:17:34] [NiryoRobot] [I] Waiting for the other handler, to stop itself ...
+[06-06-2024 12:17:38] [NiryoRobot] [I] Connecting to robot
+[06-06-2024 12:17:38] [RosPy] [I] Python ROS Wrapper ready
+[06-06-2024 12:17:38] [NiryoRobot] [I] Loading trajectories ...
+[06-06-2024 12:17:38] [NiryoRobot] [I] Starting Modbus/TCP server ...
+[06-06-2024 12:17:38] [ModbusServer] [I] Created server
+[06-06-2024 12:17:38] [ModbusServer] [I] Started server
+[06-06-2024 12:17:38] [NiryoRobot] [I] Starting terminal ...
+[06-06-2024 12:17:39] [NiryoRobot] [I] 
+[06-06-2024 12:17:39] [NiryoRobot] [I] ╭──────────────────────────────╮
+[06-06-2024 12:17:39] [NiryoRobot] [I] │        Robot started!        │
+[06-06-2024 12:17:39] [NiryoRobot] [I] │      Now enjoy the fun.      │
+[06-06-2024 12:17:39] [NiryoRobot] [I] ╰──────────────────────────────╯
+[06-06-2024 12:17:39] [NiryoRobot] [I] 
+[06-06-2024 12:17:39] [Shell] [I] Shell started
+>>> play reload
+[06-06-2024 12:17:53] [Shell] [I] Trajectories reloaded.
+[06-06-2024 12:18:49] [RosPy] [I] Received comm state RECALLING when in simple state DONE with SimpleActionClient in NS /niryo_robot_arm_commander/robot_action
+>>> play reload
+[06-06-2024 12:19:23] [Shell] [I] Trajectories reloaded.
+[06-06-2024 12:20:22] [RosPy] [I] Received comm state RECALLING when in simple state DONE with SimpleActionClient in NS /niryo_robot_arm_commander/robot_action
+[06-06-2024 12:23:11] [RosPy] [I] Received comm state RECALLING when in simple state DONE with SimpleActionClient in NS /niryo_robot_arm_commander/robot_action
+[06-06-2024 12:24:46] [RosPy] [I] Received comm state RECALLING when in simple state DONE with SimpleActionClient in NS /niryo_robot_arm_commander/robot_action
+[06-06-2024 12:25:05] [RosPy] [I] Received comm state RECALLING when in simple state DONE with SimpleActionClient in NS /niryo_robot_arm_commander/robot_action
+[06-06-2024 12:28:00] [RosPy] [I] Received comm state RECALLING when in simple state DONE with SimpleActionClient in NS /niryo_robot_arm_commander/robot_action
+[06-06-2024 12:28:21] [RosPy] [I] Received comm state RECALLING when in simple state DONE with SimpleActionClient in NS /niryo_robot_arm_commander/robot_action
+[06-06-2024 12:28:54] [RosPy] [I] Received comm state RECALLING when in simple state DONE with SimpleActionClient in NS /niryo_robot_arm_commander/robot_action
+[06-06-2024 12:29:57] [RosPy] [I] Received comm state RECALLING when in simple state DONE with SimpleActionClient in NS /niryo_robot_arm_commander/robot_action
+[06-06-2024 12:30:18] [RosPy] [I] Received comm state RECALLING when in simple state DONE with SimpleActionClient in NS /niryo_robot_arm_commander/robot_action
+[06-06-2024 12:30:46] [RosPy] [I] Received comm state RECALLING when in simple state DONE with SimpleActionClient in NS /niryo_robot_arm_commander/robot_action
+>>> play reload
+[06-06-2024 12:32:48] [Shell] [I] Trajectories reloaded.
+[06-06-2024 12:33:54] [RosPy] [I] Received comm state RECALLING when in simple state DONE with SimpleActionClient in NS /niryo_robot_arm_commander/robot_action
+[06-06-2024 12:34:26] [RosPy] [I] Received comm state RECALLING when in simple state DONE with SimpleActionClient in NS /niryo_robot_arm_commander/robot_action
+[06-06-2024 12:34:28] [HoldingRegisterDataBlock] [E] ModbusAsyncAction - TrajectoryPlayError: GoalFailure: NiryoRosWrapperException: Error Code : -52
+[06-06-2024 12:34:28] [HoldingRegisterDataBlock] [E] Message : Value must be between 1 and 200
+[06-06-2024 12:34:49] [RosPy] [I] Received comm state RECALLING when in simple state DONE with SimpleActionClient in NS /niryo_robot_arm_commander/robot_action
+[06-06-2024 12:34:52] [HoldingRegisterDataBlock] [E] ModbusAsyncAction - TrajectoryPlayError: GoalFailure: NiryoRosWrapperException: Error Code : -52
+[06-06-2024 12:34:52] [HoldingRegisterDataBlock] [E] Message : Value must be between 1 and 200
+[06-06-2024 12:35:00] [RosPy] [I] Received comm state RECALLING when in simple state DONE with SimpleActionClient in NS /niryo_robot_arm_commander/robot_action
+[06-06-2024 12:35:02] [HoldingRegisterDataBlock] [E] ModbusAsyncAction - TrajectoryPlayError: GoalFailure: NiryoRosWrapperException: Error Code : -52
+[06-06-2024 12:35:02] [HoldingRegisterDataBlock] [E] Message : Value must be between 1 and 200
+[06-06-2024 12:35:12] [RosPy] [I] Received comm state RECALLING when in simple state DONE with SimpleActionClient in NS /niryo_robot_arm_commander/robot_action
+[06-06-2024 12:35:14] [HoldingRegisterDataBlock] [E] ModbusAsyncAction - TrajectoryPlayError: GoalFailure: NiryoRosWrapperException: Error Code : -52
+[06-06-2024 12:35:14] [HoldingRegisterDataBlock] [E] Message : Value must be between 1 and 200
+>>> play reload
+[06-06-2024 12:35:36] [Shell] [I] Trajectories reloaded.
+[06-06-2024 12:35:40] [RosPy] [I] Received comm state RECALLING when in simple state DONE with SimpleActionClient in NS /niryo_robot_arm_commander/robot_action
+[06-06-2024 12:36:18] [RosPy] [I] Received comm state RECALLING when in simple state DONE with SimpleActionClient in NS /niryo_robot_arm_commander/robot_action
+[06-06-2024 12:38:08] [RosPy] [I] Received comm state RECALLING when in simple state DONE with SimpleActionClient in NS /niryo_robot_arm_commander/robot_action
+[06-06-2024 12:38:40] [RosPy] [I] Received comm state RECALLING when in simple state DONE with SimpleActionClient in NS /niryo_robot_arm_commander/robot_action
+[06-06-2024 12:39:08] [RosPy] [I] Received comm state RECALLING when in simple state DONE with SimpleActionClient in NS /niryo_robot_arm_commander/robot_action
+[06-06-2024 12:39:21] [RosPy] [I] Received comm state RECALLING when in simple state DONE with SimpleActionClient in NS /niryo_robot_arm_commander/robot_action
+[06-06-2024 12:40:17] [RosPy] [I] Received comm state RECALLING when in simple state DONE with SimpleActionClient in NS /niryo_robot_arm_commander/robot_action
+[06-06-2024 12:41:08] [RosPy] [I] Received comm state RECALLING when in simple state DONE with SimpleActionClient in NS /niryo_robot_arm_commander/robot_action
+[06-06-2024 12:43:31] [RosPy] [I] Received comm state RECALLING when in simple state DONE with SimpleActionClient in NS /niryo_robot_arm_commander/robot_action
+[06-06-2024 12:43:54] [RosPy] [I] Received comm state RECALLING when in simple state DONE with SimpleActionClient in NS /niryo_robot_arm_commander/robot_action
+[06-06-2024 12:44:39] [RosPy] [I] Received comm state RECALLING when in simple state DONE with SimpleActionClient in NS /niryo_robot_arm_commander/robot_action
+[06-06-2024 12:45:18] [RosPy] [I] Received comm state RECALLING when in simple state DONE with SimpleActionClient in NS /niryo_robot_arm_commander/robot_action
+[06-06-2024 12:47:51] [RosPy] [I] Received comm state RECALLING when in simple state DONE with SimpleActionClient in NS /niryo_robot_arm_commander/robot_action
+[06-06-2024 12:48:21] [RosPy] [I] Received comm state RECALLING when in simple state DONE with SimpleActionClient in NS /niryo_robot_arm_commander/robot_action
+[06-06-2024 12:48:53] [RosPy] [I] Received comm state RECALLING when in simple state DONE with SimpleActionClient in NS /niryo_robot_arm_commander/robot_action
+[06-06-2024 12:49:23] [RosPy] [I] Received comm state RECALLING when in simple state DONE with SimpleActionClient in NS /niryo_robot_arm_commander/robot_action
+[06-06-2024 12:49:29] [RosPy] [I] Got a transition callback on a goal handle that we're not tracking
+[06-06-2024 12:52:07] [RosPy] [I] Received comm state RECALLING when in simple state DONE with SimpleActionClient in NS /niryo_robot_arm_commander/robot_action
+[06-06-2024 12:54:55] [RosPy] [I] Received comm state RECALLING when in simple state DONE with SimpleActionClient in NS /niryo_robot_arm_commander/robot_action
+[06-06-2024 12:55:43] [RosPy] [I] Received comm state RECALLING when in simple state DONE with SimpleActionClient in NS /niryo_robot_arm_commander/robot_action
+[06-06-2024 12:56:14] [RosPy] [I] Received comm state RECALLING when in simple state DONE with SimpleActionClient in NS /niryo_robot_arm_commander/robot_action
+[06-06-2024 12:56:58] [RosPy] [I] Received comm state RECALLING when in simple state DONE with SimpleActionClient in NS /niryo_robot_arm_commander/robot_action
+[06-06-2024 12:57:36] [RosPy] [I] Received comm state RECALLING when in simple state DONE with SimpleActionClient in NS /niryo_robot_arm_commander/robot_action
+[06-06-2024 12:58:16] [RosPy] [I] Received comm state RECALLING when in simple state DONE with SimpleActionClient in NS /niryo_robot_arm_commander/robot_action
+[06-06-2024 12:58:55] [RosPy] [I] Received comm state RECALLING when in simple state DONE with SimpleActionClient in NS /niryo_robot_arm_commander/robot_action
+[06-06-2024 12:58:57] [RosPy] [I] Got a transition callback on a goal handle that we're not tracking
+[06-06-2024 12:59:44] [RosPy] [I] Received comm state RECALLING when in simple state DONE with SimpleActionClient in NS /niryo_robot_arm_commander/robot_action
+[06-06-2024 13:00:56] [RosPy] [I] Received comm state RECALLING when in simple state DONE with SimpleActionClient in NS /niryo_robot_arm_commander/robot_action
+[06-06-2024 13:06:08] [RosPy] [I] Received comm state RECALLING when in simple state DONE with SimpleActionClient in NS /niryo_robot_arm_commander/robot_action
+[06-06-2024 13:08:05] [RosPy] [I] Received comm state RECALLING when in simple state DONE with SimpleActionClient in NS /niryo_robot_arm_commander/robot_action
+[06-06-2024 13:08:50] [RosPy] [I] Received comm state RECALLING when in simple state DONE with SimpleActionClient in NS /niryo_robot_arm_commander/robot_action
+[06-06-2024 13:09:51] [RosPy] [I] Received comm state RECALLING when in simple state DONE with SimpleActionClient in NS /niryo_robot_arm_commander/robot_action
+[06-06-2024 13:17:19] [RosPy] [I] Received comm state RECALLING when in simple state DONE with SimpleActionClient in NS /niryo_robot_arm_commander/robot_action
+[06-06-2024 13:20:26] [RosPy] [I] Received comm state RECALLING when in simple state DONE with SimpleActionClient in NS /niryo_robot_arm_commander/robot_action
+[06-06-2024 13:21:16] [RosPy] [I] Received comm state RECALLING when in simple state DONE with SimpleActionClient in NS /niryo_robot_arm_commander/robot_action
+[06-06-2024 13:25:13] [RosPy] [I] Received comm state RECALLING when in simple state DONE with SimpleActionClient in NS /niryo_robot_arm_commander/robot_action
+[06-06-2024 13:25:54] [RosPy] [I] Received comm state RECALLING when in simple state DONE with SimpleActionClient in NS /niryo_robot_arm_commander/robot_action
+[06-06-2024 13:28:21] [RosPy] [I] Received comm state RECALLING when in simple state DONE with SimpleActionClient in NS /niryo_robot_arm_commander/robot_action
+[06-06-2024 13:28:51] [RosPy] [I] Received comm state RECALLING when in simple state DONE with SimpleActionClient in NS /niryo_robot_arm_commander/robot_action
+[06-06-2024 13:32:03] [RosPy] [I] Received comm state RECALLING when in simple state DONE with SimpleActionClient in NS /niryo_robot_arm_commander/robot_action
+[06-06-2024 13:32:59] [RosPy] [I] Received comm state RECALLING when in simple state DONE with SimpleActionClient in NS /niryo_robot_arm_commander/robot_action
+[06-06-2024 14:05:14] [RosPy] [I] Received comm state RECALLING when in simple state DONE with SimpleActionClient in NS /niryo_robot_arm_commander/robot_action
+[I] Importing libraries
+[06-06-2024 14:09:55] [NiryoRobot] [I] 
+[06-06-2024 14:09:55] [NiryoRobot] [I] ╭──────────────────────────────╮
+[06-06-2024 14:09:55] [NiryoRobot] [I] │      Robot is starting       │
+[06-06-2024 14:09:55] [NiryoRobot] [I] │  Please wait one minute ...  │
+[06-06-2024 14:09:55] [NiryoRobot] [I] ╰──────────────────────────────╯
+[06-06-2024 14:09:55] [NiryoRobot] [I] 
+[06-06-2024 14:09:55] [NiryoRobot] [I] Starting RosPy
+[06-06-2024 14:09:55] [NiryoRobot] [I] Connecting to robot
+[06-06-2024 14:09:55] [NiryoRobot] [I] External shutdown request from [/master]: [[/niryo_robot_project] reason: new node registered with same name]
+[06-06-2024 14:09:55] [NiryoRobot] [W] !! Detected new instance of program !!
+[06-06-2024 14:09:55] [NiryoRobot] [I] Shutting down this program ...
+[06-06-2024 14:09:55] [RosPy] [I] Python ROS Wrapper ready
+[06-06-2024 14:09:55] [NiryoRobot] [I] Loading trajectories ...
+[06-06-2024 14:09:55] [NiryoRobot] [I] Starting Modbus/TCP server ...
+[06-06-2024 14:09:55] [ModbusServer] [E] TCP server unable to start: [Errno 98] Address already in use
+[06-06-2024 14:09:55] [NiryoRobot] [I] Stopping robot ...
+[06-06-2024 14:09:56] [NiryoRobot] [I] Stopping robot ...
+[06-06-2024 14:10:01] [ModbusServer] [I] Closing server
+[06-06-2024 14:10:01] [ModbusServer] [I] Stopped server
+[06-06-2024 14:10:01] [NiryoRobot] [I] Stopping RosPy ...
+[06-06-2024 14:10:01] [NiryoRobot] [I] Robot stopped
+[06-06-2024 14:10:01] [NiryoRobot] [E] 
+[06-06-2024 14:10:01] [NiryoRobot] [E] !! Exited before finish starting
+[06-06-2024 14:10:01] [NiryoRobot] [I] Stopping RosPy ...
+[06-06-2024 14:10:03] [NiryoRobot] [I] Robot stopped
+[I] Importing libraries
+[06-06-2024 14:10:07] [NiryoRobot] [I] 
+[06-06-2024 14:10:07] [NiryoRobot] [I] ╭──────────────────────────────╮
+[06-06-2024 14:10:07] [NiryoRobot] [I] │      Robot is starting       │
+[06-06-2024 14:10:07] [NiryoRobot] [I] │  Please wait one minute ...  │
+[06-06-2024 14:10:07] [NiryoRobot] [I] ╰──────────────────────────────╯
+[06-06-2024 14:10:07] [NiryoRobot] [I] 
+[06-06-2024 14:10:07] [NiryoRobot] [I] Starting RosPy
+[06-06-2024 14:10:07] [NiryoRobot] [I] Connecting to robot
+[06-06-2024 14:10:07] [RosPy] [I] Python ROS Wrapper ready
+[06-06-2024 14:10:07] [NiryoRobot] [I] Loading trajectories ...
+[06-06-2024 14:10:07] [NiryoRobot] [I] Starting Modbus/TCP server ...
+[06-06-2024 14:10:08] [ModbusServer] [I] Created server
+[06-06-2024 14:10:08] [ModbusServer] [I] Started server
+[06-06-2024 14:10:08] [NiryoRobot] [I] Starting terminal ...
+[06-06-2024 14:10:09] [NiryoRobot] [I] 
+[06-06-2024 14:10:09] [NiryoRobot] [I] ╭──────────────────────────────╮
+[06-06-2024 14:10:09] [NiryoRobot] [I] │        Robot started!        │
+[06-06-2024 14:10:09] [NiryoRobot] [I] │      Now enjoy the fun.      │
+[06-06-2024 14:10:09] [NiryoRobot] [I] ╰──────────────────────────────╯
+[06-06-2024 14:10:09] [NiryoRobot] [I] 
+[06-06-2024 14:10:09] [Shell] [I] Shell started
+>>> help
+[06-06-2024 14:10:12] [Shell] [I] 
+[06-06-2024 14:10:12] [Shell] [I] Niryo Robot CLI
+[06-06-2024 14:10:12] [Shell] [I] 
+[06-06-2024 14:10:12] [Shell] [I] commands:
+[06-06-2024 14:10:12] [Shell] [I]   help                               Print this help
+[06-06-2024 14:10:12] [Shell] [I]   exit                               Exit the main program
+[06-06-2024 14:10:12] [Shell] [I]   loglevel  [level]                  Control verbosity level of logging
+[06-06-2024 14:10:12] [Shell] [I]   manual                             Control the robot manually by keyboard
+[06-06-2024 14:10:12] [Shell] [I]   deep      [on|off]                 Set/Get deep learning mode
+[06-06-2024 14:10:12] [Shell] [I]   default                            Move robot to default position
+[06-06-2024 14:10:12] [Shell] [I]   halt      [deep]                   Stop the current robot movement
+[06-06-2024 14:10:12] [Shell] [I]   clear                              Clear collision detected trigger
+[06-06-2024 14:10:12] [Shell] [I]   calibrate                          Start new robot calibration
+[06-06-2024 14:10:12] [Shell] [I]   play      [reload|type-<name|id>]  Play a trajectory or list it
+[06-06-2024 14:10:12] [Shell] [I]   exec      <code...>                Execute python code in runtime
+[06-06-2024 14:10:12] [Shell] [I]   speed     [percent]                Set/Get arm max speed (velocity) between 1 and 200%
+>>> manual
+[06-06-2024 14:10:17] [Shell] [I] Manual mode started!
+[06-06-2024 14:10:17] [Shell] [I] Robot can now be controlled by keyboard.
+[06-06-2024 14:10:17] [Shell] [I] 
+[06-06-2024 14:10:17] [Shell] [I] Press ENTER to exit this mode.
+[06-06-2024 14:10:17] [Shell] [I] Available move keys:
+[06-06-2024 14:10:17] [Shell] [I] | joint 1: a (+) / q (-)
+[06-06-2024 14:10:17] [Shell] [I] | joint 2: z (+) / s (-)
+[06-06-2024 14:10:17] [Shell] [I] | joint 3: e (+) / d (-)
+[06-06-2024 14:10:17] [Shell] [I] | joint 4: r (+) / f (-)
+[06-06-2024 14:10:17] [Shell] [I] | joint 5: t (+) / g (-)
+[06-06-2024 14:10:17] [Shell] [I] | joint 6: y (+) / h (-)
+[06-06-2024 14:10:17] [Shell] [I] | tool: TAB
+[06-06-2024 14:10:29] [Shell] [I] 
+[06-06-2024 14:10:29] [Shell] [I] Manual mode exited!
+>>> help
+[06-06-2024 14:10:31] [Shell] [I] 
+[06-06-2024 14:10:31] [Shell] [I] Niryo Robot CLI
+[06-06-2024 14:10:31] [Shell] [I] 
+[06-06-2024 14:10:31] [Shell] [I] commands:
+[06-06-2024 14:10:31] [Shell] [I]   help                               Print this help
+[06-06-2024 14:10:31] [Shell] [I]   exit                               Exit the main program
+[06-06-2024 14:10:31] [Shell] [I]   loglevel  [level]                  Control verbosity level of logging
+[06-06-2024 14:10:31] [Shell] [I]   manual                             Control the robot manually by keyboard
+[06-06-2024 14:10:31] [Shell] [I]   deep      [on|off]                 Set/Get deep learning mode
+[06-06-2024 14:10:31] [Shell] [I]   default                            Move robot to default position
+[06-06-2024 14:10:31] [Shell] [I]   halt      [deep]                   Stop the current robot movement
+[06-06-2024 14:10:31] [Shell] [I]   clear                              Clear collision detected trigger
+[06-06-2024 14:10:31] [Shell] [I]   calibrate                          Start new robot calibration
+[06-06-2024 14:10:31] [Shell] [I]   play      [reload|type-<name|id>]  Play a trajectory or list it
+[06-06-2024 14:10:31] [Shell] [I]   exec      <code...>                Execute python code in runtime
+[06-06-2024 14:10:31] [Shell] [I]   speed     [percent]                Set/Get arm max speed (velocity) between 1 and 200%
+>>> default
+[06-06-2024 14:10:34] [Shell] [I] Moving to the default position ...
+>>> speed
+[06-06-2024 14:10:43] [Shell] [I] Arm max velocity is at 200%
+>>> speed 50
+[06-06-2024 14:10:49] [Shell] [I] Arm max velocity set to 50%
+>>> play
+[06-06-2024 14:10:51] [Shell] [I] Trajectories: 
+[06-06-2024 14:10:51] [Shell] [I] | Name: Test 	ID: 10 	Steps: 7
+[06-06-2024 14:10:51] [Shell] [I] | Name: start 	ID: 33 	Steps: 2
+[06-06-2024 14:10:51] [Shell] [I] | Name: stop 	ID: 36 	Steps: 1
+[06-06-2024 14:10:51] [Shell] [I] | Name: production 	ID: 40 	Steps: 13
+[06-06-2024 14:10:51] [Shell] [I] | Name: erqgegrs 	ID: 41 	Steps: 7
+>>> play Test
+[06-06-2024 14:10:56] [RosPy] [I] Received comm state RECALLING when in simple state DONE with SimpleActionClient in NS /niryo_robot_arm_commander/robot_action
+>>> play
+[06-06-2024 14:11:27] [Shell] [I] Trajectories: 
+[06-06-2024 14:11:27] [Shell] [I] | Name: Test 	ID: 10 	Steps: 7
+[06-06-2024 14:11:27] [Shell] [I] | Name: start 	ID: 33 	Steps: 2
+[06-06-2024 14:11:27] [Shell] [I] | Name: stop 	ID: 36 	Steps: 1
+[06-06-2024 14:11:27] [Shell] [I] | Name: production 	ID: 40 	Steps: 13
+>>> exit
+[06-06-2024 14:11:33] [Shell] [I] Shell stopped
+[06-06-2024 14:11:33] [NiryoRobot] [I] Moving to default position ...
+[06-06-2024 14:11:34] [NiryoRobot] [I] Stopping robot ...
+[06-06-2024 14:11:34] [ModbusServer] [I] Closing server
+[06-06-2024 14:11:34] [ModbusServer] [I] Stopped server
+[06-06-2024 14:11:36] [NiryoRobot] [I] Robot stopped
+[06-06-2024 14:11:36] [NiryoRobot] [I] Stopping RosPy ...
+[I] Importing libraries
+[06-13-2024 06:27:05] [NiryoRobot] [I] 
+[06-13-2024 06:27:05] [NiryoRobot] [I] ╭──────────────────────────────╮
+[06-13-2024 06:27:05] [NiryoRobot] [I] │      Robot is starting       │
+[06-13-2024 06:27:05] [NiryoRobot] [I] │  Please wait one minute ...  │
+[06-13-2024 06:27:05] [NiryoRobot] [I] ╰──────────────────────────────╯
+[06-13-2024 06:27:05] [NiryoRobot] [I] 
+[06-13-2024 06:27:05] [NiryoRobot] [I] Starting RosPy
+[06-13-2024 06:27:06] [NiryoRobot] [I] Waiting for the other handler, to stop itself ...
+[06-13-2024 06:27:10] [NiryoRobot] [I] Connecting to robot
+[06-13-2024 06:27:10] [RosPy] [I] Python ROS Wrapper ready
+[06-13-2024 06:27:10] [NiryoRobot] [I] Loading trajectories ...
+[06-13-2024 06:27:10] [NiryoRobot] [I] Starting Modbus/TCP server ...
+[06-13-2024 06:27:10] [ModbusServer] [I] Created server
+[06-13-2024 06:27:10] [ModbusServer] [I] Started server
+[06-13-2024 06:27:10] [NiryoRobot] [I] Starting Gamepad manager
+[06-13-2024 06:27:10] [NiryoRobot] [I] Starting terminal ...
+[06-13-2024 06:27:11] [NiryoRobot] [I] 
+[06-13-2024 06:27:11] [NiryoRobot] [I] ╭──────────────────────────────╮
+[06-13-2024 06:27:11] [NiryoRobot] [I] │        Robot started!        │
+[06-13-2024 06:27:11] [NiryoRobot] [I] │      Now enjoy the fun.      │
+[06-13-2024 06:27:11] [NiryoRobot] [I] ╰──────────────────────────────╯
+[06-13-2024 06:27:11] [NiryoRobot] [I] 
+[06-13-2024 06:27:11] [Shell] [I] Shell started
+>>> exit
+[06-13-2024 06:27:23] [Shell] [I] Shell stopped
+[06-13-2024 06:27:23] [NiryoRobot] [I] Moving to default position ...
+[06-13-2024 06:27:25] [NiryoRobot] [I] Stopping robot ...
+[06-13-2024 06:27:25] [ModbusServer] [I] Closing server
+[06-13-2024 06:27:25] [ModbusServer] [I] Stopped server
+[06-13-2024 06:27:28] [NiryoRobot] [I] Robot stopped
+[06-13-2024 06:27:28] [NiryoRobot] [I] Stopping RosPy ...
+[I] Importing libraries
+[06-13-2024 06:27:35] [NiryoRobot] [I] 
+[06-13-2024 06:27:35] [NiryoRobot] [I] ╭──────────────────────────────╮
+[06-13-2024 06:27:35] [NiryoRobot] [I] │      Robot is starting       │
+[06-13-2024 06:27:35] [NiryoRobot] [I] │  Please wait one minute ...  │
+[06-13-2024 06:27:35] [NiryoRobot] [I] ╰──────────────────────────────╯
+[06-13-2024 06:27:35] [NiryoRobot] [I] 
+[06-13-2024 06:27:35] [NiryoRobot] [I] Starting RosPy
+[06-13-2024 06:27:35] [NiryoRobot] [I] Connecting to robot
+[06-13-2024 06:27:35] [RosPy] [I] Python ROS Wrapper ready
+[06-13-2024 06:27:35] [NiryoRobot] [I] Loading trajectories ...
+[06-13-2024 06:27:36] [NiryoRobot] [I] Starting Modbus/TCP server ...
+[06-13-2024 06:27:36] [ModbusServer] [I] Created server
+[06-13-2024 06:27:36] [ModbusServer] [I] Started server
+[06-13-2024 06:27:36] [NiryoRobot] [I] Starting Gamepad manager
+[06-13-2024 06:27:36] [NiryoRobot] [I] Starting terminal ...
+[06-13-2024 06:27:37] [NiryoRobot] [I] 
+[06-13-2024 06:27:37] [NiryoRobot] [I] ╭──────────────────────────────╮
+[06-13-2024 06:27:37] [NiryoRobot] [I] │        Robot started!        │
+[06-13-2024 06:27:37] [NiryoRobot] [I] │      Now enjoy the fun.      │
+[06-13-2024 06:27:37] [NiryoRobot] [I] ╰──────────────────────────────╯
+[06-13-2024 06:27:37] [NiryoRobot] [I] 
+[06-13-2024 06:27:37] [Shell] [I] Shell started
+>>> exit
+[06-13-2024 06:27:51] [Shell] [I] Shell stopped
+[06-13-2024 06:27:51] [NiryoRobot] [I] Moving to default position ...
+[06-13-2024 06:27:52] [NiryoRobot] [I] Stopping robot ...
+[06-13-2024 06:27:52] [ModbusServer] [I] Closing server
+[06-13-2024 06:27:52] [ModbusServer] [I] Stopped server
+[06-13-2024 06:27:55] [NiryoRobot] [I] Robot stopped
+[06-13-2024 06:27:55] [NiryoRobot] [I] Stopping RosPy ...
+[I] Importing libraries
+[06-13-2024 06:27:59] [NiryoRobot] [I] 
+[06-13-2024 06:27:59] [NiryoRobot] [I] ╭──────────────────────────────╮
+[06-13-2024 06:27:59] [NiryoRobot] [I] │      Robot is starting       │
+[06-13-2024 06:27:59] [NiryoRobot] [I] │  Please wait one minute ...  │
+[06-13-2024 06:27:59] [NiryoRobot] [I] ╰──────────────────────────────╯
+[06-13-2024 06:27:59] [NiryoRobot] [I] 
+[06-13-2024 06:27:59] [NiryoRobot] [I] Starting RosPy
+[06-13-2024 06:28:00] [NiryoRobot] [I] Connecting to robot
+[06-13-2024 06:28:00] [RosPy] [I] Python ROS Wrapper ready
+[06-13-2024 06:28:00] [NiryoRobot] [I] Loading trajectories ...
+[06-13-2024 06:28:00] [NiryoRobot] [I] Starting Modbus/TCP server ...
+[06-13-2024 06:28:00] [ModbusServer] [I] Created server
+[06-13-2024 06:28:00] [ModbusServer] [I] Started server
+[06-13-2024 06:28:00] [NiryoRobot] [I] Starting Gamepad manager
+[06-13-2024 06:28:00] [NiryoRobot] [I] Starting terminal ...
+[06-13-2024 06:28:01] [NiryoRobot] [I] 
+[06-13-2024 06:28:01] [NiryoRobot] [I] ╭──────────────────────────────╮
+[06-13-2024 06:28:01] [NiryoRobot] [I] │        Robot started!        │
+[06-13-2024 06:28:01] [NiryoRobot] [I] │      Now enjoy the fun.      │
+[06-13-2024 06:28:01] [NiryoRobot] [I] ╰──────────────────────────────╯
+[06-13-2024 06:28:01] [NiryoRobot] [I] 
+[06-13-2024 06:28:01] [Shell] [I] Shell started
+>>> exit
+[06-13-2024 06:28:58] [Shell] [I] Shell stopped
+[06-13-2024 06:28:58] [NiryoRobot] [I] Moving to default position ...
+[06-13-2024 06:28:59] [NiryoRobot] [I] Stopping robot ...
+[06-13-2024 06:28:59] [ModbusServer] [I] Closing server
+[06-13-2024 06:28:59] [ModbusServer] [I] Stopped server
+[06-13-2024 06:29:01] [NiryoRobot] [I] Robot stopped
+[06-13-2024 06:29:01] [NiryoRobot] [I] Stopping RosPy ...
+[I] Importing libraries
+[06-13-2024 06:29:35] [NiryoRobot] [I] 
+[06-13-2024 06:29:35] [NiryoRobot] [I] ╭──────────────────────────────╮
+[06-13-2024 06:29:35] [NiryoRobot] [I] │      Robot is starting       │
+[06-13-2024 06:29:35] [NiryoRobot] [I] │  Please wait one minute ...  │
+[06-13-2024 06:29:35] [NiryoRobot] [I] ╰──────────────────────────────╯
+[06-13-2024 06:29:35] [NiryoRobot] [I] 
+[06-13-2024 06:29:35] [NiryoRobot] [I] Starting RosPy
+[06-13-2024 06:29:35] [NiryoRobot] [I] Connecting to robot
+[06-13-2024 06:29:36] [RosPy] [I] Python ROS Wrapper ready
+[06-13-2024 06:29:36] [NiryoRobot] [I] Loading trajectories ...
+[06-13-2024 06:29:36] [NiryoRobot] [I] Starting Modbus/TCP server ...
+[06-13-2024 06:29:36] [ModbusServer] [I] Created server
+[06-13-2024 06:29:36] [ModbusServer] [I] Started server
+[06-13-2024 06:29:36] [NiryoRobot] [I] Starting Gamepad manager
+[06-13-2024 06:29:36] [NiryoRobot] [I] Starting terminal ...
+[06-13-2024 06:29:37] [NiryoRobot] [I] 
+[06-13-2024 06:29:37] [NiryoRobot] [I] ╭──────────────────────────────╮
+[06-13-2024 06:29:37] [NiryoRobot] [I] │        Robot started!        │
+[06-13-2024 06:29:37] [NiryoRobot] [I] │      Now enjoy the fun.      │
+[06-13-2024 06:29:37] [NiryoRobot] [I] ╰──────────────────────────────╯
+[06-13-2024 06:29:37] [NiryoRobot] [I] 
+[06-13-2024 06:29:37] [Shell] [I] Shell started
+>>> exit
+[06-13-2024 06:29:52] [Shell] [I] Shell stopped
+[06-13-2024 06:29:52] [NiryoRobot] [I] Moving to default position ...
+[06-13-2024 06:29:52] [NiryoRobot] [I] Stopping robot ...
+[06-13-2024 06:29:52] [ModbusServer] [I] Closing server
+[06-13-2024 06:29:53] [ModbusServer] [I] Stopped server
+[06-13-2024 06:29:55] [NiryoRobot] [I] Robot stopped
+[06-13-2024 06:29:55] [NiryoRobot] [I] Stopping RosPy ...
+[I] Importing libraries
+[06-13-2024 06:30:35] [NiryoRobot] [I] 
+[06-13-2024 06:30:35] [NiryoRobot] [I] ╭──────────────────────────────╮
+[06-13-2024 06:30:35] [NiryoRobot] [I] │      Robot is starting       │
+[06-13-2024 06:30:35] [NiryoRobot] [I] │  Please wait one minute ...  │
+[06-13-2024 06:30:35] [NiryoRobot] [I] ╰──────────────────────────────╯
+[06-13-2024 06:30:35] [NiryoRobot] [I] 
+[06-13-2024 06:30:35] [NiryoRobot] [I] Starting RosPy
+[06-13-2024 06:30:35] [NiryoRobot] [I] Connecting to robot
+[06-13-2024 06:30:35] [RosPy] [I] Python ROS Wrapper ready
+[06-13-2024 06:30:35] [NiryoRobot] [I] Loading trajectories ...
+[06-13-2024 06:30:35] [NiryoRobot] [I] Starting Modbus/TCP server ...
+[06-13-2024 06:30:35] [ModbusServer] [I] Created server
+[06-13-2024 06:30:35] [ModbusServer] [I] Started server
+[06-13-2024 06:30:35] [NiryoRobot] [I] Starting Gamepad manager
+[06-13-2024 06:30:35] [NiryoRobot] [I] Starting terminal ...
+[06-13-2024 06:30:36] [NiryoRobot] [I] 
+[06-13-2024 06:30:36] [NiryoRobot] [I] ╭──────────────────────────────╮
+[06-13-2024 06:30:36] [NiryoRobot] [I] │        Robot started!        │
+[06-13-2024 06:30:36] [NiryoRobot] [I] │      Now enjoy the fun.      │
+[06-13-2024 06:30:36] [NiryoRobot] [I] ╰──────────────────────────────╯
+[06-13-2024 06:30:36] [NiryoRobot] [I] 
+[06-13-2024 06:30:36] [Shell] [I] Shell started
+>>> exit
+[06-13-2024 06:30:57] [Shell] [I] Shell stopped
+[06-13-2024 06:30:57] [NiryoRobot] [I] Moving to default position ...
+[06-13-2024 06:30:58] [NiryoRobot] [I] Stopping robot ...
+[06-13-2024 06:30:58] [ModbusServer] [I] Closing server
+[06-13-2024 06:30:58] [ModbusServer] [I] Stopped server
+[06-13-2024 06:31:00] [NiryoRobot] [I] Robot stopped
+[06-13-2024 06:31:00] [NiryoRobot] [I] Stopping RosPy ...
+[I] Importing libraries
+[06-13-2024 06:31:24] [NiryoRobot] [I] 
+[06-13-2024 06:31:24] [NiryoRobot] [I] ╭──────────────────────────────╮
+[06-13-2024 06:31:24] [NiryoRobot] [I] │      Robot is starting       │
+[06-13-2024 06:31:24] [NiryoRobot] [I] │  Please wait one minute ...  │
+[06-13-2024 06:31:24] [NiryoRobot] [I] ╰──────────────────────────────╯
+[06-13-2024 06:31:24] [NiryoRobot] [I] 
+[06-13-2024 06:31:24] [NiryoRobot] [I] Starting RosPy
+[06-13-2024 06:31:24] [NiryoRobot] [I] Connecting to robot
+[06-13-2024 06:31:24] [RosPy] [I] Python ROS Wrapper ready
+[06-13-2024 06:31:24] [NiryoRobot] [I] Loading trajectories ...
+[06-13-2024 06:31:24] [NiryoRobot] [I] Starting Modbus/TCP server ...
+[06-13-2024 06:31:24] [ModbusServer] [I] Created server
+[06-13-2024 06:31:24] [ModbusServer] [I] Started server
+[06-13-2024 06:31:24] [NiryoRobot] [I] Starting Gamepad manager
+[06-13-2024 06:31:24] [NiryoRobot] [I] Starting terminal ...
+[06-13-2024 06:31:25] [NiryoRobot] [I] 
+[06-13-2024 06:31:25] [NiryoRobot] [I] ╭──────────────────────────────╮
+[06-13-2024 06:31:25] [NiryoRobot] [I] │        Robot started!        │
+[06-13-2024 06:31:25] [NiryoRobot] [I] │      Now enjoy the fun.      │
+[06-13-2024 06:31:25] [NiryoRobot] [I] ╰──────────────────────────────╯
+[06-13-2024 06:31:25] [NiryoRobot] [I] 
+[06-13-2024 06:31:25] [Shell] [I] Shell started
+>>> exit
+[06-13-2024 06:31:34] [Shell] [I] Shell stopped
+[06-13-2024 06:31:34] [NiryoRobot] [I] Moving to default position ...
+[06-13-2024 06:31:34] [NiryoRobot] [I] Stopping robot ...
+[06-13-2024 06:31:34] [ModbusServer] [I] Closing server
+[06-13-2024 06:31:34] [ModbusServer] [I] Stopped server
+[06-13-2024 06:31:37] [NiryoRobot] [I] Robot stopped
+[06-13-2024 06:31:37] [NiryoRobot] [I] Stopping RosPy ...
+[06-13-2024 06:33:44] [JogClient] [I] Starting joy_node
+[06-13-2024 06:33:44] [JogClient] [I] Python ROS Wrapper ready
+[I] Importing libraries
+[06-13-2024 06:34:19] [NiryoRobot] [I] 
+[06-13-2024 06:34:19] [NiryoRobot] [I] ╭──────────────────────────────╮
+[06-13-2024 06:34:19] [NiryoRobot] [I] │      Robot is starting       │
+[06-13-2024 06:34:19] [NiryoRobot] [I] │  Please wait one minute ...  │
+[06-13-2024 06:34:19] [NiryoRobot] [I] ╰──────────────────────────────╯
+[06-13-2024 06:34:19] [NiryoRobot] [I] 
+[06-13-2024 06:34:19] [NiryoRobot] [I] Starting RosPy
+[06-13-2024 06:34:19] [NiryoRobot] [I] Connecting to robot
+[06-13-2024 06:34:20] [RosPy] [I] Python ROS Wrapper ready
+[06-13-2024 06:34:20] [NiryoRobot] [I] Loading trajectories ...
+[06-13-2024 06:34:20] [NiryoRobot] [I] Starting Modbus/TCP server ...
+[06-13-2024 06:34:20] [ModbusServer] [I] Created server
+[06-13-2024 06:34:20] [ModbusServer] [I] Started server
+[06-13-2024 06:34:20] [NiryoRobot] [I] Starting Gamepad manager
+[06-13-2024 06:34:20] [NiryoRobot] [I] Starting terminal ...
+[06-13-2024 06:34:21] [NiryoRobot] [I] 
+[06-13-2024 06:34:21] [NiryoRobot] [I] ╭──────────────────────────────╮
+[06-13-2024 06:34:21] [NiryoRobot] [I] │        Robot started!        │
+[06-13-2024 06:34:21] [NiryoRobot] [I] │      Now enjoy the fun.      │
+[06-13-2024 06:34:21] [NiryoRobot] [I] ╰──────────────────────────────╯
+[06-13-2024 06:34:21] [NiryoRobot] [I] 
+[06-13-2024 06:34:21] [Shell] [I] Shell started
+[06-13-2024 06:34:21] [JogClient] [I] Starting joy_node
+[06-13-2024 06:34:22] [JogClient] [I] Python ROS Wrapper ready
+>>> exit
+[06-13-2024 06:34:43] [Shell] [I] Shell stopped
+[06-13-2024 06:34:43] [NiryoRobot] [I] Moving to default position ...
+[06-13-2024 06:34:43] [NiryoRobot] [I] Stopping robot ...
+[06-13-2024 06:34:43] [ModbusServer] [I] Closing server
+[06-13-2024 06:34:43] [ModbusServer] [I] Stopped server
+[06-13-2024 06:34:45] [NiryoRobot] [I] Robot stopped
+[06-13-2024 06:34:45] [NiryoRobot] [I] Stopping RosPy ...
+[I] Importing libraries
+[06-13-2024 06:35:38] [NiryoRobot] [I] 
+[06-13-2024 06:35:38] [NiryoRobot] [I] ╭──────────────────────────────╮
+[06-13-2024 06:35:38] [NiryoRobot] [I] │      Robot is starting       │
+[06-13-2024 06:35:38] [NiryoRobot] [I] │  Please wait one minute ...  │
+[06-13-2024 06:35:38] [NiryoRobot] [I] ╰──────────────────────────────╯
+[06-13-2024 06:35:38] [NiryoRobot] [I] 
+[06-13-2024 06:35:38] [NiryoRobot] [I] Starting RosPy
+[06-13-2024 06:35:38] [NiryoRobot] [I] Connecting to robot
+[06-13-2024 06:35:38] [RosPy] [I] Python ROS Wrapper ready
+[06-13-2024 06:35:38] [NiryoRobot] [I] Loading trajectories ...
+[06-13-2024 06:35:38] [NiryoRobot] [I] Starting Modbus/TCP server ...
+[06-13-2024 06:35:38] [ModbusServer] [I] Created server
+[06-13-2024 06:35:38] [ModbusServer] [I] Started server
+[06-13-2024 06:35:38] [NiryoRobot] [I] Starting Gamepad manager
+[06-13-2024 06:35:38] [NiryoRobot] [I] Starting terminal ...
+[06-13-2024 06:35:39] [NiryoRobot] [I] 
+[06-13-2024 06:35:39] [NiryoRobot] [I] ╭──────────────────────────────╮
+[06-13-2024 06:35:39] [NiryoRobot] [I] │        Robot started!        │
+[06-13-2024 06:35:39] [NiryoRobot] [I] │      Now enjoy the fun.      │
+[06-13-2024 06:35:39] [NiryoRobot] [I] ╰──────────────────────────────╯
+[06-13-2024 06:35:39] [NiryoRobot] [I] 
+[06-13-2024 06:35:39] [Shell] [I] Shell started
+[06-13-2024 06:35:40] [JogClient] [I] Starting joy_node
+[06-13-2024 06:35:41] [JogClient] [I] Python ROS Wrapper ready
+[06-13-2024 06:38:02] [NiryoRobot] [I] External shutdown request from [/master]: [[/niryo_robot_project] reason: new node registered with same name]
+[06-13-2024 06:38:02] [NiryoRobot] [W] !! Detected new instance of program !!
+[06-13-2024 06:38:02] [NiryoRobot] [I] Shutting down this program ...
+[06-13-2024 06:38:08] [NiryoRobot] [I] Stopping robot ...
+[06-13-2024 06:38:13] [ModbusServer] [I] Closing server
+[06-13-2024 06:38:13] [ModbusServer] [I] Stopped server
+[06-13-2024 06:38:13] [NiryoRobot] [I] Stopping RosPy ...
+[06-13-2024 06:38:17] [NiryoRobot] [I] Robot stopped
+[06-13-2024 06:40:45] [JogClient] [I] Starting joy_node
+[06-13-2024 06:40:50] [JogClient] [I] Python ROS Wrapper ready
+[I] Importing libraries
+[06-13-2024 06:42:47] [NiryoRobot] [I] 
+[06-13-2024 06:42:47] [NiryoRobot] [I] ╭──────────────────────────────╮
+[06-13-2024 06:42:47] [NiryoRobot] [I] │      Robot is starting       │
+[06-13-2024 06:42:47] [NiryoRobot] [I] │  Please wait one minute ...  │
+[06-13-2024 06:42:47] [NiryoRobot] [I] ╰──────────────────────────────╯
+[06-13-2024 06:42:47] [NiryoRobot] [I] 
+[06-13-2024 06:42:47] [NiryoRobot] [I] Starting RosPy
+[06-13-2024 06:42:48] [NiryoRobot] [I] Connecting to robot
+[06-13-2024 06:42:48] [RosPy] [I] Python ROS Wrapper ready
+[06-13-2024 06:42:48] [NiryoRobot] [I] Loading trajectories ...
+[06-13-2024 06:42:49] [NiryoRobot] [I] Starting Modbus/TCP server ...
+[06-13-2024 06:42:49] [ModbusServer] [I] Created server
+[06-13-2024 06:42:49] [ModbusServer] [I] Started server
+[06-13-2024 06:42:49] [NiryoRobot] [I] Starting Gamepad manager
+[06-13-2024 06:42:49] [NiryoRobot] [I] Starting terminal ...
+[06-13-2024 06:42:50] [NiryoRobot] [I] 
+[06-13-2024 06:42:50] [NiryoRobot] [I] ╭──────────────────────────────╮
+[06-13-2024 06:42:50] [NiryoRobot] [I] │        Robot started!        │
+[06-13-2024 06:42:50] [NiryoRobot] [I] │      Now enjoy the fun.      │
+[06-13-2024 06:42:50] [NiryoRobot] [I] ╰──────────────────────────────╯
+[06-13-2024 06:42:50] [NiryoRobot] [I] 
+[06-13-2024 06:42:50] [Shell] [I] Shell started
+[06-13-2024 06:42:52] [JogClient] [I] Starting joy_node
+[06-13-2024 06:42:53] [JogClient] [I] Python ROS Wrapper ready
+[06-13-2024 06:42:57] [NiryoRobot] [E] Traceback (most recent call last):
+[06-13-2024 06:42:57] [NiryoRobot] [E]   File "robot/main.py", line 219, in start
+[06-13-2024 06:42:57] [NiryoRobot] [E]     if self.status_sounds: self.robot.sound.play("ready.wav")
+[06-13-2024 06:42:57] [NiryoRobot] [E]   File "/home/niryo/catkin_ws/install/release/ned2/lib/python3/dist-packages/niryo_robot_sound/api/sound_ros_wrapper.py", line 95, in play
+[06-13-2024 06:42:57] [NiryoRobot] [E]     return self.__classic_return_w_check(result)
+[06-13-2024 06:42:57] [NiryoRobot] [E]   File "/home/niryo/catkin_ws/install/release/ned2/lib/python3/dist-packages/niryo_robot_sound/api/sound_ros_wrapper.py", line 236, in __classic_return_w_check
+[06-13-2024 06:42:57] [NiryoRobot] [E]     self.__check_result_status(result)
+[06-13-2024 06:42:57] [NiryoRobot] [E]   File "/home/niryo/catkin_ws/install/release/ned2/lib/python3/dist-packages/niryo_robot_sound/api/sound_ros_wrapper.py", line 242, in __check_result_status
+[06-13-2024 06:42:57] [NiryoRobot] [E]     raise SoundRosWrapperException("Error Code : {}\nMessage : {}".format(result.status, result.message))
+[06-13-2024 06:42:57] [NiryoRobot] [E] niryo_robot_sound.api.sound_ros_wrapper.SoundRosWrapperException: Error Code : -504
+[06-13-2024 06:42:57] [NiryoRobot] [E] Message : Sound ready.wav timeout
+[06-13-2024 06:42:57] [NiryoRobot] [I] Stopping robot ...
+[06-13-2024 06:43:02] [ModbusServer] [I] Closing server
+[06-13-2024 06:43:02] [ModbusServer] [I] Stopped server
+[06-13-2024 06:43:09] [NiryoRobot] [E] niryo_robot_sound.api.sound_ros_wrapper.SoundRosWrapperException: Error Code : -504
+[06-13-2024 06:43:09] [NiryoRobot] [E] Message : Sound warn.wav timeout
+[06-13-2024 06:43:09] [NiryoRobot] [I] Robot stopped
+[06-13-2024 06:43:09] [NiryoRobot] [I] Stopping RosPy ...
+[I] Importing libraries
+[06-13-2024 06:44:50] [NiryoRobot] [I] 
+[06-13-2024 06:44:50] [NiryoRobot] [I] ╭──────────────────────────────╮
+[06-13-2024 06:44:50] [NiryoRobot] [I] │      Robot is starting       │
+[06-13-2024 06:44:50] [NiryoRobot] [I] │  Please wait one minute ...  │
+[06-13-2024 06:44:50] [NiryoRobot] [I] ╰──────────────────────────────╯
+[06-13-2024 06:44:50] [NiryoRobot] [I] 
+[06-13-2024 06:44:50] [NiryoRobot] [I] Starting RosPy
+[06-13-2024 06:44:51] [NiryoRobot] [I] Connecting to robot
+[06-13-2024 06:44:51] [RosPy] [I] Python ROS Wrapper ready
+[06-13-2024 06:44:51] [NiryoRobot] [I] Loading trajectories ...
+[06-13-2024 06:44:51] [NiryoRobot] [I] Starting Modbus/TCP server ...
+[06-13-2024 06:44:52] [ModbusServer] [I] Created server
+[06-13-2024 06:44:52] [ModbusServer] [I] Started server
+[06-13-2024 06:44:52] [NiryoRobot] [I] Starting Gamepad manager
+[06-13-2024 06:44:52] [NiryoRobot] [I] Starting terminal ...
+[06-13-2024 06:44:53] [NiryoRobot] [I] 
+[06-13-2024 06:44:53] [NiryoRobot] [I] ╭──────────────────────────────╮
+[06-13-2024 06:44:53] [NiryoRobot] [I] │        Robot started!        │
+[06-13-2024 06:44:53] [NiryoRobot] [I] │      Now enjoy the fun.      │
+[06-13-2024 06:44:53] [NiryoRobot] [I] ╰──────────────────────────────╯
+[06-13-2024 06:44:53] [NiryoRobot] [I] 
+[06-13-2024 06:44:53] [Shell] [I] Shell started
+[06-13-2024 06:44:55] [JogClient] [I] Starting joy_node
+[06-13-2024 06:44:58] [JogClient] [I] Python ROS Wrapper ready
+>>> exit
+[06-13-2024 06:45:58] [Shell] [I] Shell stopped
+[06-13-2024 06:45:58] [NiryoRobot] [I] Moving to default position ...
+[06-13-2024 06:46:00] [NiryoRobot] [I] Stopping robot ...
+[06-13-2024 06:46:00] [ModbusServer] [I] Closing server
+[06-13-2024 06:46:00] [ModbusServer] [I] Stopped server
+[06-13-2024 06:46:04] [NiryoRobot] [E] niryo_robot_sound.api.sound_ros_wrapper.SoundRosWrapperException: Error Code : -504
+[06-13-2024 06:46:04] [NiryoRobot] [E] Message : Sound disconnected.wav timeout
+[06-13-2024 06:46:04] [NiryoRobot] [I] Robot stopped
+[06-13-2024 06:46:04] [NiryoRobot] [I] Stopping RosPy ...
+[06-13-2024 06:46:32] [JogClient] [I] Starting joy_node
+[06-13-2024 06:46:34] [JogClient] [I] Python ROS Wrapper ready
+[I] Importing libraries
+[06-13-2024 06:47:01] [NiryoRobot] [I] 
+[06-13-2024 06:47:01] [NiryoRobot] [I] ╭──────────────────────────────╮
+[06-13-2024 06:47:01] [NiryoRobot] [I] │      Robot is starting       │
+[06-13-2024 06:47:01] [NiryoRobot] [I] │  Please wait one minute ...  │
+[06-13-2024 06:47:01] [NiryoRobot] [I] ╰──────────────────────────────╯
+[06-13-2024 06:47:01] [NiryoRobot] [I] 
+[06-13-2024 06:47:01] [NiryoRobot] [I] Starting RosPy
+[06-13-2024 06:47:02] [NiryoRobot] [I] Connecting to robot
+[06-13-2024 06:47:03] [RosPy] [I] Python ROS Wrapper ready
+[06-13-2024 06:47:03] [NiryoRobot] [I] Loading trajectories ...
+[06-13-2024 06:47:03] [NiryoRobot] [I] Starting Modbus/TCP server ...
+[06-13-2024 06:47:03] [ModbusServer] [I] Created server
+[06-13-2024 06:47:03] [ModbusServer] [I] Started server
+[06-13-2024 06:47:03] [NiryoRobot] [I] Starting Gamepad manager
+[06-13-2024 06:47:08] [NiryoRobot] [I] Starting terminal ...
+[06-13-2024 06:47:09] [NiryoRobot] [I] 
+[06-13-2024 06:47:09] [NiryoRobot] [I] ╭──────────────────────────────╮
+[06-13-2024 06:47:09] [NiryoRobot] [I] │        Robot started!        │
+[06-13-2024 06:47:09] [NiryoRobot] [I] │      Now enjoy the fun.      │
+[06-13-2024 06:47:09] [NiryoRobot] [I] ╰──────────────────────────────╯
+[06-13-2024 06:47:09] [NiryoRobot] [I] 
+[06-13-2024 06:47:09] [Shell] [I] Shell started
+[06-13-2024 06:47:12] [JogClient] [I] Starting joy_node
+[06-13-2024 06:47:15] [JogClient] [I] Python ROS Wrapper ready
+[06-13-2024 06:47:16] [NiryoRobot] [E] Traceback (most recent call last):
+[06-13-2024 06:47:16] [NiryoRobot] [E]   File "robot/main.py", line 219, in start
+[06-13-2024 06:47:16] [NiryoRobot] [E]     if self.status_sounds: self.robot.sound.play("ready.wav")
+[06-13-2024 06:47:16] [NiryoRobot] [E]   File "/home/niryo/catkin_ws/install/release/ned2/lib/python3/dist-packages/niryo_robot_sound/api/sound_ros_wrapper.py", line 95, in play
+[06-13-2024 06:47:16] [NiryoRobot] [E]     return self.__classic_return_w_check(result)
+[06-13-2024 06:47:16] [NiryoRobot] [E]   File "/home/niryo/catkin_ws/install/release/ned2/lib/python3/dist-packages/niryo_robot_sound/api/sound_ros_wrapper.py", line 236, in __classic_return_w_check
+[06-13-2024 06:47:16] [NiryoRobot] [E]     self.__check_result_status(result)
+[06-13-2024 06:47:16] [NiryoRobot] [E]   File "/home/niryo/catkin_ws/install/release/ned2/lib/python3/dist-packages/niryo_robot_sound/api/sound_ros_wrapper.py", line 242, in __check_result_status
+[06-13-2024 06:47:16] [NiryoRobot] [E]     raise SoundRosWrapperException("Error Code : {}\nMessage : {}".format(result.status, result.message))
+[06-13-2024 06:47:16] [NiryoRobot] [E] niryo_robot_sound.api.sound_ros_wrapper.SoundRosWrapperException: Error Code : -504
+[06-13-2024 06:47:16] [NiryoRobot] [E] Message : Sound ready.wav timeout
+[06-13-2024 06:47:16] [NiryoRobot] [I] Stopping robot ...
+[06-13-2024 06:47:19] [Shell] [I] Shell stopped
+[06-13-2024 06:47:19] [ModbusServer] [I] Closing server
+[06-13-2024 06:47:19] [ModbusServer] [I] Stopped server
+[06-13-2024 06:47:26] [NiryoRobot] [E] niryo_robot_sound.api.sound_ros_wrapper.SoundRosWrapperException: Error Code : -504
+[06-13-2024 06:47:26] [NiryoRobot] [E] Message : Sound warn.wav timeout
+[06-13-2024 06:47:26] [NiryoRobot] [I] Robot stopped
+[06-13-2024 06:47:26] [NiryoRobot] [I] Stopping RosPy ...
+[06-13-2024 06:49:34] [JogClient] [I] Starting joy_node
+[06-13-2024 06:49:35] [JogClient] [I] Python ROS Wrapper ready

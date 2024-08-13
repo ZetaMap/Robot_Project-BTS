@@ -1,0 +1,136 @@
+@startuml packages_robot
+title Riryo robot: packages import view
+skinparam linetype polyline
+skinparam linetype ortho
+
+legend top left
+{{
+  !procedure $arrow($type, $text)
+    {{\nleft to right direction\nskinparam backgroundcolor transparent\nlabel " " as A\nlabel " " as B\nA $type B\n}} => $text
+  !endprocedure
+  !procedure $package($label, $content, $text)
+    {{\npackage $label{\n$content " "\n}\nskinparam backgroundcolor transparent\n}} => $text
+  !endprocedure
+
+  map Legend {
+    $arrow("-->", " Use/Import")
+    $package("file", "label", "\n  File")
+    $package("folder <<Frame>>", "class", "\n  Folder")
+  }
+  skinparam backgroundcolor transparent
+}}
+endlegend
+
+package robot <<Frame>> #77AADD {
+  package calibration #77AADD { }
+  package main #77AADD { }
+  package modbus <<Frame>> #99DDFF {
+    package holding_register #99DDFF { }
+    package input_register #99DDFF { }
+    package server #99DDFF { }
+  }
+  package trajectory <<Frame>> #44BB99 {
+    package controller #44BB99 { }
+    package executor #44BB99 { }
+    package learning #44BB99 { }
+    package manager #44BB99 { }
+    package parser #44BB99 { }
+    package player #44BB99 { }
+    package step <<Frame>> #burlywood {
+      package executor #burlywood { }
+      package goal #burlywood { }
+      package type #burlywood { }
+      package value #burlywood { }
+    }
+    package trajectory #44BB99 { }
+  }
+  package util <<Frame>> #BBCC33 {
+    package buttons <<Frame>> #chocolate {
+      package free_motion_button #chocolate { }
+      package save_button #chocolate { }
+    }
+    package cli #BBCC33 { }
+    package colors #BBCC33 { }
+    package commands #BBCC33 { }
+    package errors #BBCC33 { }
+    package lock #BBCC33 { }
+    package logger #BBCC33 { }
+    package rospy_logger #BBCC33 { }
+    package shell #BBCC33 { }
+    package strings #BBCC33 { }
+    package tests #BBCC33 { }
+    package vars #BBCC33 { }
+  }
+}
+
+robot.main --> robot.calibration
+robot.main --> robot.modbus.server
+robot.main --> robot.trajectory.manager
+robot.main --> robot.util.cli
+robot.main --> robot.util.lock
+robot.main --> robot.util.logger
+robot.main --> robot.util.rospy_logger
+robot.main --> robot.util.shell
+robot.main --> robot.util.vars
+robot.modbus.holding_register --> robot.trajectory.learning
+robot.modbus.holding_register --> robot.trajectory.manager
+robot.modbus.holding_register --> robot.trajectory.parser
+robot.modbus.holding_register --> robot.trajectory.player
+robot.modbus.holding_register --> robot.util.logger
+robot.modbus.input_register --> robot.util.logger
+robot.modbus.server --> robot.modbus.holding_register
+robot.modbus.server --> robot.modbus.input_register
+robot.modbus.server --> robot.util.errors
+robot.modbus.server --> robot.util.logger
+robot.modbus.server --> robot.util.vars
+robot.trajectory.controller --> robot.trajectory.step.goal
+robot.trajectory.controller --> robot.trajectory.step.type
+robot.trajectory.executor --> robot.trajectory.parser
+robot.trajectory.executor --> robot.trajectory.player
+robot.trajectory.executor --> robot.util.errors
+robot.trajectory.executor --> robot.util.vars
+robot.trajectory.learning --> robot.trajectory.parser
+robot.trajectory.learning --> robot.trajectory.trajectory
+robot.trajectory.learning --> robot.util.errors
+robot.trajectory.learning --> robot.util.logger
+robot.trajectory.learning --> robot.util.strings
+robot.trajectory.manager --> robot.trajectory.parser
+robot.trajectory.manager --> robot.trajectory.trajectory
+robot.trajectory.manager --> robot.util.errors
+robot.trajectory.manager --> robot.util.logger
+robot.trajectory.manager --> robot.util.vars
+robot.trajectory.parser --> robot.trajectory.controller
+robot.trajectory.parser --> robot.trajectory.step.type
+robot.trajectory.parser --> robot.trajectory.trajectory
+robot.trajectory.parser --> robot.util.errors
+robot.trajectory.parser --> robot.util.strings
+robot.trajectory.player --> robot.trajectory.manager
+robot.trajectory.player --> robot.trajectory.trajectory
+robot.trajectory.player --> robot.util.errors
+robot.trajectory.player --> robot.util.logger
+robot.trajectory.step.executor --> robot.trajectory.step.goal
+robot.trajectory.step.executor --> robot.trajectory.step.value
+robot.trajectory.step.executor --> robot.util.tests
+robot.trajectory.step.executor --> robot.util.vars
+robot.trajectory.step.type --> robot.trajectory.step.executor
+robot.trajectory.step.type --> robot.trajectory.step.value
+robot.trajectory.step.type --> robot.util.errors
+robot.trajectory.step.type --> robot.util.tests
+robot.trajectory.step.type --> robot.util.vars
+robot.trajectory.trajectory --> robot.trajectory.controller
+robot.trajectory.trajectory --> robot.trajectory.step.type
+robot.util.cli --> robot.util.logger
+robot.util.colors --> robot.util.tests
+robot.util.commands --> robot.trajectory.manager
+robot.util.commands --> robot.trajectory.player
+robot.util.commands --> robot.util.errors
+robot.util.commands --> robot.util.logger
+robot.util.commands --> robot.util.strings
+robot.util.commands --> robot.util.tests
+robot.util.commands --> robot.util.vars
+robot.util.lock --> robot.util.strings
+robot.util.rospy_logger --> robot.util.logger
+robot.util.shell --> robot.util.commands
+robot.util.shell --> robot.util.logger
+robot.util.shell --> robot.util.vars
+@enduml

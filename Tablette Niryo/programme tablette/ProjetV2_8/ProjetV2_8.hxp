@@ -1,0 +1,50 @@
+﻿<?xml version="1.0"?>
+<xml>
+<Project Version ="1.3">
+  <Driver Name="TPD-703" Orientation="Landscape" />
+
+  <Files>
+    <File Name="ProjetV2_8.hwd" />
+  </Files>
+
+  <Program>
+    <Logic Type="" Name="ProjetV2_8.ldx" />
+  </Program>
+
+  <Connections>
+  </Connections>
+
+  <Devices>
+  </Devices>
+
+  <Virtual>
+  </Virtual>
+
+  <Configuration>
+    <WatchDog Timeout="4000" ClearTime="1000" MTCPTimeout="60000" MTCPSTimeout="60000" />
+    <Startup LED="True" Beep="False" Delay="100" />
+    <LCD AutoOff="60" OnBeep="False" OfBeep="False" Brightness="180" />
+    <UserPictures Folder="[Pictures]"/>
+    <Beep Touch="False" TCPTimeout="False" />
+    <ConfigBeep BeepFreq="800" BeepDuration="100" />
+    <Language Support="English" />
+    <Download Checksum="False" />
+    <Refresh Time="100" ConnectingBlinkCycle="500" ReconnectionInterval="5000" />
+    <Ladder Version="1" />
+    <Device NickName="ICPDAS" />
+    <NTP Enable="False" FREQ="15" ZONE="1000.00" ADDR="time.stdtime.gov.tw" />
+    <UserFlash Size="0" />
+    <Warning MultiSlave="0" />
+  </Configuration>
+</Project>
+</xml>
+
+<!-- Information>
+  Tool Name="HMIWorks STD v2.30.00 (Feb.03, 2021)" 
+  Project Path="C:\Users\User\Desktop\ProjetV2_8\" 
+  Backup Enable="True", IsCurrent="True"
+  Backup OutputDir="C:\ICPDAS\HMIWorks_Standard\Projects_Backup"
+  Backup InputDirs="C:\ICPDAS\HMIWorks_Standard\Projects"
+  OS Version="64-bit Windows 10 Enterprise Evaluation (Build 22621)" 
+  CPU Model="12th Gen Intel(R) Core(TM) i5-12400" 
+-->
