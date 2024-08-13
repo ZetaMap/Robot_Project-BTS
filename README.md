@@ -3,5 +3,4 @@ Une copie du drive de notre projet de fin d'année BTS, sur une chaine de manufa
 
 
 # Disclaimer
-Pour la sécurité du groupe, les noms/prénoms du groupe, ainsi que la classe, ont été anonymisés. <br>
-Seul l'établissement et la filière seront présentes.
+Pour la sécurité du groupe, les noms/prénoms du groupe ont été anonymisés. Seul l'établissement et la filière seront affichés.
